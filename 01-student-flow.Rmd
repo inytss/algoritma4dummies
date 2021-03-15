@@ -1,0 +1,53 @@
+# Alur Student Sign Up Academy
+
+Setiap student memiliki beberapa administrasi yang perlu diketahui dan diikuti selama mengikuti kelas Algoritma Academy.
+
+## Pengajuan Mentoring
+
+Mentoring merupakan salah satu fasilitas yang diterima oleh student Algoritma berupa sesi 101 dengan mentor Algoritma untuk menanyakan hal-hal yang belum dipahami dan ingin dipelajari lebih lanjut. Berikut ini beberapa peraturan yang berhubungan dengan mentoring:
+
+1. Mentoring dilaksanakan **1x/minggu** dengan durasi 1 jam pada hari kerja Senin-Jumat pukul 10:00-18:00.
+2. Pengajuan mentoring terpusat melalui email [mentor@algorit.ma](mentor@algorit.ma).
+3. Permintaan mentoring dilakukan **maksimal H-1 sebelum hari mentoring** yang diinginkan pada hari Senin-Jumat pukul 10:00-18:00 WIB, dengan template permintaan mentoring sebagai berikut:
+
+```
+Berikan subject email : ALGORITMA MENTORING SESSION
+Nama : ___________
+Kelas : ___________ (nama batch day / night)
+Materi mentoring : ___________
+Tanggal, Jam mentoring : ___________
+```
+4. Permintaan mentoring yang diajukan melewati jam kerja akan dibalas pada hari berikutnya dan pelaksanaan mentoring tidak dapat dilakukan pada hari yang sama.
+5. Pengajuan mentoring yang tidak sesuai dengan template yang ada maka akan dikembalikan kepada student kembali hingga informasi pada template mentoring sudah terpenuhi. Apabila informasi pada template telah terpenuhi, mentoring baru akan diproses.
+6. Apabila terdapat lebih dari satu permintaan mentoring dengan waktu serta materi yang sama, maka admin dapat menawarkan untuk dilakukan secara bersamaan dengan mentor yang sama.
+7. Student tidak diperkenankan untuk memilih mentor untuk membantunya selama mentoring.
+
+## Pengajuan Pertanyaan
+
+1. Setiap student yang mengalami kesulitan dalam proses belajar memiliki hak untuk bertanya diluar kelas baik secara langsung maupun melalui email.
+2. Pengajuan pertanyaan diluar kelas melalui email terpusat melalui email [mentor@algorit.ma](mentor@algorit.ma).
+3. Tidak diperkenankan bagi tim Sales memberikan nomor handphone kepada student.
+4. Pengajuan pertanyaan yang baik dan benar sesuai dengan dokumentasi berikut : [How to ask question](https://drive.google.com/file/d/1gWSTNF3wXK5Lbfssb-eT_A3gbnLvY_ez/view)[^1]
+
+## Pengajuan Pindah Kelas
+
+Student yang memiliki kendala dalam mengikuti kelas sesuai jadwal yang telah diikuti dapat mengajukan pindah kelas. Adapun syarat pengajuan pindah kelas adalah sebagai berikut:
+
+1. Student melakukan pengajuan pindah kelas **maksimal H-2 (pada hari kerja)** sebelum jadwal perpindahan kelas yang diajukan melalui email [mentor@algorit.ma](mentor@algorit.ma).
+2. Pengajuan pindah kelas hanya bisa dilakukan **1 *course* penuh**.
+3. Setelah pengajuan pindah kelas disetujui, teaching assistant yang bertugas pada course tersebut **wajib** memberikan undangan kepada student untuk masuk ke dalam google classroom kelas yang akan diikuti.
+4. Student yang telah bergabung pada google classroom yang baru berhak untuk:
+
+* mendapatkan material utama dan inclass material selama *course* tersebut
+* mendapatkan link kelas dan recording kelas (apabila student tersebut mengikuti kelas online)
+* mendapatkan soal latihan atau pekerjaan rumah (PR) yang harus dikerjakan selama *course* berlangsung
+5. Student yang melakukan perpindahakan kelas tetap **memgumpulkan quiz dan learn by building (LBB) pada google classroom mandatory (utama)** bukan pada google classroom selama perpindahan kelas.
+6. Apabila *course* yang dilakukan pindah kelas telah selesai, maka teaching assistant wajib menghapus student tersebut dari google classroom sementaranya H+7 (termasuk hari libur) setelah *course* berakhir.
+
+## Sertifikat
+
+## Fasilitas Setelah Kelas
+
+
+
+
