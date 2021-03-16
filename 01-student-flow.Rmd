@@ -73,7 +73,7 @@ Student yang memiliki kendala dalam mengikuti kelas sesuai jadwal yang telah dii
 
 * Nama
 * Nomor Induk Kependudukan (NIK)
-* Alamat pengiriman LoR
+* Alamat sesuai KTP
 
 ## Fasilitas Setelah Kelas
 
