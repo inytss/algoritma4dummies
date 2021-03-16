@@ -46,8 +46,49 @@ Student yang memiliki kendala dalam mengikuti kelas sesuai jadwal yang telah dii
 
 ## Sertifikat
 
+### Jenis Sertifikat
+
+1. Sertifikat diberikan kepada student yang mengikuti kelas Algoritma Academy baik dalam bentuk kelas per spesialisasi, Academy Reguler, maupun Academy Full Stack baik secara onsite maupun online.
+2. Sertifikat yang diberikan terdapat tiga jenis sertifikat:
+
+* [sertifikat per course](https://drive.google.com/file/d/1r_nST2hqB02afh3cMV1EypkxDvGab6WV/view?usp=sharing)
+* [sertifikat specialization](https://drive.google.com/file/d/1m9CuUjAnWCspSyKGSmvmPc7eabCg_KWS/view?usp=sharing)
+* [rubrik dari seluruh course](https://drive.google.com/file/d/11joZCgOGWZqxQTAjVaOMNy9ct1U4h5-P/view?usp=sharing)
+
+
+### Pemberian Sertifikat
+
+1. Sertifikat per course akan dikirimkan **setiap hari Jumat** setelah course berakhir yang dapat diakses melalui google classroom.
+2. Sertifikat specialization serta rubrik dalam bentuk *softcopy* akan diberikan dalam waktu **2 minggu setelah deadline pengumpulan capstone** pada masing-masing spesialisasi yang diambil melalui email.
+3. Student yang diperbolehkan meminta sertifikat specialization dan rubriks dalam bentuk *hardcopy* hanya yang mengikuti kelas secara onsite.  
+4. Student yang menginginkan sertifikat specialization dalam bentuk *hardcopy* dapat mengajukan melalui link GForm berikut [http://bit.ly/request-certificate](http://bit.ly/request-certificate) yang akan disampaikan melalui classroom.
+
+## Letter of Recommendation (LoR)
+
+*Letter of recommendation* merupakan surat rekomendasi yang diberikan oleh pihak Algoritma kepada student yang memiliki  nilai minimal 90% yang dapat digunakan surat pendamping dalam melamar pekerjaan. Berikut syarat student yang dapat mendapatkan LoR:
+
+1. Student yang mengikuti kelas  Academy Full Stack atau Academy Reguler secara onsite. 
+2. Memiliki nilai minimal 90% dari total nilai spesialisasi.
+3. Untuk mendapatkan LoR, student harus mengajukan pembuatan LoR melalui email [mentor@algorit.ma](mentor@algorit.ma) dengan memberikan informasi:
+
+* Nama
+* Nomor Induk Kependudukan (NIK)
+* Alamat pengiriman LoR
+
 ## Fasilitas Setelah Kelas
 
+Algoritma menyediakan *lifetime learning* yang bisa dimanfaatkan oleh student setelah menyelesaikan Algoritma Academy. Fasilitas yang diberikan kepada student dibedakan berdasarkan jenis kelas yang diambil yaitu secara onsite atau online.
 
+### Academy Onsite Full Stack / Reguler
 
+1. Mendapatkan fasilitas mentoring selama 4 minggu setelah Capstone Project Machine Learning.
+2. Diundang pada forum diskusi alumni Algoritma menggunakan platform Slack. 
+3. Mendapatkan fasilitas career support berupa project show case dalam event Data Career Day (DCD) dan pembuatan curriculum vitae (CV) yang akan dikirimkan kepada *hiring partner* Algoritma.
+4. Gratis mengikuti beberapa workshop yang diselenggarakan oleh Algoritma tanpa batasan waktu dengan limit biaya workshop sebesar 35 juta.
+
+### Academy Online Full Stack / Reguler
+
+1. Mendapatkan fasilitas mentoring selama 4 minggu setelah Capstone Project Machine Learning.
+2. Diundang pada forum diskusi alumni Algoritma menggunakan platform Slack. 
+3. Mendapatkan fasilitas career support berupa pembuatan curriculum vitae (CV) yang akan dikirimkan kepada *hiring partner* Algoritma.
 

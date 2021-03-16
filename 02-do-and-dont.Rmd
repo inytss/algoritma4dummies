@@ -1,0 +1,96 @@
+# Do's dan Don't
+
+Setiap teaching team yang akan bertugas secara onsite maupun online diharap mempelajari [*product internal brief*](https://docs.google.com/presentation/d/17f0z3x9RhJCjarY1yY3vWyW23kr-gSHHhTNdtd97BnM/edit#slide=id.g7daf391588_0_0) berikut.
+
+## Instructor
+
+### Kelas Onsite
+
+**I. Do's**
+
+* Datang tepat waktu.
+* Mempersiapkan inclass material yang akan digunakan selama dikelas.
+* Berpenampilan rapi dan sopan.
+* Membuat timeline kelas.
+* Merapikan inclass material yang diperbaharui per hari untuk dikirimkan kepada student melalui google classroom.
+* Memberikan briefing kelas kepada teaching assistant.
+* Mempersiapkan materi dan latihan.
+
+**II. Don't**
+
+* Tidak memberikan timeline kepada teaching assistant.
+* Tidak melakukan briefing sebelum kelas dimulai.
+
+### Kelas Online
+
+**I. Do's**
+
+* Datang tepat waktu pada room meeting.
+* Memastikan koneksi internet, kamera, dan tools yang diperlukan sudah tersedia dengan baik.
+* Mempersiapkan inclass material yang akan digunakan selama dikelas.
+* Berpenampilan rapi dan sopan.
+* Membuat timeline kelas.
+* Merapikan inclass material yang diperbaharui per hari untuk dikirimkan kepada student melalui google classroom.
+* Memberikan briefing kelas kepada teaching assistant.
+* Mempersiapkan materi dan latihan.
+
+**II. Don't**
+
+* Jangan mengadakan kelas di lokasi yang susah sinyal internet dan banyak noise.
+
+## Teaching Assistant (TA)
+
+### Kelas Onsite
+
+**I. Do's**
+
+* Datang tepat waktu.
+* Membawa flashdisk untuk menyimpan course material dan file instalasi R, RStudio, maupun Anaconda Navigator.
+* Mempersiapkan kertas untuk time keeper dan meminta timeline kepada instructor.
+* Membersihkan papan tulis sebelum dan sesudah kelas.
+* Memastikan spidol dapat digunakan.
+* Memastikan projector dengan laptop instructor dapat dihubungkan dengan baik.
+* Memastikan absensi student telah tersedia dan memastikan setiap student telah mengisi absensi.
+* Berpenampilan rapi dan sopan.
+* Memimpin sesi 30 menit sebelum kelas dimulai untuk tanya jawab.
+* Meminta link feedback dan memastikan link tersebut dapat digunakan dengan baik.
+* Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada stduent.
+* Mengirimkan *assignment* quiz dan LBB pada google classroom.
+* Mengirimkan inclass material yang telah diperbaharui oleh instructor per harinya dan lecture notes (jika ada).
+* Menginputkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).
+* Memastikan ruang kelas bersih dan mematikan lampu serta AC ketika kelas telah selesai (untuk yang bertugas di kelas malam).
+
+**II. Don't**
+
+* Tidak mengenakan kaos dan kain flanel.
+* Tidak berbincang dengan suara yang keras saat dikelas.
+* Tidak mengenakan sandal.
+* Jangan mengacuhkan student yang sedang bertanya dikelas.
+* Jangan ragu untuk meminta bantuan atau membantu satu sama lain saat bertugas.
+
+### Kelas Online
+
+**I. Do's**
+
+* Mempersiapkan link zoom kelas.
+* Memastikan link absensi dapat digunakan dengan baik.
+* Memastikan koneksi internet, kamera, dan audio instructor dan teaching team dapat berjalan dengan baik.
+* Meminta timeline kepada instructor.
+* Membuka room meeting tepat waktu.
+* Memimpin sesi 30 menit sebelum kelas dimulai untuk tanya jawab.
+* Berpenampilan rapi dan sopan.
+* Membantu student yang bertanya melalui chat zoom everyone maupun *private message*.
+* Menjaga timeline instructor agar sesuai yang direncanakan.
+* Memastikan meeting telah di record sejak sesi 30 menit sebelum kelas.
+* Meminta link feedback dan memastikan link tersebut dapat digunakan dengan baik.
+* Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada stduent.
+* Mengirimkan *assignment* quiz dan LBB pada google classroom.
+* Mengirimkan inclass material yang telah diperbaharui oleh instructor per harinya dan lecture notes (jika ada).
+* Menginputkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).
+* Mengirimkan link recording melalui google classroom.
+
+**II. Don't**
+
+* Jagan menghidupkan mic ketika instructor sudah memulai kelas agar tidak terdapat noise.
+* Jangan mengacuhkan student yang bertanya melalui *private message* walaupun student tersebut bukan dibawah tanggung jawab Anda.
+* Jangan terlambat mengirimkan link recording.
