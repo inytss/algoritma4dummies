@@ -42,46 +42,6 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -118,7 +78,7 @@
 
 \title{Academy for Dummies}
 \author{Team Algoritma}
-\date{2021-03-09}
+\date{2021-03-16}
 
 \begin{document}
 \maketitle
@@ -134,115 +94,1121 @@ Academy for Dummies (A4D) ditulis oleh tim Algoritma untuk panduan seluruh tim y
 
 \textbf{Algoritma} merupakan pelatihan \emph{data science} yang berdomisili di Jakarta. Kami menyelenggarakan \emph{workshop} dan program pelatihan untuk membantu para pekerja profesional dan siswa dalam menguasai berbagai sub bidang data, meliputi: visualisasi data, \emph{machine learning}, \emph{data modeling}, statistika, dan lain sebagainya.
 
-\hypertarget{intro}{%
-\chapter{Introduction}\label{intro}}
-
-You can label chapter and section titles using \texttt{\{\#label\}} after them, e.g., we can reference Chapter \ref{intro}. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \ref{methods}.
-
-Figures and tables with captions will be placed in \texttt{figure} and \texttt{table} environments, respectively.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{par}\NormalTok{(}\AttributeTok{mar =} \FunctionTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{4}\NormalTok{, .}\DecValTok{1}\NormalTok{, .}\DecValTok{1}\NormalTok{))}
-\FunctionTok{plot}\NormalTok{(pressure, }\AttributeTok{type =} \StringTok{\textquotesingle{}b\textquotesingle{}}\NormalTok{, }\AttributeTok{pch =} \DecValTok{19}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{a4d_files/figure-latex/nice-fig-1} 
-
-}
-
-\caption{Here is a nice figure!}\label{fig:nice-fig}
-\end{figure}
-
-Reference a figure by its code chunk label with the \texttt{fig:} prefix, e.g., see Figure \ref{fig:nice-fig}. Similarly, you can reference tables generated from \texttt{knitr::kable()}, e.g., see Table \ref{tab:nice-tab}.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{kable}\NormalTok{(}
-  \FunctionTok{head}\NormalTok{(iris, }\DecValTok{20}\NormalTok{), }\AttributeTok{caption =} \StringTok{\textquotesingle{}Here is a nice table!\textquotesingle{}}\NormalTok{,}
-  \AttributeTok{booktabs =} \ConstantTok{TRUE}
-\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{table}
-
-\caption{\label{tab:nice-tab}Here is a nice table!}
-\centering
-\begin{tabular}[t]{rrrrl}
-\toprule
-Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
-\midrule
-5.1 & 3.5 & 1.4 & 0.2 & setosa\\
-4.9 & 3.0 & 1.4 & 0.2 & setosa\\
-4.7 & 3.2 & 1.3 & 0.2 & setosa\\
-4.6 & 3.1 & 1.5 & 0.2 & setosa\\
-5.0 & 3.6 & 1.4 & 0.2 & setosa\\
-\addlinespace
-5.4 & 3.9 & 1.7 & 0.4 & setosa\\
-4.6 & 3.4 & 1.4 & 0.3 & setosa\\
-5.0 & 3.4 & 1.5 & 0.2 & setosa\\
-4.4 & 2.9 & 1.4 & 0.2 & setosa\\
-4.9 & 3.1 & 1.5 & 0.1 & setosa\\
-\addlinespace
-5.4 & 3.7 & 1.5 & 0.2 & setosa\\
-4.8 & 3.4 & 1.6 & 0.2 & setosa\\
-4.8 & 3.0 & 1.4 & 0.1 & setosa\\
-4.3 & 3.0 & 1.1 & 0.1 & setosa\\
-5.8 & 4.0 & 1.2 & 0.2 & setosa\\
-\addlinespace
-5.7 & 4.4 & 1.5 & 0.4 & setosa\\
-5.4 & 3.9 & 1.3 & 0.4 & setosa\\
-5.1 & 3.5 & 1.4 & 0.3 & setosa\\
-5.7 & 3.8 & 1.7 & 0.3 & setosa\\
-5.1 & 3.8 & 1.5 & 0.3 & setosa\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-You can write citations, too. For example, we are using the \textbf{bookdown} package \citep{R-bookdown} in this sample book, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015}.
-
-\hypertarget{alur-student-sign-up-academy}{%
-\chapter{Alur Student Sign Up Academy}\label{alur-student-sign-up-academy}}
+\hypertarget{fasilitas-student}{%
+\chapter{Fasilitas Student}\label{fasilitas-student}}
 
 Setiap student memiliki beberapa administrasi yang perlu diketahui dan diikuti selama mengikuti kelas Algoritma Academy.
 
-\hypertarget{format-mentoring}{%
-\section{Format Mentoring}\label{format-mentoring}}
+\hypertarget{pengajuan-mentoring}{%
+\section{Pengajuan Mentoring}\label{pengajuan-mentoring}}
 
-Permohonan mentoring dapat dilakukan H-1 sebelum hari yang diinginkan melalui \url{mentor@algorit.ma} pada hari Senin-Jumat pukul 10:00 - 18:00 WIB, dengan template sebagai berikut:
+Mentoring merupakan salah satu fasilitas yang diterima oleh student Algoritma berupa sesi 101 dengan mentor Algoritma untuk menanyakan hal-hal yang belum dipahami dan ingin dipelajari lebih lanjut. Berikut ini beberapa peraturan yang berhubungan dengan mentoring:
 
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Mentoring dilaksanakan \textbf{1x/minggu} dengan durasi 1 jam pada hari kerja Senin-Jumat pukul 10:00-18:00.
+\item
+  Pengajuan mentoring terpusat melalui email \url{mentor@algorit.ma}.
+\item
+  Permintaan mentoring dilakukan \textbf{maksimal H-1 sebelum hari mentoring} yang diinginkan pada hari Senin-Jumat pukul 10:00-18:00 WIB, dengan template permintaan mentoring sebagai berikut:
+\end{enumerate}
+
+\begin{verbatim}
 Berikan subject email : ALGORITMA MENTORING SESSION
-Nama : \_\_\_\_\_\_\_\_\_\_\_
-Kelas : \_\_\_\_\_\_\_\_\_\_\_ (nama batch day / night)
-Materi mentoring : \_\_\_\_\_\_\_\_\_\_\_
-Tanggal, Jam mentoring : \_\_\_\_\_\_\_\_\_\_\_
+Nama : ___________
+Kelas : ___________ (nama batch day / night)
+Materi mentoring : ___________
+Tanggal, Jam mentoring : ___________
+\end{verbatim}
 
-Permohonan mentoring yang dilakukan pada setiap hari Jumat diakhir bulan tidak akan diproses dikarenakan terdapat kegiatan internal Tim Algoritma.
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Permintaan mentoring yang diajukan melewati jam kerja akan dibalas pada hari berikutnya dan pelaksanaan mentoring tidak dapat dilakukan pada hari yang sama.
+\item
+  Pengajuan mentoring yang tidak sesuai dengan template yang ada maka akan dikembalikan kepada student kembali hingga informasi pada template mentoring sudah terpenuhi. Apabila informasi pada template telah terpenuhi, mentoring baru akan diproses.
+\item
+  Apabila terdapat lebih dari satu permintaan mentoring dengan waktu serta materi yang sama, maka admin dapat menawarkan untuk dilakukan secara bersamaan dengan mentor yang sama.
+\item
+  Student tidak diperkenankan untuk memilih mentor untuk membantunya selama mentoring.
+\end{enumerate}
 
-\hypertarget{methods}{%
-\chapter{Methods}\label{methods}}
+\hypertarget{pengajuan-pertanyaan}{%
+\section{Pengajuan Pertanyaan}\label{pengajuan-pertanyaan}}
 
-We describe our methods in this chapter.
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Setiap student yang mengalami kesulitan dalam proses belajar memiliki hak untuk bertanya diluar kelas baik secara langsung maupun melalui email.
+\item
+  Pengajuan pertanyaan diluar kelas melalui email terpusat melalui email \url{mentor@algorit.ma}.
+\item
+  Tidak diperkenankan bagi tim Sales memberikan nomor handphone kepada student.
+\item
+  Pengajuan pertanyaan yang baik dan benar sesuai dengan dokumentasi berikut : \href{https://drive.google.com/file/d/1gWSTNF3wXK5Lbfssb-eT_A3gbnLvY_ez/view}{How to ask question}{[}\^{}1{]}
+\end{enumerate}
 
-\hypertarget{applications}{%
-\chapter{Applications}\label{applications}}
+\hypertarget{pengajuan-pindah-kelas}{%
+\section{Pengajuan Pindah Kelas}\label{pengajuan-pindah-kelas}}
 
-Some \emph{significant} applications are demonstrated in this chapter.
+Student yang memiliki kendala dalam mengikuti kelas sesuai jadwal yang telah diikuti dapat mengajukan pindah kelas. Adapun syarat pengajuan pindah kelas adalah sebagai berikut:
 
-\hypertarget{example-one}{%
-\section{Example one}\label{example-one}}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Student melakukan pengajuan pindah kelas \textbf{maksimal H-2 (pada hari kerja)} sebelum jadwal perpindahan kelas yang diajukan melalui email \url{mentor@algorit.ma}.
+\item
+  Pengajuan pindah kelas hanya bisa dilakukan \textbf{1 \emph{course} penuh}.
+\item
+  Setelah pengajuan pindah kelas disetujui, teaching assistant yang bertugas pada course tersebut \textbf{wajib} memberikan undangan kepada student untuk masuk ke dalam google classroom kelas yang akan diikuti.
+\item
+  Student yang telah bergabung pada google classroom yang baru berhak untuk:
+\end{enumerate}
 
-\hypertarget{example-two}{%
-\section{Example two}\label{example-two}}
+\begin{itemize}
+\tightlist
+\item
+  mendapatkan material utama dan inclass material selama \emph{course} tersebut
+\item
+  mendapatkan link kelas dan recording kelas (apabila student tersebut mengikuti kelas online)
+\item
+  mendapatkan soal latihan atau pekerjaan rumah (PR) yang harus dikerjakan selama \emph{course} berlangsung
+\end{itemize}
 
-\hypertarget{final-words}{%
-\chapter{Final Words}\label{final-words}}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Student yang melakukan perpindahakan kelas tetap \textbf{memgumpulkan quiz dan learn by building (LBB) pada google classroom mandatory (utama)} bukan pada google classroom selama perpindahan kelas.
+\item
+  Apabila \emph{course} yang dilakukan pindah kelas telah selesai, maka teaching assistant wajib menghapus student tersebut dari google classroom sementaranya H+7 (termasuk hari libur) setelah \emph{course} berakhir.
+\end{enumerate}
 
-We have finished a nice book.
+\hypertarget{sertifikat}{%
+\section{Sertifikat}\label{sertifikat}}
+
+\hypertarget{jenis-sertifikat}{%
+\subsection{Jenis Sertifikat}\label{jenis-sertifikat}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Sertifikat diberikan kepada student yang mengikuti kelas Algoritma Academy baik dalam bentuk kelas per spesialisasi, Academy Reguler, maupun Academy Full Stack baik secara offline maupun online.
+\item
+  Sertifikat yang diberikan terdapat tiga jenis sertifikat:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://drive.google.com/file/d/1r_nST2hqB02afh3cMV1EypkxDvGab6WV/view?usp=sharing}{sertifikat per course}
+\item
+  \href{https://drive.google.com/file/d/1m9CuUjAnWCspSyKGSmvmPc7eabCg_KWS/view?usp=sharing}{sertifikat specialization}
+\item
+  \href{https://drive.google.com/file/d/11joZCgOGWZqxQTAjVaOMNy9ct1U4h5-P/view?usp=sharing}{rubrik dari seluruh course}
+\end{itemize}
+
+\hypertarget{pemberian-sertifikat}{%
+\subsection{Pemberian Sertifikat}\label{pemberian-sertifikat}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Sertifikat per course akan dikirimkan \textbf{setiap hari Jumat} setelah course berakhir yang dapat diakses melalui google classroom.
+\item
+  Sertifikat specialization serta rubrik dalam bentuk \emph{softcopy} akan diberikan dalam waktu \textbf{2 minggu setelah deadline pengumpulan capstone} pada masing-masing spesialisasi yang diambil melalui email.
+\item
+  Student yang diperbolehkan meminta sertifikat specialization dan rubriks dalam bentuk \emph{hardcopy} hanya yang mengikuti kelas secara offline.\\
+\item
+  Student yang menginginkan sertifikat specialization dalam bentuk \emph{hardcopy} dapat mengajukan melalui link GForm berikut \url{http://bit.ly/request-certificate} yang akan disampaikan melalui classroom.
+\end{enumerate}
+
+\hypertarget{letter-of-recommendation-lor}{%
+\section{Letter of Recommendation (LoR)}\label{letter-of-recommendation-lor}}
+
+\emph{Letter of recommendation} merupakan surat rekomendasi yang diberikan oleh pihak Algoritma kepada student yang memiliki nilai minimal 90\% yang dapat digunakan surat pendamping dalam melamar pekerjaan. Berikut syarat student yang dapat mendapatkan LoR:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Student yang mengikuti kelas Academy Full Stack atau Academy Reguler secara offline.
+\item
+  Memiliki nilai minimal 90\% dari total nilai spesialisasi.
+\item
+  Untuk mendapatkan LoR, student harus mengajukan pembuatan LoR melalui email \url{mentor@algorit.ma} dengan memberikan informasi:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Nama
+\item
+  Nomor Induk Kependudukan (NIK)
+\item
+  Alamat sesuai KTP
+\end{itemize}
+
+\hypertarget{fasilitas-setelah-kelas}{%
+\section{Fasilitas Setelah Kelas}\label{fasilitas-setelah-kelas}}
+
+Algoritma menyediakan \emph{lifetime learning} yang bisa dimanfaatkan oleh student setelah menyelesaikan Algoritma Academy. Fasilitas yang diberikan kepada student dibedakan berdasarkan jenis kelas yang diambil yaitu secara offline atau online.
+
+\hypertarget{academy-offline-full-stack-reguler}{%
+\subsection{Academy Offline Full Stack / Reguler}\label{academy-offline-full-stack-reguler}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Mendapatkan fasilitas mentoring selama 4 minggu setelah Capstone Project Machine Learning.
+\item
+  Diundang pada forum diskusi alumni Algoritma menggunakan platform Slack.
+\item
+  Mendapatkan fasilitas career support berupa project show case dalam event Data Career Day (DCD) dan pembuatan curriculum vitae (CV) yang akan dikirimkan kepada \emph{hiring partner} Algoritma.
+\item
+  Gratis mengikuti beberapa workshop yang diselenggarakan oleh Algoritma tanpa batasan waktu dengan limit biaya workshop sebesar 35 juta.
+\end{enumerate}
+
+\hypertarget{academy-online-full-stack-reguler}{%
+\subsection{Academy Online Full Stack / Reguler}\label{academy-online-full-stack-reguler}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Mendapatkan fasilitas mentoring selama 4 minggu setelah Capstone Project Machine Learning.
+\item
+  Diundang pada forum diskusi alumni Algoritma menggunakan platform Slack.
+\item
+  Mendapatkan fasilitas career support berupa pembuatan curriculum vitae (CV) yang akan dikirimkan kepada \emph{hiring partner} Algoritma.
+\end{enumerate}
+
+\hypertarget{academy-for-dummies}{%
+\chapter{Academy for Dummies}\label{academy-for-dummies}}
+
+Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma Academy 😄.
+
+\hypertarget{persiapan-academy}{%
+\section{Persiapan Academy}\label{persiapan-academy}}
+
+\hypertarget{sebelum-kelas}{%
+\subsection{Sebelum Kelas}\label{sebelum-kelas}}
+
+\hypertarget{kelas-offline}{%
+\subsubsection{Kelas Offline}\label{kelas-offline}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{TA} mengirimkan postingan yang berisi informasi kelas sesuai dengan template \href{https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit\#}{berikut} H-1 pada hari kerja sebelum kelas dimulai pada google classroom.
+\item
+  \textbf{TA} mengirimkan course material H-1 pada hari kerja sebelum kelas dimulai pada google classroom. Link drive material dapat diakses pada \href{https://drive.google.com/drive/folders/1I1h0p4BkvkUYV8mtDU7bgswE_awOIxWY?usp=sharing}{link berikut}.
+\item
+  \textbf{TA} mengirimkan informasi mengenai kelas hanya pada student yang terdapat pada kelas tersebut sesuai dengan informasi pada sheet \href{https://docs.google.com/spreadsheets/d/12FB9410fhRhZp9jl5qLe7x-LGw0QTSfLujA-dE867JE/edit\#gid=115188088}{active student}.
+\item
+  \textbf{Instructor} melakukan \emph{briefing} dengan \emph{teaching team} yang bertugas.
+\end{itemize}
+
+\hypertarget{kelas-online}{%
+\subsubsection{Kelas Online}\label{kelas-online}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{TA} mempersiapkan link zoom meeting, \href{https://docs.google.com/document/d/16algZSEqLos2fksPcbmpUrpvvuVr62msVY13M8uPNos/edit\#}{Online Class Guide}, \href{https://docs.google.com/document/d/1ZkhuxSTBjUqzbHeLsRbk8E4L1FFymWH0UmaI3xaomkg/edit\#}{Error Issues}, dan link absensi H-1 pada hari kerja sebelum kelas dimulai
+\item
+  \textbf{TA} mengirimkan postingan yang berisi informasi kelas sesuai dengan template \href{https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit\#}{berikut} H-1 pada hari kerja sebelum kelas dimulai pada google classroom.
+\item
+  \textbf{TA} mengirimkan course material H-1 pada hari kerja sebelum kelas dimulai pada google classroom. Link drive material dapat diakses pada \href{https://drive.google.com/drive/folders/1I1h0p4BkvkUYV8mtDU7bgswE_awOIxWY?usp=sharing}{link berikut}
+\item
+  \textbf{TA} mengirimkan informasi mengenai kelas hanya pada student yang terdapat pada kelas tersebut sesuai dengan informasi pada sheet \href{https://docs.google.com/spreadsheets/d/12FB9410fhRhZp9jl5qLe7x-LGw0QTSfLujA-dE867JE/edit\#gid=115188088}{active student}
+\item
+  \textbf{Instructor} melakukan \emph{briefing} dengan \emph{teaching team} yang bertugas.
+\end{itemize}
+
+\begin{quote}
+Bagi yang bertugas online dan merasa membutuhkan kamera, mic, dan wacom dapat menghubungi operation. Selain itu yang merasa koneksi internet tidak stabil, dapat datang ke kantor agar kelas berjalan dengan baik.
+\end{quote}
+
+\hypertarget{saat-kelas}{%
+\subsection{Saat Kelas}\label{saat-kelas}}
+
+\hypertarget{kelas-offline-1}{%
+\subsubsection{Kelas Offline}\label{kelas-offline-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{TA} melakukan pengecekan papan tulis, spidol, dan \emph{projector} dapat berjalan dengan baik.
+\item
+  \textbf{TA} mengadakan sesi QnA selama 30 menit sebelum kelas.
+\item
+  \textbf{TA} memastikan setiap student melakukan pengisian absensi.
+\item
+  \textbf{TA} memberikan sticky notes atau mengirimkan pesan melalui Slack/Zoom ketika ingin memberitahukan sesuatu kepada instructor.
+\item
+  \textbf{TA} menjadi time keeper bagi instructor yang bertugas.
+\item
+  Hari terakhir kelas, \textbf{TA} mengirimkan \emph{assignment} quiz dan LBB pada google classroom.
+\item
+  Hari terakhir kelas, \emph{teaching team} memberikan link feedback kepada student.
+\end{itemize}
+
+\hypertarget{kelas-online-1}{%
+\subsubsection{Kelas Online}\label{kelas-online-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Melakukan pengecekan koneksi internet, kamera, dan audio dapat berjalan dengan baik.
+\item
+  \textbf{TA} mengadakan sesi QnA selama 30 menit sebelum kelas.
+\item
+  \textbf{TA} memastikan recording dimulai sejak sesi QnA 30 menit sebelum kelas hingga kelas berakhir.
+\item
+  \textbf{TA} mengirimkan link absensi kepada student.
+\item
+  Apabila student mengalami eror, maka TA mengarahkan student untuk mengirikan \emph{screenshot} eror pada GDocs \emph{Error Issues} yang sudah dipersiapkan.
+\item
+  Setiap diadakan dive deeper, maka \emph{teaching team} diperkenankan mengarahkan student untuk mengirimkan hasil pengerjaan dive deepernya pada GDocs yang sudah disediakan.
+\item
+  Mengirimkan pesan melalui Slack/Zoom ketika ingin memberitahukan sesuatu kepada instructor.
+\item
+  \textbf{TA} diperkenankan untuk membantu menjawab pertanyaan dari student yang dirasa bersifat umum.
+\item
+  \textbf{TA} menjadi time keeper bagi instructor yang bertugas.
+\item
+  Hari terakhir kelas, \textbf{TA} mengirimkan \emph{assignment} quiz dan LBB pada google classroom.
+\item
+  Hari terakhir kelas, \emph{teaching team} memberikan link feedback kepada student.
+\end{itemize}
+
+\hypertarget{setelah-kelas}{%
+\subsection{Setelah Kelas}\label{setelah-kelas}}
+
+\hypertarget{kelas-offsite}{%
+\subsubsection{Kelas Offsite}\label{kelas-offsite}}
+
+\begin{itemize}
+\tightlist
+\item
+  Membersihkan papan tulis dan area kelas.
+\item
+  Mematikan AC dan lampu serta memastikan pintu telah dikunci.
+\item
+  \textbf{Instructor} mengirimkan inclass yang terlah digunakan \textbf{langsung} setelah kelas berakhir pada google classroom.
+\item
+  \textbf{TA} memasukkan nilai quiz pada google classroom dan \href{https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit\#gid=1518964141}{\emph{score sheets}}.
+\item
+  Teaching team saling memberikan feedback dan input utnuk perbaikan kelas.
+\end{itemize}
+
+\hypertarget{kelas-online-2}{%
+\subsubsection{Kelas Online}\label{kelas-online-2}}
+
+\begin{itemize}
+\item
+  \textbf{TA} mengirimkan recording kelas dengan maksimal batas waktu sebagai berikut:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Kelas Day: pukul 19:00 hari yang sama dengan workshop
+  \item
+    Kelas Night: pukul 10:00 WIB H+1 workshop
+  \end{itemize}
+\item
+  \textbf{Instructor} mengirimkan inclass yang terlah digunakan \textbf{langsung} setelah kelas berakhir pada google classroom.
+\item
+  Memberikan feedback dive deeper apabila ada.
+\item
+  \textbf{TA wajib} memasukkan nilai quiz pada google classroom dan \href{https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit\#gid=1518964141}{\emph{score sheets}}.
+\item
+  Teaching team saling memberikan feedback dan input utnuk perbaikan kelas.
+\end{itemize}
+
+\begin{quote}
+Dokumentasi fungsi untuk input nilai quiz dapat diakses menggunakan \href{https://github.com/Davidlimbong/AlgoritmaAcademy}{package AlgortimaAcademy}
+\end{quote}
+
+\hypertarget{quiz-guidelines}{%
+\section{Quiz Guidelines}\label{quiz-guidelines}}
+
+\hypertarget{rubrik-dan-link-quiz}{%
+\subsection{Rubrik dan Link Quiz}\label{rubrik-dan-link-quiz}}
+
+\begin{itemize}
+\tightlist
+\item
+  Setiap quiz memiliki \textbf{penilaian biner}, 0 dan nilai penuh.
+\item
+  Student yang tidak memenuhi batas minimal quiz akan diberikan nilai \textbf{0}.
+\item
+  Student yang memenuhi batas minimal quiz akan diberikan \textbf{nilai penuh.}
+\end{itemize}
+
+Berikut ini link quiz pada \url{corgi.re}:
+
+\textbf{Data Analytics Specialization}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://corgi.re/courses/ttnsy/quiz_PYW1}{Python for Data Analytics (P4DA)} maksimal \textbf{nilai 6}
+\item
+  \href{https://corgi.re/courses/ttnsy/quiz_PYW2}{Exploratory Data Analysis (EDA)} maksimal \textbf{nilai 6}
+\item
+  \href{https://corgi.re/courses/ttnsy/quiz_PYW3}{Data Wrangling \& Visualization (DWV)} maksimal \textbf{nilai 6}
+\item
+  \href{https://corgi.re/courses/ttnsy/quiz_PYW4}{SQL Query} maksimal \textbf{nilai 6}
+\end{itemize}
+
+\textbf{Data Visualization Specialization}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://corgi.re/courses/Davidlimbong/P4DS-PS}{Programming for Data Science - Practical Statistics (P4DS-PS)} maksimal \textbf{nilai 4}
+\item
+  \href{https://corgi.re/courses/Argaadya/Data-visualization}{Data Visualization (DV)} maksimal \textbf{nilai 2}
+\item
+  \href{https://corgi.re/courses/Davidlimbong/InteractivePlotting}{Interactive Plotting (IP)} maksimal \textbf{nilai 1}
+\end{itemize}
+
+\textbf{Machine Learning Specialization}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://corgi.re/courses/Davidlimbong/P4DS-PS}{Programming for Data Science - Practical Statistics (P4DS-PS)} maksimal \textbf{nilai 4}
+\item
+  \href{https://corgi.re/courses/ahmadhusain/regressionmodels}{Regression Model (RM)} maksimal \textbf{nilai 4}
+\item
+  \href{https://corgi.re/courses/inytss/classification1}{Classification in Machine Learning I (C1)} maksimal \textbf{nilai 4}
+\item
+  \href{https://corgi.re/courses/ysitta/classification2}{Classification in Machine Learning II (C2)} maksimal \textbf{nilai 4}
+\item
+  \href{https://corgi.re/courses/Davidlimbong/UnsupervisedLearning}{Unsupervised Learning (UL)} maksimal \textbf{nilai 4}
+\item
+  \href{https://corgi.re/courses/inytss/time-series}{Time Series and Forecasting (TS)} maksimal \textbf{nilai 4}
+\item
+  \href{https://corgi.re/courses/ysitta/neural_Network}{Neural Network (NN)} maksimal \textbf{nilai 4}
+\end{itemize}
+
+\hypertarget{aturan-quiz}{%
+\subsection{Aturan Quiz}\label{aturan-quiz}}
+
+\begin{itemize}
+\item
+  \emph{Assignment} quiz dikirimkan pada hari terakhir course melalui google classroom.
+\item
+  Quiz dilakukan pada hari terakhir setiap course yang dilakukan secara serentak.
+\item
+  Maksimal pengumpulan quiz setiap kelas sebagai berikut:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Kelas Day: pukul 19:00 WIB pada hari yang sama quiz diadakan
+  \item
+    Kelas Night: pukul 09:00 WIB H+1 quiz diadakan
+  \end{itemize}
+\item
+  Student tidak diperkenankan untuk mengerjakan quiz diluar waktu yang ditentukan.
+\end{itemize}
+
+\hypertarget{quiz-susulan-dan-perbaikan}{%
+\subsection{Quiz Susulan dan Perbaikan}\label{quiz-susulan-dan-perbaikan}}
+
+\begin{itemize}
+\tightlist
+\item
+  Bagi student yang mengikuti kelas \textbf{Data Analytics Specialization} dapat melakukan perbaikan / susulan quiz dengan \textbf{maksimal 2 course} yang dapat dilakukan perbaikan / susulan.
+\item
+  Bagi student yang mengikuti kelas \textbf{Data Visualization dan Machine Learning Specialization} dapat melakukan perbaikan / susulan quiz dengan \textbf{maksimal 3 course} yang dapat dilakukan perbaikan / susulan dari total course yang ada baik dalam Data Visualization Specialization maupun Machine Learning Specialization.
+\item
+  Student yang bisa mengikuti quiz susulan adalah student yang berhalangan hadir saat quiz dilaksanakan dikelas.
+\item
+  Student yang bisa mengikuti quiz remedial adalah student yang tidak memenuhi nilai minimal quiz.
+\item
+  Soal untuk quiz susulan dan remedial sama seperti quiz pada umumnya.
+\item
+  Pelaksanaan quiz susulan dilakukan 3 hari setelah \emph{briefing} Capstone Project dari setiap spesialisasi pada pukul 18.30 - 20:30 WIB.
+\item
+  Nilai quiz akan diperbaharui melalui google classroom dan \href{https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit\#gid=1518964141}{sheet score} oleh PIC academy.
+\end{itemize}
+
+\hypertarget{learn-by-building-lbb-guidelines}{%
+\section{Learn by Building (LBB) Guidelines}\label{learn-by-building-lbb-guidelines}}
+
+\hypertarget{rubrik-lbb}{%
+\subsection{Rubrik LBB}\label{rubrik-lbb}}
+
+Detail rubrik masing-masing LBB pada \textbf{Data Visualization Specialization} dan \textbf{Machine Learning Specialization} dapat dilihat pada link \href{https://rpubs.com/AlgoritmaAcademy/lbb}{berikut}
+
+\hypertarget{aturan-lbb}{%
+\subsection{Aturan LBB}\label{aturan-lbb}}
+
+\begin{itemize}
+\item
+  Rubrik LBB dikirimkan pada hari terakhir course bersamaan pengiriman \emph{assignment} quiz.
+\item
+  Student yang mengumpulkan LBB wajib menyertakan link publish LBB pada RPubs, Github, atau platform lainnya.
+\item
+  Deadline pengumpulan LBB bagi student yang ingin mengikuti \emph{career support} Algoritma dibagi menjadi 3 fase dengan detail sebagai berikut:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Fase 1: LBB P4DS, DV, dan IP maksimal dikumpulkan sebelum Capstone Project Data Visualization.
+  \item
+    Fase 2: LBB RM, C1, dan C2 maksimal dikumpulkan sebelum course TS dimulai.
+  \item
+    Fase 3: LBB UL, TS, dan NN maksimal dikumpulkan 1 minggu setelah deadline Casptone Project Machine Learning.
+  \end{itemize}
+\item
+  Student yang terlambat mengumpulkan LBB tidak mendapat pengurangan nilai kecuali LBB IP, keterlambatan akan dikenakan \textbf{pengurangan nilai 1 poin}.
+\item
+  Student yang mengumpulkan LBB akan diberikan feedback oleh tim mentor \textbf{maksimal 7 hari} setelah LBB dikumpulkan melalui google classroom.
+\item
+  Bagi student yang ingin mendapatkan career support \textbf{wajib} mengumpulkan LBB dengan detail banyaknya LBB yang harus dikumpulkan dapat dilihat pada \textbf{Chapter Data Career Day (DCD)}.
+\end{itemize}
+
+\hypertarget{casptone-guidelines}{%
+\section{Casptone Guidelines}\label{casptone-guidelines}}
+
+\hypertarget{rubrik-capstone}{%
+\subsection{Rubrik Capstone}\label{rubrik-capstone}}
+
+\begin{itemize}
+\item
+  Detail rubtik Capstone Project DA dapat diakses pada:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://github.com/ttnsy/fire-capstone}{Auto Generated Email Based Report}
+  \item
+    \href{https://github.com/iqbalbasyar/ner-flask}{Named Entity Recognition Service (API)}
+  \item
+    \href{https://github.com/fafilia/capstone-UIFlask}{Flask Dashboard User Interface (UI)}
+  \item
+    \href{https://github.com/t3981-h/BeautifulSoup-Capstone}{Web Scraping using \texttt{BeautifulSoup}}
+  \end{itemize}
+\item
+  Detail rubrik Capstone Project DV dapat diakses pada \href{https://rpubs.com/AlgoritmaAcademy/dv-capstone}{link berikut}.
+\item
+  Detail rubrik Capstone Project ML dapat diakses pada \href{https://rpubs.com/AlgoritmaAcademy/ml-capstone}{link berikut}
+\end{itemize}
+
+\hypertarget{link-referensi-capstone}{%
+\subsection{Link Referensi Capstone}\label{link-referensi-capstone}}
+
+Berikut beberapa link referensi yang diperlukan saat Capstone Project:
+
+\begin{itemize}
+\item
+  \textbf{Capstone Data Analytics}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit\#heading=h.sdnb3cqdb3}{Postingan Classroom}
+  \item
+    \href{http://bit.ly/capstone-da-video}{Video Guideline}
+  \item
+    \href{http://bit.ly/template-capstone-da-guide}{Capstone Data Analytics Guide}
+  \end{itemize}
+\item
+  \textbf{Capstone Data Visualization}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit\#heading=h.jioetifqgq8a}{Postingan Classroom}
+  \end{itemize}
+\item
+  \textbf{Capstone Machine Learning}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit\#heading=h.kum7jj8wqp5o}{Postingan Classroom}
+  \item
+    \href{http://bit.ly/capstone-ml-video}{Video Guideline}
+  \item
+    \href{https://bit.ly/captone-ml-dataset}{Dataset untuk Machine Learning Capstone Project}
+  \item
+    \href{https://algoritma.shinyapps.io/leaderboard_capsml/}{Machine Learning Capstone Project Leaderboard}
+  \item
+    \href{https://algotech.netlify.com/tags/capstone-ml/}{AlgoTech}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{aturan-capstone}{%
+\subsection{Aturan Capstone}\label{aturan-capstone}}
+
+\begin{itemize}
+\item
+  Rubrik capstone akan dijelaskan secara serentak saat di kelas.
+\item
+  Selama di kelas, student akan diberikan capaian task yang harus dikerjakan dan dikumpulkan pada google classroom pada hari yang sama saat briefing capstone project.
+\item
+  Deadline pengerjaan capstone sebagai berikut:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Capstone DA: 2 hari setelah pertemuan mentoring capstone, yaitu hari Senin.
+  \item
+    Capstone DV dan ML: 1 minggu setelah briefing capstone.
+  \end{itemize}
+\item
+  Keterlambatan dalam pengumpulan capstone akan mendapatkan pinalti sebagai berikut:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Terlambat 1 hari: pengurangan 1 poin
+  \item
+    Terlambat 2 hari: pengurangan 3 poin
+  \item
+    Terlambat 3 hari: pengurangan 5 poin
+  \item
+    Terlambat 4 hari: pengurangan 7 poin
+  \item
+    Terlambat lebih dari 4 hari: pengurangan 9 poin
+  \item
+    Terlambat lebih dari 1 bulan tidak akan mendapatkan nilai capstone
+  \end{itemize}
+\item
+  Product team akan memberikan feedback \textbf{maksimal 2 hari} setelah student mengumpulkan capstone.
+\item
+  Student dapat memperbaiki capstone sebanyak \textbf{1 kali} dengan batas pengumpulan \textbf{1 minggu} setelah batas pengumpulan capstone.
+\item
+  Student yang dapat melakukan perbaikan harus memiliki nilai:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Capstone DA: dibawah 12 poin
+  \item
+    Capstone DV: dibawah 23 poin
+  \item
+    Capstone ML: dibawah 28 poin
+  \end{itemize}
+\item
+  Nilai maksimal yang bisa didapatkan oleh student yang melakukan revisi adalah 80\% dari total nilai.
+\item
+  Pengumpulan revisi yang melebihi batas waktu (H+7 setelah batas pengumpulan capstone) \textbf{tetap akan diperiksa} namun nilai yang diambil adalah \textbf{nilai sebelum perbaikan}.
+\item
+  Setiap Capstone Project akan diberikan satu sesi untuk mentoring secara serentak melalui RSVP yang dikirimkan melalui google classroom.
+\item
+  \textbf{Student tidak diperkenankan} untuk meminta sesi mentoring melalui email \url{mentor@algorit.ma}.
+\end{itemize}
+
+\hypertarget{dos-dan-dont}{%
+\chapter{Do's dan Don't}\label{dos-dan-dont}}
+
+Setiap teaching team yang akan bertugas secara offline maupun online diharap mempelajari \href{https://docs.google.com/presentation/d/17f0z3x9RhJCjarY1yY3vWyW23kr-gSHHhTNdtd97BnM/edit\#slide=id.g7daf391588_0_0}{\emph{product internal brief}} berikut.
+
+\hypertarget{instructor}{%
+\section{Instructor}\label{instructor}}
+
+\hypertarget{kelas-offline-2}{%
+\subsection{Kelas Offline}\label{kelas-offline-2}}
+
+\textbf{I. Do's}
+
+\begin{itemize}
+\tightlist
+\item
+  Datang tepat waktu.
+\item
+  Mempersiapkan inclass material yang akan digunakan selama dikelas.
+\item
+  Berpenampilan rapi dan sopan.
+\item
+  Membuat timeline kelas.
+\item
+  Merapikan inclass material yang diperbaharui per hari untuk dikirimkan kepada student melalui google classroom.
+\item
+  Memberikan briefing kelas kepada teaching assistant.
+\item
+  Mempersiapkan materi dan latihan.
+\end{itemize}
+
+\textbf{II. Don't}
+
+\begin{itemize}
+\tightlist
+\item
+  Tidak memberikan timeline kepada teaching assistant.
+\item
+  Tidak melakukan briefing sebelum kelas dimulai.
+\end{itemize}
+
+\hypertarget{kelas-online-3}{%
+\subsection{Kelas Online}\label{kelas-online-3}}
+
+\textbf{I. Do's}
+
+\begin{itemize}
+\tightlist
+\item
+  Datang tepat waktu pada room meeting.
+\item
+  Memastikan koneksi internet, kamera, dan tools yang diperlukan sudah tersedia dengan baik.
+\item
+  Mempersiapkan inclass material yang akan digunakan selama dikelas.
+\item
+  Berpenampilan rapi dan sopan.
+\item
+  Membuat timeline kelas.
+\item
+  Merapikan inclass material yang diperbaharui per hari untuk dikirimkan kepada student melalui google classroom.
+\item
+  Memberikan briefing kelas kepada teaching assistant.
+\item
+  Mempersiapkan materi dan latihan.
+\end{itemize}
+
+\textbf{II. Don't}
+
+\begin{itemize}
+\tightlist
+\item
+  Jangan mengadakan kelas di lokasi yang susah sinyal internet dan banyak noise.
+\end{itemize}
+
+\hypertarget{teaching-assistant-ta}{%
+\section{Teaching Assistant (TA)}\label{teaching-assistant-ta}}
+
+\hypertarget{kelas-offline-3}{%
+\subsection{Kelas Offline}\label{kelas-offline-3}}
+
+\textbf{I. Do's}
+
+\begin{itemize}
+\tightlist
+\item
+  Datang tepat waktu.
+\item
+  Membawa flashdisk untuk menyimpan course material dan file instalasi R, RStudio, maupun Anaconda Navigator.
+\item
+  Mempersiapkan kertas untuk time keeper dan meminta timeline kepada instructor.
+\item
+  Membersihkan papan tulis sebelum dan sesudah kelas.
+\item
+  Memastikan spidol dapat digunakan.
+\item
+  Memastikan projector dengan laptop instructor dapat dihubungkan dengan baik.
+\item
+  Memastikan absensi student telah tersedia dan memastikan setiap student telah mengisi absensi.
+\item
+  Berpenampilan rapi dan sopan.
+\item
+  Memimpin sesi 30 menit sebelum kelas dimulai untuk tanya jawab.
+\item
+  Meminta link feedback dan memastikan link tersebut dapat digunakan dengan baik.
+\item
+  Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada stduent.
+\item
+  Mengirimkan \emph{assignment} quiz dan LBB pada google classroom.
+\item
+  Mengirimkan inclass material yang telah diperbaharui oleh instructor per harinya dan lecture notes (jika ada).
+\item
+  Memasukkan nilai quiz pada google classroom dan \href{https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit\#gid=1518964141}{\emph{score sheets}}.
+\item
+  Memastikan ruang kelas bersih dan mematikan lampu serta AC ketika kelas telah selesai (untuk yang bertugas di kelas malam).
+\item
+  Jangan ragu untuk meminta bantuan atau membantu satu sama lain saat bertugas.
+\end{itemize}
+
+\textbf{II. Don't}
+
+\begin{itemize}
+\tightlist
+\item
+  Mengenakan kaos dan kain flanel.
+\item
+  Berbincang dengan suara yang keras saat dikelas.
+\item
+  Mengenakan sandal.
+\item
+  Mengacuhkan student yang sedang bertanya dikelas.
+\end{itemize}
+
+\hypertarget{kelas-online-4}{%
+\subsection{Kelas Online}\label{kelas-online-4}}
+
+\textbf{I. Do's}
+
+\begin{itemize}
+\tightlist
+\item
+  Mempersiapkan link zoom kelas.
+\item
+  Memastikan link absensi dapat digunakan dengan baik.
+\item
+  Memastikan koneksi internet, kamera, dan audio instructor dan teaching team dapat berjalan dengan baik.
+\item
+  Meminta timeline kepada instructor.
+\item
+  Membuka room meeting tepat waktu.
+\item
+  Memimpin sesi 30 menit sebelum kelas dimulai untuk tanya jawab.
+\item
+  Berpenampilan rapi dan sopan.
+\item
+  Membantu student yang bertanya melalui chat zoom everyone maupun \emph{private message}.
+\item
+  Menjaga timeline instructor agar sesuai yang direncanakan.
+\item
+  Memastikan meeting telah di record sejak sesi 30 menit sebelum kelas.
+\item
+  Meminta link feedback dan memastikan link tersebut dapat digunakan dengan baik.
+\item
+  Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada stduent.
+\item
+  Mengirimkan \emph{assignment} quiz dan LBB pada google classroom.
+\item
+  Mengirimkan inclass material yang telah diperbaharui oleh instructor per harinya dan lecture notes (jika ada).
+\item
+  Memasukkan nilai quiz pada google classroom dan \href{https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit\#gid=1518964141}{\emph{score sheets}}.
+\item
+  Mengirimkan link recording melalui google classroom.
+\end{itemize}
+
+\textbf{II. Don't}
+
+\begin{itemize}
+\tightlist
+\item
+  Menghidupkan mic ketika instructor sudah memulai kelas agar tidak terdapat noise.
+\item
+  Mengacuhkan student yang bertanya melalui \emph{private message} walaupun student tersebut bukan dibawah tanggung jawab Anda.
+\item
+  Terlambat mengirimkan link recording.
+\end{itemize}
+
+\hypertarget{data-career-day-dcd}{%
+\chapter{Data Career Day (DCD)}\label{data-career-day-dcd}}
+
+\hypertarget{alur-data-career-day}{%
+\section{Alur Data Career Day}\label{alur-data-career-day}}
+
+\includegraphics{assets/DCD pace.jpeg}
+
+\hypertarget{pre-requisite-data-career-day}{%
+\section{Pre-Requisite Data Career Day}\label{pre-requisite-data-career-day}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \emph{Self-Funding} pada Academy Reguler/Academy Full Stack
+\item
+  Total score minimal 85\%
+\item
+  Mengerjakan 5 dari 9 Learn by Building
+\item
+  Melakukan pendaftaran saat Registration Pace
+\end{enumerate}
+
+\hypertarget{registration}{%
+\subsection{Registration}\label{registration}}
+
+\includegraphics{assets/workflow.png}
+
+\begin{itemize}
+\tightlist
+\item
+  Sebelum Registration
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Hubungi Tata untuk mendapatkan list email student offline yang melakukan pembiayaan sendiri \href{https://docs.google.com/spreadsheets/d/1iZy0AaFASL7IY5BIGZmaOsIqkdX6LR6Mo2gpJZEG2KA/edit\#gid=1637612767}{link}
+\item
+  Hubungi Tata untuk mendapatkan list email student online yang melakukan pembiayaan sendiri
+\item
+  Siapkan timeline dari sosialisasi DCD - hari H
+\item
+  Siapkan slide sosialisasi DCD \href{https://docs.google.com/presentation/d/1acPcUvZG85oEJsLtOGJx3FINGa8Rrhv-CBt-tqAJG_M/edit\#slide=id.p1}{link}
+\item
+  Sipkan GForm registration (contoh \href{bit.ly/registdcd9}{Gform})
+\item
+  Siapkan publication proposal example \href{bit.ly/publicationexample}{link}
+\item
+  Mendapatkan list Business Mentor (BM) dan Technical Chaperone (TC) (hubungi \textbf{David})
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Selama Registration
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Menyiapkan draft email registrasi DCD \href{https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit\#heading=h.pwbvr5nj1ufg}{link}
+\item
+  Mengirimkan email reminder penutupan regirtration DCD \href{https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit\#heading=h.yhbqjuew20hg}{link}
+\item
+  Membuat Gsheet daftar calon peserta DCD (contoh \href{https://docs.google.com/spreadsheets/d/1P_dRfwtu_yTWtPr-RHKjIon_ZXVUdf2RtMXiWMqWrZk/edit\#gid=2115785632}{Gsheet})
+\item
+  Melakukan briefing mengenai timeline dan workflow DCD kepada mentor Team (mentoring workflow \href{https://docs.google.com/presentation/d/1ogfiBuV0qUP1h7Dm6Q8rn_u2lRbTU45XpBEG02RPx-k/edit\#slide=id.p3}{link})
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Setelah Registration
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Melakukan plotting student dengan BM berdasarkan case yang diambil oleh student \href{https://docs.google.com/spreadsheets/d/1P_dRfwtu_yTWtPr-RHKjIon_ZXVUdf2RtMXiWMqWrZk/edit\#gid=1325523908}{link}
+\item
+  Mengirimkan email mentor assigning kepada calon peserta yang sudah mendaftar (draft email \href{https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit\#heading=h.bwo0f6c325u7}{mentor assigning})
+\item
+  Invite student pada channel slack Algoritma Alumni sebagai platform komunikasi
+\end{enumerate}
+
+\hypertarget{business-mentor-phase}{%
+\subsection{Business Mentor Phase}\label{business-mentor-phase}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Membuat sheet weekly report mentor yang dapat ditransfer untuk mentor pada pace berikutnya \href{https://docs.google.com/spreadsheets/d/1kDS77uA1uYJJyS_Oatv_WJTKEOiYXZgkUyEF3CEXo-M/edit\#gid=223180597}{link}
+\item
+  Membuat rekapan nilai dan LBB student \href{https://docs.google.com/spreadsheets/d/1kDS77uA1uYJJyS_Oatv_WJTKEOiYXZgkUyEF3CEXo-M/edit\#gid=2041422256}{link}
+\item
+  Membuat list eligible student dari registration phase, BM phase, TC phase \href{https://docs.google.com/spreadsheets/d/1kDS77uA1uYJJyS_Oatv_WJTKEOiYXZgkUyEF3CEXo-M/edit\#gid=43809870}{link}
+\item
+  Melakukan follow-up link proposal project student kepada BM dan diletakkan pada satu sheet report mentor
+\item
+  Plotting student dengan TC
+\item
+  Mengirimkan reminder pengumpulan terakhir proposal project dan beberapa persyaratan lain (draft email \href{https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit\#heading=h.eaf8e2km1m0z}{link})
+\item
+  Mengirimkan email acceptance dan rejected peserta (draft email \href{https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit\#heading=h.y18cmaj9rlr8}{acceptance BM} \& \href{https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit\#heading=h.lwhoq5jstbkk}{rejected BM})
+\end{enumerate}
+
+\hypertarget{technical-chaperone-phase}{%
+\subsection{Technical Chaperone Phase}\label{technical-chaperone-phase}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Monitoring dan follow-up weekly repost progress student kepada TC \href{https://docs.google.com/spreadsheets/d/1kDS77uA1uYJJyS_Oatv_WJTKEOiYXZgkUyEF3CEXo-M/edit\#gid=223180597}{link}
+\item
+  Mengirimkan email pendataan CV student online saat minggu pertama TC pace \href{bit.ly/student-cv-online}{link}
+\item
+  {[}Optional{]}Request sesi foto ke Kak Mulia dan Ziqka untuk CV student (Hubungi Kak irvan ketersediaan baju graduate student)
+\item
+  Melakukan pendataan cv student saat minggu terakhir TC pace \href{bit.ly/student-cv-dcd9}{link}
+\item
+  Melakukan rekapitulasi dan cross check \href{bit.ly/algo-student-dcd-cv}{informasi CV student DCD} dan \href{bit.ly/algo-student-online-cv}{informasi CV student online}
+\item
+  Pada akhir deadline pengumpulan dan pengisian CV (baik student DCD maupun student online), informasikan kepada Kak Mulia untuk proses pembuatan CV
+\item
+  Kerjasama marketing mengenai vanue DCD dan teknis hari H DCD
+\end{enumerate}
+
+\hypertarget{coaching-phase}{%
+\subsection{Coaching Phase}\label{coaching-phase}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Memastikan Veteran yang akan mengisi 101 dashboard, communication class, dan presentation class serta jadwal yang setiap sesi.
+\item
+  Memastikan setiap peserta hadir dalam setiap sesi.
+\item
+  Koordinasi dengan marketing untuk GR dan hari-H terkait kesiapan acara
+\end{enumerate}
+
+\hypertarget{the-day-dcd}{%
+\subsection{The Day DCD}\label{the-day-dcd}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Memastikan student ready saat akan tampil
+\item
+  Memastikan jalannya acara berjalan dengan lancar dari presentasi student hingga speed dating
+\item
+  Evaluasi dengan seluruh tim
+\end{enumerate}
+
+\hypertarget{piket-guideline}{%
+\chapter{Piket Guideline}\label{piket-guideline}}
+
+\hypertarget{tugas-lead-piket}{%
+\section{Tugas Lead Piket}\label{tugas-lead-piket}}
+
+\begin{itemize}
+\tightlist
+\item
+  Melakukan pengecekan tiket masuk pada freshdesk.
+\item
+  Memberikan respon awal tiket yang masuk mengenai eror dan mentoring \textbf{maksimal 2 jam} setelah email diterima pada jam kerja.
+\item
+  Menugaskan tim piket untuk menjadi PIC Slack Alumni.
+\item
+  Membuat daftar LBB dan capstone yang masuk dari google classroom.
+\item
+  Membagi tugas kepada tim piket untuk mengoreksi dan memberikan feedback LBB dan capstone yang telah masuk.
+\item
+  Lead piket diperkenankan untuk meminta bantuan tim piket membantu menjawab tiket yang masuk pada freshdesk.
+\item
+  Lead piket yang bertugas dari pagi-sore sebagai instructor ataupun TA dapat meminta bantuan kepada tim piket untuk monitor freshdesk dan classroom.
+\end{itemize}
+
+\hypertarget{respon-freshdesk}{%
+\section{Respon Freshdesk}\label{respon-freshdesk}}
+
+\begin{itemize}
+\tightlist
+\item
+  Setiap pertanyaan terkait eror, mentoring, dan pertanyaan umum harus diberikan respon awal \textbf{maksimal 2 jam} setelah email diterima pada jam kerja.
+\item
+  Email atau tiket yang masuk diluar jam kerja akan direspon pada hari berikutnya pada jam kerja.
+\end{itemize}
+
+\hypertarget{feedback-learn-by-building-lbb}{%
+\section{Feedback Learn by Building (LBB)}\label{feedback-learn-by-building-lbb}}
+
+\begin{itemize}
+\tightlist
+\item
+  LBB yang telah masuk harus diberikan feedback paling lambat \textbf{7 hari} setelah LBB diterima.
+\item
+  Tim piket yang sedang bertugas \textbf{wajib} mengaktifkan notifikasi google classroom di email.
+\item
+  Pengumpulan LBB batch yang telah lewat tetap diberikan feedback untuk keperluan Data Career Day (DCD).
+\item
+  Batch yang telah lewat yang diberikan feedback maksimal 1 batch sebelum batch yang sedang berjalan.
+\end{itemize}
+
+\hypertarget{respon-mentoring}{%
+\section{Respon Mentoring}\label{respon-mentoring}}
+
+\begin{itemize}
+\tightlist
+\item
+  Dalam periode piket, setiap anggota piket maksimal hanya memberikan sesi mentoring sebanyak 5 sesi. Apabila permintaan mentoring lebih dari itu, maka dianjurkan untuk meminta bantuan tim piket lain atau veteran.
+\item
+  Permintaan mentoring yang masuk dengan detail mentoring serta jadwal yang sama dapat digabungkan menjadi satu sesi atas persetujuan student yang bersangkutan.
+\item
+  Dalam 1 sesi mentoring memiliki durasi 1 jam.
+\item
+  Mentoring yang berhubungan dengan pembahasan capstone project \textbf{tidak akan diproses}.
+\item
+  Permintaan \textbf{mentoring academy} yang masuk untuk hari Jum'at setiap akhir bulan \textbf{akan dialihkan} untuk hari yang lain.
+\item
+  Permintaan \textbf{mentoring corporate} yang masuk untuk hari Jum'at setiap akhir bulan \textbf{akan diproses dengan menyesuaikan ketersediaan waktu mentor}.
+\end{itemize}
+
+\hypertarget{pelaksanaan-mentoring-offline}{%
+\subsection{Pelaksanaan Mentoring Offline}\label{pelaksanaan-mentoring-offline}}
+
+\begin{itemize}
+\item
+  Protokol tim mentoring offline dapat diakses pada \href{https://docs.google.com/document/d/1L6lA0MJoyhfeYlzFBf-TuuJ8SGhZE4Yc49_kXDWkkLw/edit?usp=sharing}{link berikut}
+\item
+  Proses mentoring \textbf{hanya} bisa dilakukan pada jam kerja Senin-Jum'at pukul 10:00-18:00.
+\item
+  Mentoring yang diadakan secara offline dapat ditugaskan kepada mentor yang memiliki akses yang mudah untuk ke kantor.
+\item
+  Student yang berhalangan hadir dari jadwal mentoring yang telah ditetapkan \textbf{wajib} melakukan konfirmasi melalui email \url{mentor@algorit.ma} \textbf{maksimal 6 jam} sebelum jadwal mentoring.
+\item
+  Batas toleransi keterlambatan mentoring sebagai berikut:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Terlambat \textbf{kurang dari 15 menit} akan tetap diberikan waktu mentoring 1 jam.
+  \item
+    Terlambat dalam waktu \textbf{15-30 menit} akan diberikan waktu mentoring sesuai jadwal. Contoh mentoring pukul 14:00-15:00, terlambat 30 menit, maka sisa waktu mentoring yaitu 30 menit.
+  \item
+    Terlambat \textbf{lebih dari 30 menit} dan tanpa konfirmasi akan dianggap telah menggunakan slot mentoring pada minggu tersebut.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{pelaksanaan-mentoring-online}{%
+\subsection{Pelaksanaan Mentoring Online}\label{pelaksanaan-mentoring-online}}
+
+\begin{itemize}
+\item
+  Mentoring online akan dilaksanakan melalui platform GMeet.
+\item
+  Tim mentor akan memberikan undangan mentoring melalui google calendar yang telah berisi informasi detail mentoring.
+\item
+  Proses mentoring \textbf{hanya} bisa dilakukan pada jam kerja Senin-Jum'at pukul 10:00-18:00.
+\item
+  Mentoring yang diadakan secara offline dapat ditugaskan kepada mentor yang memiliki akses yang mudah untuk ke kantor.
+\item
+  Student yang berhalangan hadir dari jadwal mentoring yang telah ditetapkan \textbf{wajib} melakukan konfirmasi melalui email \url{mentor@algorit.ma} \textbf{maksimal 6 jam} sebelum jadwal mentoring.
+\item
+  Batas toleransi keterlambatan mentoring sebagai berikut:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Terlambat \textbf{kurang dari 15 menit} akan tetap diberikan waktu mentoring 1 jam.
+  \item
+    Terlambat dalam waktu \textbf{15-30 menit} akan diberikan waktu mentoring sesuai jadwal. Contoh mentoring pukul 14:00-15:00, terlambat 30 menit, maka sisa waktu mentoring yaitu 30 menit.
+  \item
+    Terlambat \textbf{lebih dari 30 menit} dan tanpa konfirmasi akan dianggap telah menggunakan slot mentoring pada minggu tersebut.
+  \end{itemize}
+\item
+  Sertakan template berikut saat memberikan jadwal mentoring online:
+\end{itemize}
+
+\begin{quote}
+Apabila Anda tidak hadir sesi mentoring lebih dari 30 menit dari jadwal yang telah ditentukan dan tidak memberikan konfirmasi ketidakhadiran sebelum mentoring berlangsung, maka sesi mentoring tersebut dianggap sebagai satu sesi penuh, sehingga slot mentoring berkurang satu untuk minggu tersebut.
+\end{quote}
+
+\hypertarget{slack-alumni}{%
+\section{Slack Alumni}\label{slack-alumni}}
+
+\begin{itemize}
+\tightlist
+\item
+  Selama periode tim piket, akan dibentuk PIC yang bertugas untuk menjadi moderator dalam channel \texttt{\#r}/\texttt{\#python} pada Slack Alumni.
+\item
+  PIC ditunjuk oleh lead tim piket selama periode tim piket (2 minggu).
+\item
+  PIC bertugas memberikan \textbf{update news} dibidang terkait yang bisa memantik untuk berdiskusi dengan alumni
+\item
+  PIC bertanggung jawab dalam \textbf{menjawab pertanyaan} yang ada di channel Slack Alumni.
+\item
+  Tim piket yang lain bertugas untuk ikut berpartisipasi dalam diskusi yang ada pada Slack Alumni.
+\end{itemize}
 
   \bibliography{book.bib,packages.bib}
 

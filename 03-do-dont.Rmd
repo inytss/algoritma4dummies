@@ -1,10 +1,10 @@
 # Do's dan Don't
 
-Setiap teaching team yang akan bertugas secara onsite maupun online diharap mempelajari [*product internal brief*](https://docs.google.com/presentation/d/17f0z3x9RhJCjarY1yY3vWyW23kr-gSHHhTNdtd97BnM/edit#slide=id.g7daf391588_0_0) berikut.
+Setiap teaching team yang akan bertugas secara offline maupun online diharap mempelajari [*product internal brief*](https://docs.google.com/presentation/d/17f0z3x9RhJCjarY1yY3vWyW23kr-gSHHhTNdtd97BnM/edit#slide=id.g7daf391588_0_0) berikut.
 
 ## Instructor
 
-### Kelas Onsite
+### Kelas Offline
 
 **I. Do's**
 
@@ -40,7 +40,7 @@ Setiap teaching team yang akan bertugas secara onsite maupun online diharap memp
 
 ## Teaching Assistant (TA)
 
-### Kelas Onsite
+### Kelas Offline
 
 **I. Do's**
 
@@ -57,16 +57,17 @@ Setiap teaching team yang akan bertugas secara onsite maupun online diharap memp
 * Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada stduent.
 * Mengirimkan *assignment* quiz dan LBB pada google classroom.
 * Mengirimkan inclass material yang telah diperbaharui oleh instructor per harinya dan lecture notes (jika ada).
-* Menginputkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).
+* Memasukkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).
 * Memastikan ruang kelas bersih dan mematikan lampu serta AC ketika kelas telah selesai (untuk yang bertugas di kelas malam).
+* Jangan ragu untuk meminta bantuan atau membantu satu sama lain saat bertugas.
 
 **II. Don't**
 
-* Tidak mengenakan kaos dan kain flanel.
-* Tidak berbincang dengan suara yang keras saat dikelas.
-* Tidak mengenakan sandal.
-* Jangan mengacuhkan student yang sedang bertanya dikelas.
-* Jangan ragu untuk meminta bantuan atau membantu satu sama lain saat bertugas.
+* Mengenakan kaos dan kain flanel.
+* Berbincang dengan suara yang keras saat dikelas.
+* Mengenakan sandal.
+* Mengacuhkan student yang sedang bertanya dikelas.
+
 
 ### Kelas Online
 
@@ -86,11 +87,11 @@ Setiap teaching team yang akan bertugas secara onsite maupun online diharap memp
 * Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada stduent.
 * Mengirimkan *assignment* quiz dan LBB pada google classroom.
 * Mengirimkan inclass material yang telah diperbaharui oleh instructor per harinya dan lecture notes (jika ada).
-* Menginputkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).
+* Memasukkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).
 * Mengirimkan link recording melalui google classroom.
 
 **II. Don't**
 
-* Jagan menghidupkan mic ketika instructor sudah memulai kelas agar tidak terdapat noise.
-* Jangan mengacuhkan student yang bertanya melalui *private message* walaupun student tersebut bukan dibawah tanggung jawab Anda.
-* Jangan terlambat mengirimkan link recording.
+* Menghidupkan mic ketika instructor sudah memulai kelas agar tidak terdapat noise.
+* Mengacuhkan student yang bertanya melalui *private message* walaupun student tersebut bukan dibawah tanggung jawab Anda.
+* Terlambat mengirimkan link recording.

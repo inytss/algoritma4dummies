@@ -13,6 +13,8 @@
 
 ### Registration
 
+![](assets/workflow.png)
+
 - Sebelum Registration
 
 1. Hubungi Tata untuk mendapatkan list email student offline yang melakukan pembiayaan sendiri [link](https://docs.google.com/spreadsheets/d/1iZy0AaFASL7IY5BIGZmaOsIqkdX6LR6Mo2gpJZEG2KA/edit#gid=1637612767)
@@ -29,8 +31,6 @@
 2. Mengirimkan email reminder penutupan regirtration DCD [link](https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit#heading=h.yhbqjuew20hg)
 3. Membuat Gsheet daftar calon peserta DCD (contoh [Gsheet](https://docs.google.com/spreadsheets/d/1P_dRfwtu_yTWtPr-RHKjIon_ZXVUdf2RtMXiWMqWrZk/edit#gid=2115785632))
 4. Melakukan briefing mengenai timeline dan workflow DCD kepada mentor Team (mentoring workflow [link](https://docs.google.com/presentation/d/1ogfiBuV0qUP1h7Dm6Q8rn_u2lRbTU45XpBEG02RPx-k/edit#slide=id.p3))
-
-![](workflow.png)
 
 
 - Setelah Registration

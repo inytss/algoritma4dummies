@@ -1,4 +1,4 @@
-# Alur Student Sign Up Academy
+# Fasilitas Student
 
 Setiap student memiliki beberapa administrasi yang perlu diketahui dan diikuti selama mengikuti kelas Algoritma Academy.
 
@@ -48,7 +48,7 @@ Student yang memiliki kendala dalam mengikuti kelas sesuai jadwal yang telah dii
 
 ### Jenis Sertifikat
 
-1. Sertifikat diberikan kepada student yang mengikuti kelas Algoritma Academy baik dalam bentuk kelas per spesialisasi, Academy Reguler, maupun Academy Full Stack baik secara onsite maupun online.
+1. Sertifikat diberikan kepada student yang mengikuti kelas Algoritma Academy baik dalam bentuk kelas per spesialisasi, Academy Reguler, maupun Academy Full Stack baik secara offline maupun online.
 2. Sertifikat yang diberikan terdapat tiga jenis sertifikat:
 
 * [sertifikat per course](https://drive.google.com/file/d/1r_nST2hqB02afh3cMV1EypkxDvGab6WV/view?usp=sharing)
@@ -60,14 +60,14 @@ Student yang memiliki kendala dalam mengikuti kelas sesuai jadwal yang telah dii
 
 1. Sertifikat per course akan dikirimkan **setiap hari Jumat** setelah course berakhir yang dapat diakses melalui google classroom.
 2. Sertifikat specialization serta rubrik dalam bentuk *softcopy* akan diberikan dalam waktu **2 minggu setelah deadline pengumpulan capstone** pada masing-masing spesialisasi yang diambil melalui email.
-3. Student yang diperbolehkan meminta sertifikat specialization dan rubriks dalam bentuk *hardcopy* hanya yang mengikuti kelas secara onsite.  
+3. Student yang diperbolehkan meminta sertifikat specialization dan rubriks dalam bentuk *hardcopy* hanya yang mengikuti kelas secara offline.  
 4. Student yang menginginkan sertifikat specialization dalam bentuk *hardcopy* dapat mengajukan melalui link GForm berikut [http://bit.ly/request-certificate](http://bit.ly/request-certificate) yang akan disampaikan melalui classroom.
 
 ## Letter of Recommendation (LoR)
 
 *Letter of recommendation* merupakan surat rekomendasi yang diberikan oleh pihak Algoritma kepada student yang memiliki  nilai minimal 90% yang dapat digunakan surat pendamping dalam melamar pekerjaan. Berikut syarat student yang dapat mendapatkan LoR:
 
-1. Student yang mengikuti kelas  Academy Full Stack atau Academy Reguler secara onsite. 
+1. Student yang mengikuti kelas  Academy Full Stack atau Academy Reguler secara offline. 
 2. Memiliki nilai minimal 90% dari total nilai spesialisasi.
 3. Untuk mendapatkan LoR, student harus mengajukan pembuatan LoR melalui email [mentor@algorit.ma](mentor@algorit.ma) dengan memberikan informasi:
 
@@ -77,9 +77,9 @@ Student yang memiliki kendala dalam mengikuti kelas sesuai jadwal yang telah dii
 
 ## Fasilitas Setelah Kelas
 
-Algoritma menyediakan *lifetime learning* yang bisa dimanfaatkan oleh student setelah menyelesaikan Algoritma Academy. Fasilitas yang diberikan kepada student dibedakan berdasarkan jenis kelas yang diambil yaitu secara onsite atau online.
+Algoritma menyediakan *lifetime learning* yang bisa dimanfaatkan oleh student setelah menyelesaikan Algoritma Academy. Fasilitas yang diberikan kepada student dibedakan berdasarkan jenis kelas yang diambil yaitu secara offline atau online.
 
-### Academy Onsite Full Stack / Reguler
+### Academy Offline Full Stack / Reguler
 
 1. Mendapatkan fasilitas mentoring selama 4 minggu setelah Capstone Project Machine Learning.
 2. Diundang pada forum diskusi alumni Algoritma menggunakan platform Slack. 

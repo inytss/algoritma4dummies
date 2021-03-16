@@ -1,3 +1,71 @@
 # Piket Guideline
 
-We have finished a nice book.
+## Tugas Lead Piket
+
+* Melakukan pengecekan tiket masuk pada freshdesk.
+* Memberikan respon awal tiket yang masuk mengenai eror dan mentoring **maksimal 2 jam** setelah email diterima pada jam kerja.
+* Menugaskan tim piket untuk menjadi PIC Slack Alumni.
+* Membuat daftar LBB dan capstone yang masuk dari google classroom.
+* Membagi tugas kepada tim piket untuk mengoreksi dan memberikan feedback LBB dan capstone yang telah masuk.
+* Lead piket diperkenankan untuk meminta bantuan tim piket membantu menjawab tiket yang masuk pada freshdesk.
+* Lead piket yang bertugas dari pagi-sore sebagai instructor ataupun TA dapat meminta bantuan kepada tim piket untuk monitor freshdesk dan classroom.
+
+## Respon Freshdesk
+
+* Setiap pertanyaan terkait eror, mentoring, dan pertanyaan umum harus diberikan respon awal **maksimal 2 jam** setelah email diterima pada jam kerja.
+* Email atau tiket yang masuk diluar jam kerja akan direspon pada hari berikutnya pada jam kerja.
+
+## Feedback Learn by Building (LBB)
+
+* LBB yang telah masuk harus diberikan feedback paling lambat **7 hari** setelah LBB diterima.
+* Tim piket yang sedang bertugas **wajib** mengaktifkan notifikasi google classroom di email.
+* Pengumpulan LBB batch yang telah lewat tetap diberikan feedback untuk keperluan Data Career Day (DCD).
+* Batch yang telah lewat yang diberikan feedback maksimal 1 batch sebelum batch yang sedang berjalan.
+
+## Respon Mentoring
+
+* Dalam periode piket, setiap anggota piket maksimal hanya memberikan sesi mentoring sebanyak 5 sesi. Apabila permintaan mentoring lebih dari itu, maka dianjurkan untuk meminta bantuan tim piket lain atau veteran.
+* Permintaan mentoring yang masuk dengan detail mentoring serta jadwal yang sama dapat digabungkan menjadi satu sesi atas persetujuan student yang bersangkutan.
+* Dalam 1 sesi mentoring memiliki durasi 1 jam.
+* Mentoring yang berhubungan dengan pembahasan capstone project **tidak akan diproses**.
+* Permintaan **mentoring academy** yang masuk untuk hari Jum'at setiap akhir bulan **akan dialihkan** untuk hari yang lain.
+* Permintaan **mentoring corporate** yang masuk untuk hari Jum'at setiap akhir bulan **akan diproses dengan menyesuaikan ketersediaan waktu mentor**.
+
+### Pelaksanaan Mentoring Offline
+
+* Protokol tim mentoring offline dapat diakses pada [link berikut](https://docs.google.com/document/d/1L6lA0MJoyhfeYlzFBf-TuuJ8SGhZE4Yc49_kXDWkkLw/edit?usp=sharing)
+* Proses mentoring **hanya** bisa dilakukan pada jam kerja Senin-Jum'at pukul 10:00-18:00.
+* Mentoring yang diadakan secara offline dapat ditugaskan kepada mentor yang memiliki akses yang mudah untuk ke kantor.
+* Student yang berhalangan hadir dari jadwal mentoring yang telah ditetapkan **wajib** melakukan konfirmasi melalui email [mentor@algorit.ma](mentor@algorit.ma) **maksimal 6 jam** sebelum jadwal mentoring.
+* Batas toleransi keterlambatan mentoring sebagai berikut:
+
+  + Terlambat **kurang dari 15 menit** akan tetap diberikan waktu mentoring 1 jam.
+  + Terlambat dalam waktu **15-30 menit** akan diberikan waktu mentoring sesuai jadwal. Contoh mentoring pukul 14:00-15:00, terlambat 30 menit, maka sisa waktu mentoring yaitu 30 menit.
+  + Terlambat **lebih dari 30 menit** dan tanpa konfirmasi akan dianggap telah menggunakan slot mentoring pada minggu tersebut.
+
+### Pelaksanaan Mentoring Online
+
+* Mentoring online akan dilaksanakan melalui platform GMeet.
+* Tim mentor akan memberikan undangan mentoring melalui google calendar yang telah berisi informasi detail mentoring.
+* Proses mentoring **hanya** bisa dilakukan pada jam kerja Senin-Jum'at pukul 10:00-18:00.
+* Mentoring yang diadakan secara offline dapat ditugaskan kepada mentor yang memiliki akses yang mudah untuk ke kantor.
+* Student yang berhalangan hadir dari jadwal mentoring yang telah ditetapkan **wajib** melakukan konfirmasi melalui email [mentor@algorit.ma](mentor@algorit.ma) **maksimal 6 jam** sebelum jadwal mentoring.
+* Batas toleransi keterlambatan mentoring sebagai berikut:
+
+  + Terlambat **kurang dari 15 menit** akan tetap diberikan waktu mentoring 1 jam.
+  + Terlambat dalam waktu **15-30 menit** akan diberikan waktu mentoring sesuai jadwal. Contoh mentoring pukul 14:00-15:00, terlambat 30 menit, maka sisa waktu mentoring yaitu 30 menit.
+  + Terlambat **lebih dari 30 menit** dan tanpa konfirmasi akan dianggap telah menggunakan slot mentoring pada minggu tersebut.
+
+* Sertakan template berikut saat memberikan jadwal mentoring online:
+
+> Apabila Anda tidak hadir sesi mentoring lebih dari 30 menit dari jadwal yang telah ditentukan dan tidak memberikan konfirmasi ketidakhadiran sebelum mentoring berlangsung, maka sesi mentoring tersebut dianggap sebagai satu sesi penuh, sehingga slot mentoring berkurang satu untuk minggu tersebut.
+
+## Slack Alumni
+
+* Selama periode tim piket, akan dibentuk PIC yang bertugas untuk menjadi moderator dalam channel `#r`/`#python` pada Slack Alumni.
+* PIC ditunjuk oleh lead tim piket selama periode tim piket (2 minggu).
+* PIC bertugas memberikan **update news** dibidang terkait yang bisa memantik untuk berdiskusi dengan alumni
+* PIC bertanggung jawab dalam **menjawab pertanyaan** yang ada di channel Slack Alumni.
+* Tim piket yang lain bertugas untuk ikut berpartisipasi dalam diskusi yang ada pada Slack Alumni.
+
+

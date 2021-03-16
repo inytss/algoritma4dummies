@@ -1,0 +1,214 @@
+# Academy for Dummies
+
+Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma Academy `r emo::ji("smile")`.
+
+## Persiapan Academy
+
+### Sebelum Kelas
+
+#### Kelas Offline
+
+* **TA** mengirimkan postingan yang berisi informasi kelas sesuai dengan template [berikut](https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit#) H-1 pada hari kerja sebelum kelas dimulai pada google classroom.
+* **TA** mengirimkan course material H-1 pada hari kerja sebelum kelas dimulai pada google classroom. Link drive material dapat diakses pada [link berikut](https://drive.google.com/drive/folders/1I1h0p4BkvkUYV8mtDU7bgswE_awOIxWY?usp=sharing).
+* **TA** mengirimkan informasi mengenai kelas hanya pada student yang terdapat pada kelas tersebut sesuai dengan informasi pada sheet [active student](https://docs.google.com/spreadsheets/d/12FB9410fhRhZp9jl5qLe7x-LGw0QTSfLujA-dE867JE/edit#gid=115188088).
+* **Instructor** melakukan *briefing* dengan *teaching team* yang bertugas.
+
+#### Kelas Online
+
+* **TA** mempersiapkan link zoom meeting, [Online Class Guide](https://docs.google.com/document/d/16algZSEqLos2fksPcbmpUrpvvuVr62msVY13M8uPNos/edit#), [Error Issues](https://docs.google.com/document/d/1ZkhuxSTBjUqzbHeLsRbk8E4L1FFymWH0UmaI3xaomkg/edit#), dan link absensi H-1 pada hari kerja sebelum kelas dimulai 
+* **TA** mengirimkan postingan yang berisi informasi kelas sesuai dengan template [berikut](https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit#) H-1 pada hari kerja sebelum kelas dimulai pada google classroom.
+* **TA** mengirimkan course material H-1 pada hari kerja sebelum kelas dimulai pada google classroom. Link drive material dapat diakses pada [link berikut](https://drive.google.com/drive/folders/1I1h0p4BkvkUYV8mtDU7bgswE_awOIxWY?usp=sharing)
+* **TA** mengirimkan informasi mengenai kelas hanya pada student yang terdapat pada kelas tersebut sesuai dengan informasi pada sheet [active student](https://docs.google.com/spreadsheets/d/12FB9410fhRhZp9jl5qLe7x-LGw0QTSfLujA-dE867JE/edit#gid=115188088)
+* **Instructor** melakukan *briefing* dengan *teaching team* yang bertugas.
+
+> Bagi yang bertugas online dan merasa membutuhkan kamera, mic, dan wacom dapat menghubungi operation. Selain itu yang merasa koneksi internet tidak stabil, dapat datang ke kantor agar kelas berjalan dengan baik.
+
+### Saat Kelas
+
+#### Kelas Offline
+
+* **TA** melakukan pengecekan papan tulis, spidol, dan *projector* dapat berjalan dengan baik.
+* **TA** mengadakan sesi QnA selama 30 menit sebelum kelas.
+* **TA** memastikan setiap student melakukan pengisian absensi.
+* **TA** memberikan sticky notes atau mengirimkan pesan melalui Slack/Zoom ketika ingin memberitahukan sesuatu kepada instructor.
+* **TA** menjadi time keeper bagi instructor yang bertugas.
+* Hari terakhir kelas, **TA** mengirimkan *assignment* quiz dan LBB pada google classroom.
+* Hari terakhir kelas, *teaching team* memberikan link feedback kepada student. 
+
+#### Kelas Online
+
+* Melakukan pengecekan koneksi internet, kamera, dan audio dapat berjalan dengan baik. 
+* **TA** mengadakan sesi QnA selama 30 menit sebelum kelas.
+* **TA** memastikan recording dimulai sejak sesi QnA 30 menit sebelum kelas hingga kelas berakhir.
+* **TA** mengirimkan link absensi kepada student.
+* Apabila student mengalami eror, maka TA mengarahkan student untuk mengirikan *screenshot* eror pada GDocs *Error Issues* yang sudah dipersiapkan.
+* Setiap diadakan dive deeper, maka *teaching team* diperkenankan mengarahkan student untuk mengirimkan hasil pengerjaan dive deepernya pada GDocs yang sudah disediakan.
+* Mengirimkan pesan melalui Slack/Zoom ketika ingin memberitahukan sesuatu kepada instructor.
+* **TA** diperkenankan untuk membantu menjawab pertanyaan dari student yang dirasa bersifat umum.
+* **TA** menjadi time keeper bagi instructor yang bertugas.
+* Hari terakhir kelas, **TA** mengirimkan *assignment* quiz dan LBB pada google classroom.
+* Hari terakhir kelas, *teaching team* memberikan link feedback kepada student. 
+
+### Setelah Kelas
+
+#### Kelas Offsite
+
+* Membersihkan papan tulis dan area kelas.
+* Mematikan AC dan lampu serta memastikan pintu telah dikunci.
+* **Instructor** mengirimkan inclass yang terlah digunakan **langsung** setelah kelas berakhir pada google classroom.
+* **TA** memasukkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).
+* Teaching team saling memberikan feedback dan input utnuk perbaikan kelas.
+
+#### Kelas Online
+
+* **TA** mengirimkan recording kelas dengan maksimal batas waktu sebagai berikut:
+
+  + Kelas Day: pukul 19:00 hari yang sama dengan workshop
+  + Kelas Night: pukul 10:00 WIB H+1 workshop
+
+* **Instructor** mengirimkan inclass yang terlah digunakan **langsung** setelah kelas berakhir pada google classroom.
+* Memberikan feedback dive deeper apabila ada.
+* **TA wajib** memasukkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).
+* Teaching team saling memberikan feedback dan input utnuk perbaikan kelas.
+
+> Dokumentasi fungsi untuk input nilai quiz dapat diakses menggunakan [package AlgortimaAcademy](https://github.com/Davidlimbong/AlgoritmaAcademy)
+
+## Quiz Guidelines
+### Rubrik dan Link Quiz
+
+* Setiap quiz memiliki **penilaian biner**, 0 dan nilai penuh.
+* Student yang tidak memenuhi batas minimal quiz akan diberikan nilai **0**.
+* Student yang memenuhi batas minimal quiz akan diberikan **nilai penuh.**
+
+Berikut ini link quiz pada [corgi.re](corgi.re):
+
+**Data Analytics Specialization**
+
+* [Python for Data Analytics (P4DA)](https://corgi.re/courses/ttnsy/quiz_PYW1) maksimal **nilai 6**
+* [Exploratory Data Analysis (EDA)](https://corgi.re/courses/ttnsy/quiz_PYW2) maksimal **nilai 6**
+* [Data Wrangling & Visualization (DWV)](https://corgi.re/courses/ttnsy/quiz_PYW3) maksimal **nilai 6**
+* [SQL Query](https://corgi.re/courses/ttnsy/quiz_PYW4) maksimal **nilai 6**
+
+**Data Visualization Specialization**
+
+* [Programming for Data Science - Practical Statistics (P4DS-PS)](https://corgi.re/courses/Davidlimbong/P4DS-PS)  maksimal **nilai 4**
+* [Data Visualization (DV)](https://corgi.re/courses/Argaadya/Data-visualization) maksimal **nilai 2**
+* [Interactive Plotting (IP)](https://corgi.re/courses/Davidlimbong/InteractivePlotting) maksimal **nilai 1**
+
+**Machine Learning Specialization**
+
+* [Programming for Data Science - Practical Statistics (P4DS-PS)](https://corgi.re/courses/Davidlimbong/P4DS-PS) maksimal **nilai 4**
+* [Regression Model (RM)](https://corgi.re/courses/ahmadhusain/regressionmodels) maksimal **nilai 4**
+* [Classification in Machine Learning I (C1)](https://corgi.re/courses/inytss/classification1) maksimal **nilai 4**
+* [Classification in Machine Learning II (C2)](https://corgi.re/courses/ysitta/classification2) maksimal **nilai 4**
+* [Unsupervised Learning (UL)](https://corgi.re/courses/Davidlimbong/UnsupervisedLearning) maksimal **nilai 4**
+* [Time Series and Forecasting (TS)](https://corgi.re/courses/inytss/time-series) maksimal **nilai 4**
+* [Neural Network (NN)](https://corgi.re/courses/ysitta/neural_Network) maksimal **nilai 4**
+
+### Aturan Quiz
+
+* *Assignment* quiz dikirimkan pada hari terakhir course melalui google classroom.
+* Quiz dilakukan pada hari terakhir setiap course yang dilakukan secara serentak.
+* Maksimal pengumpulan quiz setiap kelas sebagai berikut:
+
+  + Kelas Day: pukul 19:00 WIB pada hari yang sama quiz diadakan
+  + Kelas Night: pukul 09:00 WIB H+1 quiz diadakan
+
+* Student tidak diperkenankan untuk mengerjakan quiz diluar waktu yang ditentukan.
+
+### Quiz Susulan dan Perbaikan
+
+* Bagi student yang mengikuti kelas **Data Analytics Specialization** dapat melakukan perbaikan / susulan quiz dengan **maksimal 2 course** yang dapat dilakukan perbaikan / susulan.
+* Bagi student yang mengikuti kelas **Data Visualization dan Machine Learning Specialization** dapat melakukan perbaikan / susulan quiz dengan **maksimal 3 course** yang dapat dilakukan perbaikan / susulan dari total course yang ada baik dalam Data Visualization Specialization maupun Machine Learning Specialization.
+* Student yang bisa mengikuti quiz susulan adalah student yang berhalangan hadir saat quiz dilaksanakan dikelas.
+* Student yang bisa mengikuti quiz remedial adalah student yang tidak memenuhi nilai minimal quiz.
+* Soal untuk quiz susulan dan remedial sama seperti quiz pada umumnya.
+* Pelaksanaan quiz susulan dilakukan 3 hari setelah *briefing* Capstone Project dari setiap spesialisasi pada pukul 18.30 - 20:30 WIB.
+* Nilai quiz akan diperbaharui melalui google classroom dan [sheet score](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141) oleh PIC academy.
+
+## Learn by Building (LBB) Guidelines
+### Rubrik LBB
+
+Detail rubrik masing-masing LBB pada **Data Visualization Specialization** dan **Machine Learning Specialization** dapat dilihat pada link [berikut](https://rpubs.com/AlgoritmaAcademy/lbb)
+
+### Aturan LBB
+
+* Rubrik LBB dikirimkan pada hari terakhir course bersamaan pengiriman *assignment* quiz.
+* Student yang mengumpulkan LBB wajib menyertakan link publish LBB pada RPubs, Github, atau platform lainnya.
+* Deadline pengumpulan LBB bagi student yang ingin mengikuti *career support* Algoritma dibagi menjadi 3 fase dengan detail sebagai berikut:
+
+  + Fase 1: LBB P4DS, DV, dan IP maksimal dikumpulkan sebelum Capstone Project Data Visualization.
+  + Fase 2: LBB RM, C1, dan C2 maksimal dikumpulkan sebelum course TS dimulai.
+  + Fase 3: LBB UL, TS, dan NN maksimal dikumpulkan 1 minggu setelah deadline Casptone Project Machine Learning.
+
+* Student yang terlambat mengumpulkan LBB tidak mendapat pengurangan nilai kecuali LBB IP, keterlambatan akan dikenakan **pengurangan nilai 1 poin**.
+* Student yang mengumpulkan LBB akan diberikan feedback oleh tim mentor **maksimal 7 hari** setelah LBB dikumpulkan melalui google classroom.
+* Bagi student yang ingin mendapatkan career support **wajib** mengumpulkan LBB dengan detail banyaknya LBB yang harus dikumpulkan dapat dilihat pada **Chapter Data Career Day (DCD)**.
+
+## Casptone Guidelines
+
+### Rubrik Capstone
+
+* Detail rubtik Capstone Project DA dapat diakses pada:
+
+  + [Auto Generated Email Based Report](https://github.com/ttnsy/fire-capstone)
+  + [Named Entity Recognition Service (API)](https://github.com/iqbalbasyar/ner-flask)
+  + [Flask Dashboard User Interface (UI)](https://github.com/fafilia/capstone-UIFlask)
+  + [Web Scraping using `BeautifulSoup`](https://github.com/t3981-h/BeautifulSoup-Capstone)
+  
+* Detail rubrik Capstone Project DV dapat diakses pada [link berikut](https://rpubs.com/AlgoritmaAcademy/dv-capstone).
+* Detail rubrik Capstone Project ML dapat diakses pada [link berikut](https://rpubs.com/AlgoritmaAcademy/ml-capstone)
+
+### Link Referensi Capstone
+
+Berikut beberapa link referensi yang diperlukan saat Capstone Project:
+
+* **Capstone Data Analytics**
+
+  + [Postingan Classroom](https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit#heading=h.sdnb3cqdb3)
+  + [Video Guideline](http://bit.ly/capstone-da-video)
+  + [Capstone Data Analytics Guide](http://bit.ly/template-capstone-da-guide)
+
+  
+* **Capstone Data Visualization**
+
+  + [Postingan Classroom](https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit#heading=h.jioetifqgq8a)
+  
+* **Capstone Machine Learning**
+
+  + [Postingan Classroom](https://docs.google.com/document/d/1leWbp3Eb2AwumFieuHiWStSNOXsKJQJD_h0tAhA2fLs/edit#heading=h.kum7jj8wqp5o)
+  + [Video Guideline](http://bit.ly/capstone-ml-video)
+  + [Dataset untuk Machine Learning Capstone Project](https://bit.ly/captone-ml-dataset)
+  + [Machine Learning Capstone Project Leaderboard](https://algoritma.shinyapps.io/leaderboard_capsml/)
+  + [AlgoTech](https://algotech.netlify.com/tags/capstone-ml/)
+  
+### Aturan Capstone
+
+* Rubrik capstone akan dijelaskan secara serentak saat di kelas.
+* Selama di kelas, student akan diberikan capaian task yang harus dikerjakan dan dikumpulkan pada google classroom pada hari yang sama saat briefing capstone project.
+* Deadline pengerjaan capstone sebagai berikut:
+
+  + Capstone DA: 2 hari setelah pertemuan mentoring capstone, yaitu hari Senin.
+  + Capstone DV dan ML: 1 minggu setelah briefing capstone.
+
+* Keterlambatan dalam pengumpulan capstone akan mendapatkan pinalti sebagai berikut:
+
+    + Terlambat 1 hari: pengurangan 1 poin
+    + Terlambat 2 hari: pengurangan 3 poin
+    + Terlambat 3 hari: pengurangan 5 poin
+    + Terlambat 4 hari: pengurangan 7 poin
+    + Terlambat lebih dari 4 hari: pengurangan 9 poin
+    + Terlambat lebih dari 1 bulan tidak akan mendapatkan nilai capstone
+
+* Product team akan memberikan feedback **maksimal 2 hari** setelah student mengumpulkan capstone.
+* Student dapat memperbaiki capstone sebanyak **1 kali** dengan batas pengumpulan **1 minggu** setelah batas pengumpulan capstone.
+* Student yang dapat melakukan perbaikan harus memiliki nilai:
+  
+  + Capstone DA: dibawah 12 poin
+  + Capstone DV: dibawah 23 poin
+  + Capstone ML: dibawah 28 poin
+  
+* Nilai maksimal yang bisa didapatkan oleh student yang melakukan revisi adalah 80% dari total nilai. 
+* Pengumpulan revisi yang melebihi batas waktu (H+7 setelah batas pengumpulan capstone) **tetap akan diperiksa** namun nilai yang diambil adalah **nilai sebelum perbaikan**.
+* Setiap Capstone Project akan diberikan satu sesi untuk mentoring secara serentak melalui RSVP yang dikirimkan melalui google classroom.
+* **Student tidak diperkenankan** untuk meminta sesi mentoring melalui email [mentor@algorit.ma](mentor@algorit.ma).
