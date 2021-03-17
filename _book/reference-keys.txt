@@ -19,7 +19,7 @@ saat-kelas
 kelas-offline-1
 kelas-online-1
 setelah-kelas
-kelas-offsite
+kelas-offline-2
 kelas-online-2
 quiz-guidelines
 rubrik-dan-link-quiz
@@ -34,10 +34,10 @@ link-referensi-capstone
 aturan-capstone
 dos-dan-dont
 instructor
-kelas-offline-2
+kelas-offline-3
 kelas-online-3
 teaching-assistant-ta
-kelas-offline-3
+kelas-offline-4
 kelas-online-4
 data-career-day-dcd
 alur-data-career-day

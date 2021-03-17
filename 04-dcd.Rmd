@@ -27,10 +27,10 @@
 
 - Selama Registration
   
-1. Menyiapkan draft email registrasi DCD [link](https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit#heading=h.pwbvr5nj1ufg)
+1. Menyiapkan draft email registrasi DCD [link](https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit?usp=sharing)
 2. Mengirimkan email reminder penutupan regirtration DCD [link](https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit#heading=h.yhbqjuew20hg)
-3. Membuat Gsheet daftar calon peserta DCD (contoh [Gsheet](https://docs.google.com/spreadsheets/d/1P_dRfwtu_yTWtPr-RHKjIon_ZXVUdf2RtMXiWMqWrZk/edit#gid=2115785632))
-4. Melakukan briefing mengenai timeline dan workflow DCD kepada mentor Team (mentoring workflow [link](https://docs.google.com/presentation/d/1ogfiBuV0qUP1h7Dm6Q8rn_u2lRbTU45XpBEG02RPx-k/edit#slide=id.p3))
+3. Membuat Gsheet daftar calon peserta DCD (contoh [Gsheet](https://docs.google.com/spreadsheets/d/1P_dRfwtu_yTWtPr-RHKjIon_ZXVUdf2RtMXiWMqWrZk/edit?usp=sharing))
+4. Melakukan briefing mengenai timeline dan workflow DCD kepada mentor Team (mentoring workflow [link](https://docs.google.com/presentation/d/1ogfiBuV0qUP1h7Dm6Q8rn_u2lRbTU45XpBEG02RPx-k/edit?usp=sharing))
 
 
 - Setelah Registration

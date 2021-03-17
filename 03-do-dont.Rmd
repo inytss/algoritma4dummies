@@ -1,6 +1,6 @@
 # Do's dan Don't
 
-Setiap teaching team yang akan bertugas secara offline maupun online diharap mempelajari [*product internal brief*](https://docs.google.com/presentation/d/17f0z3x9RhJCjarY1yY3vWyW23kr-gSHHhTNdtd97BnM/edit#slide=id.g7daf391588_0_0) berikut.
+Setiap teaching team yang akan bertugas secara offline maupun online diharap mempelajari [*product internal brief*](https://docs.google.com/presentation/d/17f0z3x9RhJCjarY1yY3vWyW23kr-gSHHhTNdtd97BnM/edit?usp=sharing) berikut.
 
 ## Instructor
 
@@ -36,7 +36,7 @@ Setiap teaching team yang akan bertugas secara offline maupun online diharap mem
 
 **II. Don't**
 
-* Jangan mengadakan kelas di lokasi yang susah sinyal internet dan banyak noise.
+* Mengadakan kelas di lokasi yang susah sinyal internet dan banyak noise.
 
 ## Teaching Assistant (TA)
 
@@ -54,7 +54,7 @@ Setiap teaching team yang akan bertugas secara offline maupun online diharap mem
 * Berpenampilan rapi dan sopan.
 * Memimpin sesi 30 menit sebelum kelas dimulai untuk tanya jawab.
 * Meminta link feedback dan memastikan link tersebut dapat digunakan dengan baik.
-* Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada stduent.
+* Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada student.
 * Mengirimkan *assignment* quiz dan LBB pada google classroom.
 * Mengirimkan inclass material yang telah diperbaharui oleh instructor per harinya dan lecture notes (jika ada).
 * Memasukkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).
@@ -82,9 +82,10 @@ Setiap teaching team yang akan bertugas secara offline maupun online diharap mem
 * Berpenampilan rapi dan sopan.
 * Membantu student yang bertanya melalui chat zoom everyone maupun *private message*.
 * Menjaga timeline instructor agar sesuai yang direncanakan.
+* Memberikan *summary* singkat yang disampaikan mengenai materi yang disampaikan di kelas dan pengumuman mengenai kelas melalui fitur *chat*.
 * Memastikan meeting telah di record sejak sesi 30 menit sebelum kelas.
 * Meminta link feedback dan memastikan link tersebut dapat digunakan dengan baik.
-* Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada stduent.
+* Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada student.
 * Mengirimkan *assignment* quiz dan LBB pada google classroom.
 * Mengirimkan inclass material yang telah diperbaharui oleh instructor per harinya dan lecture notes (jika ada).
 * Memasukkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit#gid=1518964141).

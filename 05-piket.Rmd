@@ -17,10 +17,17 @@
 
 ## Feedback Learn by Building (LBB)
 
-* LBB yang telah masuk harus diberikan feedback paling lambat **7 hari** setelah LBB diterima.
+* LBB yang telah masuk harus diberikan feedback paling lambat **3 hari** setelah LBB diterima.
 * Tim piket yang sedang bertugas **wajib** mengaktifkan notifikasi google classroom di email.
 * Pengumpulan LBB batch yang telah lewat tetap diberikan feedback untuk keperluan Data Career Day (DCD).
 * Batch yang telah lewat yang diberikan feedback maksimal 1 batch sebelum batch yang sedang berjalan.
+
+## Feedback Capstone Project 
+
+* Capstone project yang telah masuk harus diberikan feedback paling lambat **2 hari** setelah capstone project diterima.
+* Tim piket yang melakukan koreksi dan pemberian feedback capstone project **wajib langsung memasukkan nilai** pada [sheet score](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing).
+* Tim piket yang melakukan koreksi dan pemberian feedback **wajib** menyertakan informasi batas waktu perbaikan capstone project kepada student dalam **waktu 1 minggu** terhitung sejak capstone project tersebut dikumpulkan (hari kerja dan hari libur).
+* Perbaikan capstone project yang dikumpulkan melewati batas waktu yang telah ditetapkan akan tetap diperiksa **tanpa ada pembaharuan nilai**. 
 
 ## Respon Mentoring
 

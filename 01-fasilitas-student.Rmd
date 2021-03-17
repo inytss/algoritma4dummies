@@ -27,7 +27,7 @@ Tanggal, Jam mentoring : ___________
 1. Setiap student yang mengalami kesulitan dalam proses belajar memiliki hak untuk bertanya diluar kelas baik secara langsung maupun melalui email.
 2. Pengajuan pertanyaan diluar kelas melalui email terpusat melalui email [mentor@algorit.ma](mentor@algorit.ma).
 3. Tidak diperkenankan bagi tim Sales memberikan nomor handphone kepada student.
-4. Pengajuan pertanyaan yang baik dan benar sesuai dengan dokumentasi berikut : [How to ask question](https://drive.google.com/file/d/1gWSTNF3wXK5Lbfssb-eT_A3gbnLvY_ez/view)[^1]
+4. Pengajuan pertanyaan yang baik dan benar sesuai dengan dokumentasi berikut : [How to ask question](https://drive.google.com/file/d/1gWSTNF3wXK5Lbfssb-eT_A3gbnLvY_ez/view?usp=sharing)[^1]
 
 ## Pengajuan Pindah Kelas
 

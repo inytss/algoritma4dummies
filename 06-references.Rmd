@@ -1,3 +1,5 @@
 `r if (knitr::is_html_output()) '
 # References {-}
 '`
+
+[^1]: [How to Ask Question to Mentor](https://drive.google.com/file/d/1gWSTNF3wXK5Lbfssb-eT_A3gbnLvY_ez/view?usp=sharing)
