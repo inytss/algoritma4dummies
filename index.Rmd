@@ -1,7 +1,7 @@
 --- 
 title: "Academy for Dummies"
 author: "Team Algoritma"
-date: "`r format(Sys.Date(), '%e %B, %Y)`"
+date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -12,7 +12,7 @@ description: "Academy for Dummies digunakan sebagai panduan setiap tim yang bert
 
 # Introduction
 
-Academy for Dummies (A4D) ditulis oleh tim Algoritma untuk panduan seluruh tim yang bertugas dan berhubungan dengan kegiatan dalam Algoritma Academy.
+**Academy for Dummies (A4D)** ditulis oleh tim Algoritma untuk panduan seluruh tim yang bertugas dan berhubungan dengan kegiatan dalam Algoritma Academy.
 
 **Algoritma** merupakan pelatihan *data science* yang berdomisili di Jakarta. Kami menyelenggarakan *workshop* dan program pelatihan untuk membantu para pekerja profesional dan siswa dalam menguasai berbagai sub bidang data, meliputi: visualisasi data, *machine learning*, *data modeling*, statistika, dan lain sebagainya.
 
