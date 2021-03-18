@@ -6,10 +6,11 @@
 
 ## Pre-Requisite Data Career Day
 
-1. *Self-Funding* pada Academy Reguler/Academy Full Stack
+1. *Self-Funding* pada Academy Reguler/Academy Full Stack/Beasiswa Full Stack
 2. Total score minimal 85%
-3. Mengerjakan 5 dari 9 Learn by Building
+3. Mengerjakan 5 dari 9 Learn by Building (LBB) (sudah termasuk LBB IP)
 4. Melakukan pendaftaran saat Registration Pace
+5. Mengumpulkan proposal project yang akan dikerjakan dalam bentuk link rpubs
 
 ### Registration
 
@@ -28,9 +29,9 @@
 - Selama Registration
   
 1. Menyiapkan draft email registrasi DCD [link](https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit?usp=sharing)
-2. Mengirimkan email reminder penutupan regirtration DCD [link](https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit#heading=h.yhbqjuew20hg)
+2. Mengirimkan email reminder penutupan registration DCD [link](https://docs.google.com/document/d/1EDYH3DnzUElPApt2pIBEh9HJV5d7K0OmmsTOs5BmcKI/edit#heading=h.yhbqjuew20hg)
 3. Membuat Gsheet daftar calon peserta DCD (contoh [Gsheet](https://docs.google.com/spreadsheets/d/1P_dRfwtu_yTWtPr-RHKjIon_ZXVUdf2RtMXiWMqWrZk/edit?usp=sharing))
-4. Melakukan briefing mengenai timeline dan workflow DCD kepada mentor Team (mentoring workflow [link](https://docs.google.com/presentation/d/1ogfiBuV0qUP1h7Dm6Q8rn_u2lRbTU45XpBEG02RPx-k/edit?usp=sharing))
+4. Melakukan briefing mengenai timeline dan workflow DCD kepada mentor Team (mentoring workflow [link](https://docs.google.com/presentation/d/1iERQj08tN_PHhIKs2RA37kH6IsQ5FzV3uALNC3SsEsk/edit?usp=sharing))
 
 
 - Setelah Registration

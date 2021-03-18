@@ -1,5 +1,21 @@
 `r if (knitr::is_html_output()) '
 # References {-}
+
+## Data Science Academy {-}
+
+- [Data Science Academy Pre-Class Reqirement Video](https://drive.google.com/drive/folders/1yykDYLjDbBhWDsSiSjrCAMmKtVQAv2Pf?usp=sharing)
+- [Data Science Academy: Handbook - Pre-Workshop Guidelines](https://drive.google.com/file/d/1QCmDcY8--hdrt6jY4qv5GUoYindZ7qRr/view?usp=sharing)
+- [Data Science Academy: Handbook - Pre-Class Requirement](https://drive.google.com/file/d/1oCnB2s3mOf5RSpb-dSbfS1_2oH3TCI9C/view?usp=sharing)
+- [Data Science Academy: Keras Installation](https://drive.google.com/file/d/1HwDup9evsp2O98rJAYCGs7jkULiIQZvX/view?usp=sharing)
+- [Data Science Academy: Using R in Kaggle](https://drive.google.com/file/d/1dltdbva5BJe0pYbBeQhtXw_a3v3FzY_k/view?usp=sharing)
+- [Data Science Academy Material](https://drive.google.com/drive/folders/1I1h0p4BkvkUYV8mtDU7bgswE_awOIxWY?usp=sharing)
+
+## Data Analytics {-}
+
+- [Data Analytics: Handbook - Pre-Workshop Guidelines](https://drive.google.com/file/d/1afBcb0hb9iUwt8baedPn33mYxbN4qGl9/view?usp=sharing)
+- [Data Analytics: Handbook - Pre-Class Requirement](https://drive.google.com/file/d/1j1SPrSEC4735CzDVmg6bvNRcYI9rVNVJ/view?usp=sharing)
+- [Data Analytics Material](https://gitlab.com/algoritma.py/dataanalysis) atau [Repository dataanalysis](https://github.com/onlyphantom/dataanalysis)
+
 '`
 
 [^1]: [How to Ask Question to Mentor](https://drive.google.com/file/d/1gWSTNF3wXK5Lbfssb-eT_A3gbnLvY_ez/view?usp=sharing)
