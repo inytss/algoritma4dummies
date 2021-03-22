@@ -51,9 +51,9 @@ Student yang memiliki kendala dalam mengikuti kelas sesuai jadwal yang telah dii
 1. Sertifikat diberikan kepada student yang mengikuti kelas Algoritma Academy baik dalam bentuk kelas per spesialisasi, Academy Reguler, maupun Academy Full Stack baik secara offline maupun online.
 2. Sertifikat yang diberikan terdapat tiga jenis sertifikat:
 
-* [sertifikat per course](https://drive.google.com/file/d/1r_nST2hqB02afh3cMV1EypkxDvGab6WV/view?usp=sharing)
-* [sertifikat specialization](https://drive.google.com/file/d/1m9CuUjAnWCspSyKGSmvmPc7eabCg_KWS/view?usp=sharing)
-* [rubrik dari seluruh course](https://drive.google.com/file/d/11joZCgOGWZqxQTAjVaOMNy9ct1U4h5-P/view?usp=sharing)
+* [sertifikat per course](https://drive.google.com/file/d/1TrBBxXDQkui3kyf-ZV6I_X5nIl3GVPWk/view?usp=sharing)
+* [sertifikat specialization](https://drive.google.com/file/d/1YKMvF6K_t-k412lpVTsfU7CQ2ElPbDiw/view?usp=sharing)
+* [rubrik dari seluruh course](https://drive.google.com/file/d/1iXF1Ui3pOd0Iz2krhH3U-5BTjSCdUQ5l/view?usp=sharing)
 
 
 ### Pemberian Sertifikat
