@@ -83,7 +83,7 @@ Setiap teaching team yang akan bertugas secara offline maupun online diharap mem
 * Membantu student yang bertanya melalui chat zoom everyone maupun *private message*.
 * Menjaga timeline instructor agar sesuai yang direncanakan.
 * Memberikan *summary* singkat yang disampaikan mengenai materi yang disampaikan di kelas dan pengumuman mengenai kelas melalui fitur *chat*.
-* Memastikan meeting telah di record sejak sesi 30 menit sebelum kelas.
+* Memastikan kelas telah di record sejak sesi 30 menit sebelum kelas.
 * Meminta link feedback dan memastikan link tersebut dapat digunakan dengan baik.
 * Melakukan pengecekan ulang setiap draft postingan google classroom yang akan dikirimkan kepada student.
 * Mengirimkan *assignment* quiz dan LBB pada google classroom.

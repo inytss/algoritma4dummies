@@ -28,7 +28,7 @@ quiz-susulan-dan-perbaikan
 learn-by-building-lbb-guidelines
 rubrik-lbb
 aturan-lbb
-casptone-guidelines
+capstone-guidelines
 rubrik-capstone
 link-referensi-capstone
 aturan-capstone

@@ -43,7 +43,7 @@
 * Protokol tim mentoring offline dapat diakses pada [link berikut](https://docs.google.com/document/d/1L6lA0MJoyhfeYlzFBf-TuuJ8SGhZE4Yc49_kXDWkkLw/edit?usp=sharing)
 * Proses mentoring **hanya** bisa dilakukan pada jam kerja Senin-Jum'at pukul 10:00-18:00.
 * Mentoring yang diadakan secara offline dapat ditugaskan kepada mentor yang memiliki akses yang mudah untuk ke kantor.
-* Student yang berhalangan hadir dari jadwal mentoring yang telah ditetapkan **wajib** melakukan konfirmasi melalui email [mentor@algorit.ma](mentor@algorit.ma) **maksimal 6 jam** sebelum jadwal mentoring.
+* Student yang berhalangan hadir dari jadwal mentoring yang telah ditetapkan **wajib** melakukan konfirmasi melalui email **mentor@algorit.ma** **maksimal 6 jam** sebelum jadwal mentoring.
 * Batas toleransi keterlambatan mentoring sebagai berikut:
 
   + Terlambat **kurang dari 15 menit** akan tetap diberikan waktu mentoring 1 jam.
@@ -56,7 +56,7 @@
 * Tim mentor akan memberikan undangan mentoring melalui google calendar yang telah berisi informasi detail mentoring.
 * Proses mentoring **hanya** bisa dilakukan pada jam kerja Senin-Jum'at pukul 10:00-18:00.
 * Mentoring yang diadakan secara offline dapat ditugaskan kepada mentor yang memiliki akses yang mudah untuk ke kantor.
-* Student yang berhalangan hadir dari jadwal mentoring yang telah ditetapkan **wajib** melakukan konfirmasi melalui email [mentor@algorit.ma](mentor@algorit.ma) **maksimal 6 jam** sebelum jadwal mentoring.
+* Student yang berhalangan hadir dari jadwal mentoring yang telah ditetapkan **wajib** melakukan konfirmasi melalui email **mentor@algorit.ma** **maksimal 6 jam** sebelum jadwal mentoring.
 * Batas toleransi keterlambatan mentoring sebagai berikut:
 
   + Terlambat **kurang dari 15 menit** akan tetap diberikan waktu mentoring 1 jam.
