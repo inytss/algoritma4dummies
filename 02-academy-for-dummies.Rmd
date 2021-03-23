@@ -7,6 +7,7 @@ Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma 
 ### Sebelum Kelas
 
 * Khusus saat academy akan berlangsung, **PIC academy** mengirimkan informasi pengenai pre-workshop handbook serta pre-class requirement yang dapat diakses link nya pada bagian [**Reference**](http://127.0.0.1:46600/rmd_output/0/references.html).
+* Bagi tim pengajar yang akan memberikan materi tambahan saat dikelas **wajib** melakukan **koordinasi** kepada **tim pengajar lain setiap kelas**.
 
 #### Kelas Offline
 
