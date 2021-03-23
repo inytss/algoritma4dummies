@@ -16,6 +16,16 @@
 - [Data Analytics: Handbook - Pre-Class Requirement](https://drive.google.com/file/d/1j1SPrSEC4735CzDVmg6bvNRcYI9rVNVJ/view?usp=sharing)
 - [Data Analytics Material](https://gitlab.com/algoritma.py/dataanalysis) atau [Repository dataanalysis](https://github.com/onlyphantom/dataanalysis)
 
+## Administrasi {-}
+
+- [Administration Deck](https://docs.google.com/presentation/d/1vHranz1_PvzWDKSaokax-ALu-lBVY2w8sjTQWuDpLTI/edit?usp=sharing)
+- [Schedule Workshop](https://docs.google.com/spreadsheets/d/1APwoLJ4lGGNnYhOfQ9AVF14f-aSmNDmAeA0PtMYwMIc/edit?usp=sharing)
+- [Academy Score Sheet](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing)
+- [Corporate Score Sheet](https://docs.google.com/spreadsheets/d/1vnSngtCLnDvCzBxls3A-vxVy2Pzp418ExNZTN37LeIU/edit?usp=sharing)
+- [Active Student Sheet](https://docs.google.com/spreadsheets/d/12FB9410fhRhZp9jl5qLe7x-LGw0QTSfLujA-dE867JE/edit?usp=sharing)
+- [Piket Report](https://docs.google.com/spreadsheets/d/1OMT9kAU_ceoku4M44VZWqiA1al9tKpJzpN6rfY5hLzY/edit?usp=sharing)
+- [Piket Dashboard](https://algodash.shinyapps.io/Piket_Dashboard/)
+
 '`
 
 [^1]: [How to Ask Question to Mentor](https://drive.google.com/file/d/1gWSTNF3wXK5Lbfssb-eT_A3gbnLvY_ez/view?usp=sharing)

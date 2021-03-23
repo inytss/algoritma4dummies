@@ -133,6 +133,7 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
 * Quiz dikerjakan melalui platform [corgi.re](https://corgi.re) dengan menggunakan akun Github dalam mengakses platform tersebut.
 * Student tidak diperkenankan **mengganti akun Github / username Github** yang telah digunakan saat pertama kali mengikuti quiz hingga course terakhir.
 * Student yang mengganti akun Github / username Github tanpa menginformasikan kepada tim mentor **tidak akan  dinilai**.
+* File `.Rmd` atau `.ipynb` dapat dikirimkan pada google classroom melalui *assignment* quiz bagi student yang merasa terdapat kekeliruan pengisian [corgi.re](https://corgi.re). 
 
 
 ### Quiz Susulan dan Perbaikan
@@ -143,7 +144,7 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
 * Student yang bisa mengikuti perbaikan quiz adalah student yang tidak memenuhi nilai minimal quiz.
 * Soal untuk quiz susulan dan perbaikan sama seperti quiz pada umumnya.
 * Pelaksanaan quiz susulan dilakukan 3 hari setelah *briefing* Capstone Project dari setiap spesialisasi pada pukul 18.30 - 20:30 WIB.
-* Nilai quiz akan diperbaharui melalui google classroom dan [sheet score](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing) oleh PIC academy.
+* Nilai quiz akan diperbaharui melalui google classroom dan [*sheet score*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing) oleh PIC academy.
 
 ## Learn by Building (LBB) Guidelines
 ### Rubrik LBB
@@ -223,7 +224,7 @@ Berikut beberapa link referensi yang diperlukan saat Capstone Project:
 
 * Product team akan melakukan koreksi dan memberikan feedback **maksimal 2 hari** setelah student mengumpulkan capstone.
 * Student dapat memperbaiki capstone sebanyak **1 kali** dengan batas pengumpulan **1 minggu** (hari kerja dan hari libur) sejak pemberian *feedback*.
-* Product team yang melakukan koreksi dan memberikan feedback **wajib langsung memasukkan nilai** capstone pada [sheet score](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing).
+* Product team yang melakukan koreksi dan memberikan feedback **wajib langsung memasukkan nilai** capstone pada [*sheet score*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing).
 * Student yang dapat melakukan perbaikan harus memiliki nilai:
   
   + Capstone DA: dibawah 12 poin
