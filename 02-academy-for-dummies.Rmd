@@ -127,7 +127,11 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
   + Kelas Day: pukul 19:00 WIB pada hari yang sama quiz diadakan
   + Kelas Night: pukul 09:00 WIB H+1 quiz diadakan
 
-* Student tidak diperkenankan untuk mengerjakan quiz diluar waktu yang ditentukan.
+* Student tidak diperkenankan untuk mengerjakan quiz diluar waktu yang ditentukan. Student yang mengerjakan quiz diluar waktu yang ditentukan **tidak akan diberikan nilai** atau akan diberikan nilai 0.
+* Quiz dikerjakan melalui platform [corgi.re](https://corgi.re) dengan menggunakan akun Github dalam mengakses platform tersebut.
+* Student tidak diperkenankan **mengganti akun Github / username Github** yang telah digunakan saat pertama kali mengikuti quiz hingga course terakhir.
+* Student yang mengganti akun Github / username Github tanpa menginformasikan kepada tim mentor **tidak akan diberikan nilai** dan akan langsung diberikan nilai 0.
+
 
 ### Quiz Susulan dan Perbaikan
 
@@ -216,12 +220,12 @@ Berikut beberapa link referensi yang diperlukan saat Capstone Project:
 > Notes: Pinalti diatas dihitung berdasarkan hari kerja
 
 * Product team akan melakukan koreksi dan memberikan feedback **maksimal 2 hari** setelah student mengumpulkan capstone.
-* Student dapat memperbaiki capstone sebanyak **1 kali** dengan batas pengumpulan **1 minggu** setelah batas pengumpulan capstone.
+* Student dapat memperbaiki capstone sebanyak **1 kali** dengan batas pengumpulan **1 minggu** (hari kerja dan hari libur) sejak pemberian *feedback*.
 * Product team yang melakukan koreksi dan memberikan feedback **wajib langsung memasukkan nilai** capstone pada [sheet score](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing).
 * Student yang dapat melakukan perbaikan harus memiliki nilai:
   
   + Capstone DA: dibawah 12 poin
-  + Capstone DV: dibawah 23 poin
+  + Capstone DV: dibawah 24 poin
   + Capstone ML: dibawah 28 poin
   
 * Nilai maksimal yang bisa didapatkan oleh student yang melakukan revisi adalah 80% dari total nilai. 
