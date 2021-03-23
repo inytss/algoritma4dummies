@@ -1,5 +1,5 @@
 bookdown::gitbook:
-  css: style.css
+  css: [assets/book.css, 'https://use.fontawesome.com/releases/v5.3.1/css/all.css']
   config:
     toc:
       before: |

@@ -6,7 +6,7 @@ Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma 
 
 ### Sebelum Kelas
 
-* Khusus saat academy akan berlangsung, **PIC academy** mengirimkan informasi pengenai pre-workshop handbook serta pre-class requirement yang dapat diakses link nya pada bagian [**Reference**](http://127.0.0.1:46600/rmd_output/0/references.html).
+* Khusus saat academy akan berlangsung, **PIC academy** mengirimkan informasi pengenai pre-workshop handbook serta pre-class requirement yang dapat diakses link nya pada bagian [**References**](https://algoritma4dummies.netlify.app/references.html).
 * Bagi tim pengajar yang akan memberikan materi tambahan saat dikelas **wajib** melakukan **koordinasi** kepada **tim pengajar lain setiap kelas**.
 
 #### Kelas Offline
@@ -88,7 +88,7 @@ Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma 
 Berikut ini link quiz pada [corgi.re](corgi.re):
 
 
-<center> **Data Analytics Specialization** </center>
+**Data Analytics Specialization**
 
 |                                     **Link**                                     | **Maksimal Nilai** |
 |:--------------------------------------------------------------------------------:|:------------------:|
@@ -98,7 +98,7 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
 |               [SQL Query](https://corgi.re/courses/ttnsy/quiz_PYW4)              |          6         |
 
 
-<center> **Data Visualization Specialization** </center>
+**Data Visualization Specialization**
 
 |                                     **Link**                                     | **Maksimal Nilai** |
 |:--------------------------------------------------------------------------------:|:------------------:|
@@ -108,7 +108,7 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
 
 
 
-<center> **Machine Learning Specialization** </center>
+**Machine Learning Specialization**
 
 |                                                    **Link**                                                    | **Maksimal Nilai** |
 |:--------------------------------------------------------------------------------------------------------------:|:------------------:|
@@ -163,7 +163,7 @@ Detail rubrik masing-masing LBB pada **Data Visualization Specialization** dan *
 
 * Student yang terlambat mengumpulkan LBB tidak mendapat pengurangan nilai kecuali LBB IP, keterlambatan akan dikenakan **pengurangan nilai 1 poin**.
 * Student yang mengumpulkan LBB akan diberikan feedback oleh tim mentor **maksimal 3 hari** setelah LBB dikumpulkan melalui google classroom.
-* Bagi student yang ingin mendapatkan career support **wajib** mengumpulkan LBB dengan detail banyaknya LBB yang harus dikumpulkan dapat dilihat pada [**Chapter 5 Data Career Day (DCD)**](http://127.0.0.1:46600/rmd_output/0/data-career-day-dcd.html#pre-requisite-data-career-day).
+* Bagi student yang ingin mendapatkan career support **wajib** mengumpulkan LBB dengan detail banyaknya LBB yang harus dikumpulkan dapat dilihat pada [**Chapter 5 Data Career Day (DCD)**](https://algoritma4dummies.netlify.app/data-career-day-dcd.html#the-day-dcd).
 
 ## Capstone Guidelines
 
