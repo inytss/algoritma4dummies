@@ -106,7 +106,8 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
 | [Interactive Plotting (IP)](https://corgi.re/courses/Davidlimbong/InteractivePlotting) |          1         |
 
 
-**Machine Learning Specialization**
+
+<center> **Machine Learning Specialization** </center>
 
 |                                                    **Link**                                                    | **Maksimal Nilai** |
 |:--------------------------------------------------------------------------------------------------------------:|:------------------:|
