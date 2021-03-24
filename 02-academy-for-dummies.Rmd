@@ -24,7 +24,7 @@ Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma 
 * **TA** mengirimkan course material H-1 pada hari kerja sebelum kelas dimulai pada google classroom. Link drive material dapat diakses pada [link berikut](https://drive.google.com/drive/folders/1I1h0p4BkvkUYV8mtDU7bgswE_awOIxWY?usp=sharing)
 * **TA** mengirimkan informasi mengenai kelas hanya pada student yang terdapat pada kelas tersebut sesuai dengan informasi pada sheet [active student](https://docs.google.com/spreadsheets/d/12FB9410fhRhZp9jl5qLe7x-LGw0QTSfLujA-dE867JE/edit?usp=sharing)
 * **Instructor** melakukan *briefing* dengan *teaching team* yang bertugas.
-* * **TA wajib** memastikan data dan link dapat diakses oleh student yang mengikuti course dengan memeriksa *sharing setting* dari file.
+* **TA wajib** memastikan data dan link dapat diakses oleh student yang mengikuti course dengan memeriksa *sharing setting* dari file.
 
 > Bagi yang bertugas online dan merasa membutuhkan kamera, mic, dan wacom dapat menghubungi operation. Selain itu yang merasa koneksi internet tidak stabil, dapat datang ke kantor agar kelas berjalan dengan baik.
 
