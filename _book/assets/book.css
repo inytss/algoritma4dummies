@@ -265,7 +265,7 @@ i {
   font-size: 80% ;
   margin: auto;
   font-weight: 500;
-  max-width: 75%;
+  /*max-width: 75%; */
   border-width: 10px;
   border-color: #bfbfbf;
   box-shadow: 10px 10px 5px #EBEBEB; /*#888888*/
@@ -302,8 +302,14 @@ h1, h2, h3, h4, h5 {
 
 .book .book-body .page-wrapper .page-inner section.normal dl,
 .book .book-body .page-wrapper .page-inner section.normal ol,
-.book .book-body .page-wrapper .page-inner section.normal p,
 .book .book-body .page-wrapper .page-inner section.normal ul {
+    margin-top: 0;
+    margin-bottom: .85em;
+    text-align: justify;
+    width: 60%;                 /*fiddle with this relative to marginnote; div.sourceCode should be the same*/
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p{
     margin-top: 0;
     margin-bottom: .85em;
     text-align: justify;

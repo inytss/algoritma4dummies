@@ -68,10 +68,8 @@ Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma 
 #### Kelas Online
 
 * **TA** mengirimkan recording kelas dengan maksimal batas waktu sebagai berikut:
-
   + Kelas Day: pukul 19:00 hari yang sama dengan workshop
   + Kelas Night: pukul 14:00 WIB H+1 workshop
-
 * **Instructor** mengirimkan inclass yang terlah digunakan **langsung** setelah kelas berakhir pada google classroom.
 * **TA wajib** memasukkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing) **maksimal H+1 setelah deadline pengumpulan quiz**.
 * Teaching team saling memberikan feedback dan input untuk perbaikan kelas.
@@ -125,7 +123,6 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
 * *Assignment* quiz dikirimkan pada hari terakhir course melalui google classroom.
 * Quiz dilakukan pada hari terakhir setiap course yang dilakukan secara serentak.
 * Maksimal pengumpulan quiz setiap kelas sebagai berikut:
-
   + Kelas Day: pukul 19:00 WIB pada hari yang sama quiz diadakan
   + Kelas Night: pukul 09:00 WIB H+1 quiz diadakan
 
@@ -156,7 +153,6 @@ Detail rubrik masing-masing LBB pada **Data Visualization Specialization** dan *
 * Rubrik LBB dikirimkan pada hari terakhir course bersamaan pengiriman *assignment* quiz.
 * Student yang mengumpulkan LBB wajib menyertakan link publish LBB pada RPubs, Github, atau platform lainnya.
 * Deadline pengumpulan LBB bagi student yang ingin mengikuti *career support* Algoritma dibagi menjadi 3 fase dengan detail sebagai berikut:
-
   + Fase 1: LBB P4DS, DV, dan IP maksimal dikumpulkan sebelum Capstone Project Data Visualization.
   + Fase 2: LBB RM, C1, dan C2 maksimal dikumpulkan sebelum course TS dimulai.
   + Fase 3: LBB UL, TS, dan NN maksimal dikumpulkan 1 minggu setelah deadline Casptone Project Machine Learning.
@@ -170,7 +166,6 @@ Detail rubrik masing-masing LBB pada **Data Visualization Specialization** dan *
 ### Rubrik Capstone
 
 * Detail rubtik Capstone Project DA dapat diakses pada:
-
   + [Auto Generated Email Based Report](https://github.com/ttnsy/fire-capstone)
   + [Named Entity Recognition Service (API)](https://github.com/iqbalbasyar/ner-flask)
   + [Flask Dashboard User Interface (UI)](https://github.com/fafilia/capstone-UIFlask)
@@ -207,12 +202,10 @@ Berikut beberapa link referensi yang diperlukan saat Capstone Project:
 * Rubrik capstone akan dijelaskan secara serentak saat di kelas.
 * Selama di kelas, student akan diberikan capaian task yang harus dikerjakan dan dikumpulkan pada google classroom pada hari yang sama saat briefing capstone project.
 * Deadline pengerjaan capstone sebagai berikut:
-
   + Capstone DA: 2 hari setelah pertemuan mentoring capstone, yaitu hari Senin.
   + Capstone DV dan ML: 1 minggu setelah briefing capstone.
 
 * Keterlambatan dalam pengumpulan capstone akan mendapatkan pinalti sebagai berikut:
-
     + Terlambat 1 hari: pengurangan 1 poin
     + Terlambat 2 hari: pengurangan 3 poin
     + Terlambat 3 hari: pengurangan 5 poin
@@ -226,7 +219,6 @@ Berikut beberapa link referensi yang diperlukan saat Capstone Project:
 * Student dapat memperbaiki capstone sebanyak **1 kali** dengan batas pengumpulan **1 minggu** (hari kerja dan hari libur) sejak pemberian *feedback*.
 * Product team yang melakukan koreksi dan memberikan feedback **wajib langsung memasukkan nilai** capstone pada [*sheet score*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing).
 * Student yang dapat melakukan perbaikan harus memiliki nilai:
-  
   + Capstone DA: dibawah 12 poin
   + Capstone DV: dibawah 24 poin
   + Capstone ML: dibawah 28 poin
