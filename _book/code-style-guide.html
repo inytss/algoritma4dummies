@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 7 Code Style Guide | Academy for Dummies</title>
+  <meta name="description" content="Chapter 7 Code Style Guide | Academy for Dummies digunakan sebagai panduan setiap tim yang bertugas pada Algoritma Academy." />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 7 Code Style Guide | Academy for Dummies" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Chapter 7 Code Style Guide | Academy for Dummies digunakan sebagai panduan setiap tim yang bertugas pada Algoritma Academy." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 7 Code Style Guide | Academy for Dummies" />
+  
+  <meta name="twitter:description" content="Chapter 7 Code Style Guide | Academy for Dummies digunakan sebagai panduan setiap tim yang bertugas pada Algoritma Academy." />
+  
+
+<meta name="author" content="Team Algoritma" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="piket-guideline.html"/>
+<link rel="next" href="references.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="assets/book.css" type="text/css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Academy for Dummies</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="fasilitas-student.html"><a href="fasilitas-student.html"><i class="fa fa-check"></i><b>2</b> Fasilitas Student</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="fasilitas-student.html"><a href="fasilitas-student.html#pengajuan-mentoring"><i class="fa fa-check"></i><b>2.1</b> Pengajuan Mentoring</a></li>
+<li class="chapter" data-level="2.2" data-path="fasilitas-student.html"><a href="fasilitas-student.html#pengajuan-pertanyaan"><i class="fa fa-check"></i><b>2.2</b> Pengajuan Pertanyaan</a></li>
+<li class="chapter" data-level="2.3" data-path="fasilitas-student.html"><a href="fasilitas-student.html#pengajuan-pindah-kelas"><i class="fa fa-check"></i><b>2.3</b> Pengajuan Pindah Kelas</a></li>
+<li class="chapter" data-level="2.4" data-path="fasilitas-student.html"><a href="fasilitas-student.html#sertifikat"><i class="fa fa-check"></i><b>2.4</b> Sertifikat</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="fasilitas-student.html"><a href="fasilitas-student.html#jenis-sertifikat"><i class="fa fa-check"></i><b>2.4.1</b> Jenis Sertifikat</a></li>
+<li class="chapter" data-level="2.4.2" data-path="fasilitas-student.html"><a href="fasilitas-student.html#pemberian-sertifikat"><i class="fa fa-check"></i><b>2.4.2</b> Pemberian Sertifikat</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="fasilitas-student.html"><a href="fasilitas-student.html#letter-of-recommendation-lor"><i class="fa fa-check"></i><b>2.5</b> Letter of Recommendation (LoR)</a></li>
+<li class="chapter" data-level="2.6" data-path="fasilitas-student.html"><a href="fasilitas-student.html#fasilitas-setelah-kelas"><i class="fa fa-check"></i><b>2.6</b> Fasilitas Setelah Kelas</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="fasilitas-student.html"><a href="fasilitas-student.html#academy-offline-full-stack-reguler"><i class="fa fa-check"></i><b>2.6.1</b> Academy Offline Full Stack / Reguler</a></li>
+<li class="chapter" data-level="2.6.2" data-path="fasilitas-student.html"><a href="fasilitas-student.html#academy-online-full-stack-reguler"><i class="fa fa-check"></i><b>2.6.2</b> Academy Online Full Stack / Reguler</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html"><i class="fa fa-check"></i><b>3</b> Academy for Dummies</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#persiapan-academy"><i class="fa fa-check"></i><b>3.1</b> Persiapan Academy</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#sebelum-kelas"><i class="fa fa-check"></i><b>3.1.1</b> Sebelum Kelas</a></li>
+<li class="chapter" data-level="3.1.2" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#saat-kelas"><i class="fa fa-check"></i><b>3.1.2</b> Saat Kelas</a></li>
+<li class="chapter" data-level="3.1.3" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#setelah-kelas"><i class="fa fa-check"></i><b>3.1.3</b> Setelah Kelas</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#quiz-guidelines"><i class="fa fa-check"></i><b>3.2</b> Quiz Guidelines</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#rubrik-dan-link-quiz"><i class="fa fa-check"></i><b>3.2.1</b> Rubrik dan Link Quiz</a></li>
+<li class="chapter" data-level="3.2.2" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#aturan-quiz"><i class="fa fa-check"></i><b>3.2.2</b> Aturan Quiz</a></li>
+<li class="chapter" data-level="3.2.3" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#quiz-susulan-dan-perbaikan"><i class="fa fa-check"></i><b>3.2.3</b> Quiz Susulan dan Perbaikan</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#learn-by-building-lbb-guidelines"><i class="fa fa-check"></i><b>3.3</b> Learn by Building (LBB) Guidelines</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#rubrik-lbb"><i class="fa fa-check"></i><b>3.3.1</b> Rubrik LBB</a></li>
+<li class="chapter" data-level="3.3.2" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#aturan-lbb"><i class="fa fa-check"></i><b>3.3.2</b> Aturan LBB</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#capstone-guidelines"><i class="fa fa-check"></i><b>3.4</b> Capstone Guidelines</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#rubrik-capstone"><i class="fa fa-check"></i><b>3.4.1</b> Rubrik Capstone</a></li>
+<li class="chapter" data-level="3.4.2" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#link-referensi-capstone"><i class="fa fa-check"></i><b>3.4.2</b> Link Referensi Capstone</a></li>
+<li class="chapter" data-level="3.4.3" data-path="academy-for-dummies.html"><a href="academy-for-dummies.html#aturan-capstone"><i class="fa fa-check"></i><b>3.4.3</b> Aturan Capstone</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="dos-dan-dont.html"><a href="dos-dan-dont.html"><i class="fa fa-check"></i><b>4</b> Do’s dan Don’t</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="dos-dan-dont.html"><a href="dos-dan-dont.html#instructor"><i class="fa fa-check"></i><b>4.1</b> Instructor</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="dos-dan-dont.html"><a href="dos-dan-dont.html#kelas-offline-3"><i class="fa fa-check"></i><b>4.1.1</b> Kelas Offline</a></li>
+<li class="chapter" data-level="4.1.2" data-path="dos-dan-dont.html"><a href="dos-dan-dont.html#kelas-online-3"><i class="fa fa-check"></i><b>4.1.2</b> Kelas Online</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="dos-dan-dont.html"><a href="dos-dan-dont.html#teaching-assistant-ta"><i class="fa fa-check"></i><b>4.2</b> Teaching Assistant (TA)</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="dos-dan-dont.html"><a href="dos-dan-dont.html#kelas-offline-4"><i class="fa fa-check"></i><b>4.2.1</b> Kelas Offline</a></li>
+<li class="chapter" data-level="4.2.2" data-path="dos-dan-dont.html"><a href="dos-dan-dont.html#kelas-online-4"><i class="fa fa-check"></i><b>4.2.2</b> Kelas Online</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-career-day-dcd.html"><a href="data-career-day-dcd.html"><i class="fa fa-check"></i><b>5</b> Data Career Day (DCD)</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data-career-day-dcd.html"><a href="data-career-day-dcd.html#alur-data-career-day"><i class="fa fa-check"></i><b>5.1</b> Alur Data Career Day</a></li>
+<li class="chapter" data-level="5.2" data-path="data-career-day-dcd.html"><a href="data-career-day-dcd.html#pre-requisite-data-career-day"><i class="fa fa-check"></i><b>5.2</b> Pre-Requisite Data Career Day</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="data-career-day-dcd.html"><a href="data-career-day-dcd.html#registration"><i class="fa fa-check"></i><b>5.2.1</b> Registration</a></li>
+<li class="chapter" data-level="5.2.2" data-path="data-career-day-dcd.html"><a href="data-career-day-dcd.html#business-mentor-phase"><i class="fa fa-check"></i><b>5.2.2</b> Business Mentor Phase</a></li>
+<li class="chapter" data-level="5.2.3" data-path="data-career-day-dcd.html"><a href="data-career-day-dcd.html#technical-chaperone-phase"><i class="fa fa-check"></i><b>5.2.3</b> Technical Chaperone Phase</a></li>
+<li class="chapter" data-level="5.2.4" data-path="data-career-day-dcd.html"><a href="data-career-day-dcd.html#coaching-phase"><i class="fa fa-check"></i><b>5.2.4</b> Coaching Phase</a></li>
+<li class="chapter" data-level="5.2.5" data-path="data-career-day-dcd.html"><a href="data-career-day-dcd.html#the-day-dcd"><i class="fa fa-check"></i><b>5.2.5</b> The Day DCD</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="piket-guideline.html"><a href="piket-guideline.html"><i class="fa fa-check"></i><b>6</b> Piket Guideline</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="piket-guideline.html"><a href="piket-guideline.html#tugas-lead-piket"><i class="fa fa-check"></i><b>6.1</b> Tugas Lead Piket</a></li>
+<li class="chapter" data-level="6.2" data-path="piket-guideline.html"><a href="piket-guideline.html#respon-freshdesk"><i class="fa fa-check"></i><b>6.2</b> Respon Freshdesk</a></li>
+<li class="chapter" data-level="6.3" data-path="piket-guideline.html"><a href="piket-guideline.html#feedback-learn-by-building-lbb"><i class="fa fa-check"></i><b>6.3</b> Feedback Learn by Building (LBB)</a></li>
+<li class="chapter" data-level="6.4" data-path="piket-guideline.html"><a href="piket-guideline.html#feedback-capstone-project"><i class="fa fa-check"></i><b>6.4</b> Feedback Capstone Project</a></li>
+<li class="chapter" data-level="6.5" data-path="piket-guideline.html"><a href="piket-guideline.html#respon-mentoring"><i class="fa fa-check"></i><b>6.5</b> Respon Mentoring</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="piket-guideline.html"><a href="piket-guideline.html#pelaksanaan-mentoring-offline"><i class="fa fa-check"></i><b>6.5.1</b> Pelaksanaan Mentoring Offline</a></li>
+<li class="chapter" data-level="6.5.2" data-path="piket-guideline.html"><a href="piket-guideline.html#pelaksanaan-mentoring-online"><i class="fa fa-check"></i><b>6.5.2</b> Pelaksanaan Mentoring Online</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="piket-guideline.html"><a href="piket-guideline.html#slack-alumni"><i class="fa fa-check"></i><b>6.6</b> Slack Alumni</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="code-style-guide.html"><a href="code-style-guide.html"><i class="fa fa-check"></i><b>7</b> Code Style Guide</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="code-style-guide.html"><a href="code-style-guide.html#python-code-style-guide"><i class="fa fa-check"></i><b>7.1</b> Python Code Style Guide</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="code-style-guide.html"><a href="code-style-guide.html#code-layout"><i class="fa fa-check"></i><b>7.1.1</b> Code Layout</a></li>
+<li class="chapter" data-level="7.1.2" data-path="code-style-guide.html"><a href="code-style-guide.html#comments"><i class="fa fa-check"></i><b>7.1.2</b> Comments</a></li>
+<li class="chapter" data-level="7.1.3" data-path="code-style-guide.html"><a href="code-style-guide.html#naming-styles"><i class="fa fa-check"></i><b>7.1.3</b> Naming Styles</a></li>
+<li class="chapter" data-level="7.1.4" data-path="code-style-guide.html"><a href="code-style-guide.html#imports"><i class="fa fa-check"></i><b>7.1.4</b> Imports</a></li>
+<li class="chapter" data-level="7.1.5" data-path="code-style-guide.html"><a href="code-style-guide.html#string-quotes"><i class="fa fa-check"></i><b>7.1.5</b> String Quotes</a></li>
+<li class="chapter" data-level="7.1.6" data-path="code-style-guide.html"><a href="code-style-guide.html#whitespaces"><i class="fa fa-check"></i><b>7.1.6</b> Whitespaces</a></li>
+<li class="chapter" data-level="7.1.7" data-path="code-style-guide.html"><a href="code-style-guide.html#other-recomendations"><i class="fa fa-check"></i><b>7.1.7</b> Other Recomendations</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a>
+<ul>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html#data-science-academy"><i class="fa fa-check"></i>Data Science Academy</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html#data-analytics"><i class="fa fa-check"></i>Data Analytics</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html#administrasi"><i class="fa fa-check"></i>Administrasi</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Academy for Dummies</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="code-style-guide" class="section level1" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Code Style Guide</h1>
+<div id="python-code-style-guide" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Python Code Style Guide</h2>
+<p>This document is derived from python <a href="https://www.python.org/dev/peps/pep-0008/">pep-8</a> and <a href="https://google.github.io/styleguide/pyguide.html">google code style guide</a> and was meant to be used as Algoritma’s code standard for python.</p>
+<div id="code-layout" class="section level3" number="7.1.1">
+<h3><span class="header-section-number">7.1.1</span> Code Layout</h3>
+<div id="indentation" class="section level4" number="7.1.1.1">
+<h4><span class="header-section-number">7.1.1.1</span> Indentation</h4>
+<p>Use 4 space as indentation. If you have custom code editor, please make sure to set it correctly to prevent indentation inconcistencies. This rule is optional for continuation lines case.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="code-style-guide.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correct </span></span>
+<span id="cb2-2"><a href="code-style-guide.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> x <span class="op">=</span> <span class="va">None</span>: </span>
+<span id="cb2-3"><a href="code-style-guide.html#cb2-3" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="dv">1</span> <span class="co"># Use 4 space as indentation</span></span>
+<span id="cb2-4"><a href="code-style-guide.html#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="code-style-guide.html#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Wrong </span></span>
+<span id="cb2-6"><a href="code-style-guide.html#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> x <span class="op">=</span> <span class="va">None</span>:</span>
+<span id="cb2-7"><a href="code-style-guide.html#cb2-7" aria-hidden="true" tabindex="-1"></a>  x<span class="op">=</span><span class="dv">1</span> <span class="co"># Use only 2 space as indentation</span></span>
+<span id="cb2-8"><a href="code-style-guide.html#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="code-style-guide.html#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Continuation lines case </span></span>
+<span id="cb2-10"><a href="code-style-guide.html#cb2-10" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;folder1/folder2/folder3/folder4/such_a_long\</span></span>
+<span id="cb2-11"><a href="code-style-guide.html#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="st">                 _ffoldernname/file.csv&#39;</span>)</span></code></pre></div>
+</div>
+<div id="blank-lines" class="section level4" number="7.1.1.2">
+<h4><span class="header-section-number">7.1.1.2</span> Blank Lines</h4>
+<p>Surround top-level function and class definitions with two blank lines.</p>
+<p>Method definitions inside a class are surrounded by a single blank line.</p>
+<p>Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners (e.g. a set of dummy implementations).</p>
+<p>Use blank lines in functions, sparingly, to indicate logical sections.
+In jupyter notebook, you can use new cell in exchange for 2 Blank lines</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="code-style-guide.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb3-2"><a href="code-style-guide.html#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> glob</span>
+<span id="cb3-3"><a href="code-style-guide.html#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sys</span>
+<span id="cb3-4"><a href="code-style-guide.html#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-5"><a href="code-style-guide.html#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb3-6"><a href="code-style-guide.html#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scrapy</span>
+<span id="cb3-7"><a href="code-style-guide.html#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-8"><a href="code-style-guide.html#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> flask <span class="im">import</span> Flask</span>
+<span id="cb3-9"><a href="code-style-guide.html#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> my_local_module <span class="im">import</span> MyClass</span>
+<span id="cb3-10"><a href="code-style-guide.html#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-11"><a href="code-style-guide.html#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-12"><a href="code-style-guide.html#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> top_level_function1():</span>
+<span id="cb3-13"><a href="code-style-guide.html#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span>
+<span id="cb3-14"><a href="code-style-guide.html#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-15"><a href="code-style-guide.html#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-16"><a href="code-style-guide.html#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> top_level_function2():</span>
+<span id="cb3-17"><a href="code-style-guide.html#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span>
+<span id="cb3-18"><a href="code-style-guide.html#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-19"><a href="code-style-guide.html#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-20"><a href="code-style-guide.html#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> TestClass(<span class="bu">object</span>):</span>
+<span id="cb3-21"><a href="code-style-guide.html#cb3-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Blank line</span></span>
+<span id="cb3-22"><a href="code-style-guide.html#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> class_method1():</span>
+<span id="cb3-23"><a href="code-style-guide.html#cb3-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">pass</span></span>
+<span id="cb3-24"><a href="code-style-guide.html#cb3-24" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Blank line</span></span>
+<span id="cb3-25"><a href="code-style-guide.html#cb3-25" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> class_method2():</span>
+<span id="cb3-26"><a href="code-style-guide.html#cb3-26" aria-hidden="true" tabindex="-1"></a>        <span class="cf">pass</span></span>
+<span id="cb3-27"><a href="code-style-guide.html#cb3-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-28"><a href="code-style-guide.html#cb3-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Blank line</span></span>
+<span id="cb3-29"><a href="code-style-guide.html#cb3-29" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> TestClass2(<span class="bu">object</span>):</span>
+<span id="cb3-30"><a href="code-style-guide.html#cb3-30" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Blank line</span></span>
+<span id="cb3-31"><a href="code-style-guide.html#cb3-31" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> class2_method1():</span>
+<span id="cb3-32"><a href="code-style-guide.html#cb3-32" aria-hidden="true" tabindex="-1"></a>        <span class="cf">pass</span></span>
+<span id="cb3-33"><a href="code-style-guide.html#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Blank line    </span></span>
+<span id="cb3-34"><a href="code-style-guide.html#cb3-34" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> class2_method2():</span>
+<span id="cb3-35"><a href="code-style-guide.html#cb3-35" aria-hidden="true" tabindex="-1"></a>        <span class="cf">pass</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="code-style-guide.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># New logical cell </span></span>
+<span id="cb4-2"><a href="code-style-guide.html#cb4-2" aria-hidden="true" tabindex="-1"></a>new_object <span class="op">=</span> MyClass()</span>
+<span id="cb4-3"><a href="code-style-guide.html#cb4-3" aria-hidden="true" tabindex="-1"></a>other_object <span class="op">=</span> TestClass2(new_object)</span></code></pre></div>
+</div>
+<div id="cells" class="section level4" number="7.1.1.3">
+<h4><span class="header-section-number">7.1.1.3</span> Cells</h4>
+<p>If some lines of code has different logical plan, you can split it as different cells.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="code-style-guide.html#cb5-1" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> read_something()</span>
+<span id="cb5-2"><a href="code-style-guide.html#cb5-2" aria-hidden="true" tabindex="-1"></a>x1 <span class="op">=</span> doing_something_with_(a)</span>
+<span id="cb5-3"><a href="code-style-guide.html#cb5-3" aria-hidden="true" tabindex="-1"></a>x2 <span class="op">=</span> still_doing_something_with_a(a)</span>
+<span id="cb5-4"><a href="code-style-guide.html#cb5-4" aria-hidden="true" tabindex="-1"></a>result1 <span class="op">=</span> x1 <span class="op">+</span> x2</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="code-style-guide.html#cb6-1" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> read_something()</span>
+<span id="cb6-2"><a href="code-style-guide.html#cb6-2" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> doing_something_with_b(b)</span>
+<span id="cb6-3"><a href="code-style-guide.html#cb6-3" aria-hidden="true" tabindex="-1"></a>y2 <span class="op">=</span> still_doing_something_with_b(b)</span>
+<span id="cb6-4"><a href="code-style-guide.html#cb6-4" aria-hidden="true" tabindex="-1"></a>result2 <span class="op">=</span> y1 <span class="op">+</span> y2</span></code></pre></div>
+<p>If it belongs to other segments, or if you need some text to explain it, use markdown cells to split it.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="code-style-guide.html#cb7-1" aria-hidden="true" tabindex="-1"></a>plot(result1, result2)</span></code></pre></div>
+</div>
+</div>
+<div id="comments" class="section level3" number="7.1.2">
+<h3><span class="header-section-number">7.1.2</span> Comments</h3>
+<p>Comments that contradict the code are worse than no comments. Always make a priority of keeping the comments up-to-date when the code changes!</p>
+<p>Comments should be complete sentences. The first word should be capitalized, unless it is an identifier that begins with a lower case letter (never alter the case of identifiers!).</p>
+<p>Block comments generally consist of one or more paragraphs built out of complete sentences, with each sentence ending in a period.</p>
+<p>You should use two spaces after a sentence-ending period in multi- sentence comments, except after the final sentence.</p>
+<p>Ensure that your comments are clear and easily understandable to other speakers of the language you are writing in.</p>
+<p>If you are going to write a fully explained and wide-scoped comment, use markdown cell instead!.</p>
+<p>Inline comments should be placed at least 2 space after each code</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="code-style-guide.html#cb8-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">2</span> <span class="op">+</span> <span class="dv">2</span>  <span class="co"># This is a correct inline comment</span></span></code></pre></div>
+</div>
+<div id="naming-styles" class="section level3" number="7.1.3">
+<h3><span class="header-section-number">7.1.3</span> Naming Styles</h3>
+<p>Use <code>snake_style</code> for naming an object or function</p>
+<p>Use <code>CamelCaseStyle</code> for naming a class</p>
+<p>Use <code>SCREAMING_SNAKE_STYLE</code> for naming a constant object</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="code-style-guide.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MyOwnClass():</span>
+<span id="cb9-2"><a href="code-style-guide.html#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, api_key, secret_key, max_attempt):</span>
+<span id="cb9-3"><a href="code-style-guide.html#cb9-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.api_key <span class="op">=</span> api_key</span>
+<span id="cb9-4"><a href="code-style-guide.html#cb9-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.secret_key <span class="op">=</span> secret_key</span>
+<span id="cb9-5"><a href="code-style-guide.html#cb9-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.max_attempt <span class="op">=</span> max_attempt</span>
+<span id="cb9-6"><a href="code-style-guide.html#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="code-style-guide.html#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> send_message(message):</span>
+<span id="cb9-8"><a href="code-style-guide.html#cb9-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">pass</span></span>
+<span id="cb9-9"><a href="code-style-guide.html#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="code-style-guide.html#cb9-10" aria-hidden="true" tabindex="-1"></a>API_KEY <span class="op">=</span> os.environ([<span class="st">&#39;api&#39;</span>])</span>
+<span id="cb9-11"><a href="code-style-guide.html#cb9-11" aria-hidden="true" tabindex="-1"></a>SECRET_KEY <span class="op">=</span> os.environ([<span class="st">&#39;secret&#39;</span>])</span>
+<span id="cb9-12"><a href="code-style-guide.html#cb9-12" aria-hidden="true" tabindex="-1"></a>MAX_ATTEMPT <span class="op">=</span> <span class="dv">3</span> </span>
+<span id="cb9-13"><a href="code-style-guide.html#cb9-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-14"><a href="code-style-guide.html#cb9-14" aria-hidden="true" tabindex="-1"></a>my_object <span class="op">=</span> MyOwnClass(API_KEY, SECRET_KEY, MAX_ATTEMPT)</span></code></pre></div>
+</div>
+<div id="imports" class="section level3" number="7.1.4">
+<h3><span class="header-section-number">7.1.4</span> Imports</h3>
+<p>Imports should usually be on separate lines:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="code-style-guide.html#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correct </span></span>
+<span id="cb10-2"><a href="code-style-guide.html#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas </span>
+<span id="cb10-3"><a href="code-style-guide.html#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy </span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="code-style-guide.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Wrong </span></span>
+<span id="cb11-2"><a href="code-style-guide.html#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os, re</span></code></pre></div>
+<p>However, using the <code>from ... import ...</code> it’s okay to import multiple module / class in one line</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="code-style-guide.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correct </span></span>
+<span id="cb12-2"><a href="code-style-guide.html#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Flatten, Conv1D</span></code></pre></div>
+<p>Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants. It should be grouped in the following order:
+- Standard library imports.
+- Related third party imports.
+- Local application/library specific imports.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="code-style-guide.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os  <span class="co"># Standard library </span></span>
+<span id="cb13-2"><a href="code-style-guide.html#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re </span>
+<span id="cb13-3"><a href="code-style-guide.html#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="code-style-guide.html#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd  <span class="co"># 3rd party library</span></span>
+<span id="cb13-5"><a href="code-style-guide.html#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf </span>
+<span id="cb13-6"><a href="code-style-guide.html#cb13-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-7"><a href="code-style-guide.html#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> util <span class="im">import</span> tangan_tuhan <span class="co"># read your own modules</span></span></code></pre></div>
+<p>Avoid usage of wildcard</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="code-style-guide.html#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Not recomended </span></span>
+<span id="cb14-2"><a href="code-style-guide.html#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pandas <span class="im">import</span> <span class="op">*</span></span></code></pre></div>
+</div>
+<div id="string-quotes" class="section level3" number="7.1.5">
+<h3><span class="header-section-number">7.1.5</span> String Quotes</h3>
+<p>Prefer single string over double string unless it’s needed</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="code-style-guide.html#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correct </span></span>
+<span id="cb15-2"><a href="code-style-guide.html#cb15-2" aria-hidden="true" tabindex="-1"></a>path <span class="op">=</span> <span class="st">&#39;folder/folder/folder&#39;</span></span>
+<span id="cb15-3"><a href="code-style-guide.html#cb15-3" aria-hidden="true" tabindex="-1"></a>person_name <span class="op">=</span> <span class="st">&quot;ya&#39;qub&quot;</span> </span></code></pre></div>
+<p>If you are going to use triple quotes string, always use double string as mentioned in <a href="https://www.python.org/dev/peps/pep-0257/">PEP 257</a></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="code-style-guide.html#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correct </span></span>
+<span id="cb16-2"><a href="code-style-guide.html#cb16-2" aria-hidden="true" tabindex="-1"></a>query <span class="op">=</span> <span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb16-3"><a href="code-style-guide.html#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="st">        select * </span></span>
+<span id="cb16-4"><a href="code-style-guide.html#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="st">        from table </span></span>
+<span id="cb16-5"><a href="code-style-guide.html#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="st">        where </span></span>
+<span id="cb16-6"><a href="code-style-guide.html#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="st">            age &gt; 10 </span></span>
+<span id="cb16-7"><a href="code-style-guide.html#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="st">            AND hair is &#39;brown&#39;</span></span>
+<span id="cb16-8"><a href="code-style-guide.html#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="st">            AND name like &#39;</span><span class="sc">%le</span><span class="st">e%&#39;</span></span>
+<span id="cb16-9"><a href="code-style-guide.html#cb16-9" aria-hidden="true" tabindex="-1"></a><span class="st">        &quot;&quot;&quot;</span></span></code></pre></div>
+</div>
+<div id="whitespaces" class="section level3" number="7.1.6">
+<h3><span class="header-section-number">7.1.6</span> Whitespaces</h3>
+<p>Always surround these binary operators with a single space on either side: assignment (=), augmented assignment (+=, -= etc.), comparisons (==, &lt;, &gt;, !=, &lt;&gt;, &lt;=, &gt;=, in, not in, is, is not), Booleans (and, or, not).</p>
+<p>If operators with different priorities are used, consider adding whitespace around the operators with the lowest priority(ies). Use your own judgment; however, never use more than one space, and always have the same amount of whitespace on both sides of a binary operator:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="code-style-guide.html#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correct </span></span>
+<span id="cb17-2"><a href="code-style-guide.html#cb17-2" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span> </span>
+<span id="cb17-3"><a href="code-style-guide.html#cb17-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> m<span class="op">*</span>x <span class="op">+</span> b</span>
+<span id="cb17-4"><a href="code-style-guide.html#cb17-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> a <span class="op">+</span> b <span class="op">+</span> c <span class="op">+</span> d</span>
+<span id="cb17-5"><a href="code-style-guide.html#cb17-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> (a<span class="op">+</span>b) <span class="op">+</span> (c<span class="op">/</span>d)</span>
+<span id="cb17-6"><a href="code-style-guide.html#cb17-6" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> (a<span class="op">*</span>b <span class="op">+</span> c) <span class="op">/</span> (f<span class="op">/</span>g <span class="op">-</span> h)</span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="code-style-guide.html#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Not recomended </span></span>
+<span id="cb18-2"><a href="code-style-guide.html#cb18-2" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> i<span class="op">+</span><span class="dv">1</span></span>
+<span id="cb18-3"><a href="code-style-guide.html#cb18-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> m<span class="op">*</span>x<span class="op">+</span>b</span>
+<span id="cb18-4"><a href="code-style-guide.html#cb18-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> a<span class="op">+</span>b<span class="op">+</span>c<span class="op">+</span>d</span>
+<span id="cb18-5"><a href="code-style-guide.html#cb18-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> (a<span class="op">+</span>b)<span class="op">+</span>(c<span class="op">/</span>d)</span>
+<span id="cb18-6"><a href="code-style-guide.html#cb18-6" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> (a<span class="op">*</span>b<span class="op">+</span>c)<span class="op">/</span>(f<span class="op">/</span>g<span class="op">-</span>h)</span></code></pre></div>
+</div>
+<div id="other-recomendations" class="section level3" number="7.1.7">
+<h3><span class="header-section-number">7.1.7</span> Other Recomendations</h3>
+<div id="dont-repeat-yourself-dry" class="section level4" number="7.1.7.1">
+<h4><span class="header-section-number">7.1.7.1</span> Don’t Repeat Yourself (DRY)</h4>
+<p>Try to avoid repetition in your code!</p>
+<p>Consider to create a function if you have reused code. This will create awesome modularity in your code so that you won’t waste lots of time debugging.</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="code-style-guide.html#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correct </span></span>
+<span id="cb19-2"><a href="code-style-guide.html#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> measure_distance(source, target):</span>
+<span id="cb19-3"><a href="code-style-guide.html#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.linalg.norm(source <span class="op">-</span> target)</span>
+<span id="cb19-4"><a href="code-style-guide.html#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-5"><a href="code-style-guide.html#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> some_function_a(data):</span>
+<span id="cb19-6"><a href="code-style-guide.html#cb19-6" aria-hidden="true" tabindex="-1"></a>    constant <span class="op">=</span> <span class="fl">127.4</span></span>
+<span id="cb19-7"><a href="code-style-guide.html#cb19-7" aria-hidden="true" tabindex="-1"></a>    distance <span class="op">=</span> measure_distance(constant, data)</span>
+<span id="cb19-8"><a href="code-style-guide.html#cb19-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> distance</span>
+<span id="cb19-9"><a href="code-style-guide.html#cb19-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-10"><a href="code-style-guide.html#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> some_function_b(data1, data2):</span>
+<span id="cb19-11"><a href="code-style-guide.html#cb19-11" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb19-12"><a href="code-style-guide.html#cb19-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> data1:</span>
+<span id="cb19-13"><a href="code-style-guide.html#cb19-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> data2:</span>
+<span id="cb19-14"><a href="code-style-guide.html#cb19-14" aria-hidden="true" tabindex="-1"></a>            distance <span class="op">=</span> measure_distance(source, target)</span>
+<span id="cb19-15"><a href="code-style-guide.html#cb19-15" aria-hidden="true" tabindex="-1"></a>            total <span class="op">+=</span> distance</span>
+<span id="cb19-16"><a href="code-style-guide.html#cb19-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> total</span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="code-style-guide.html#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Wrong </span></span>
+<span id="cb20-2"><a href="code-style-guide.html#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> some_function_a(data):</span>
+<span id="cb20-3"><a href="code-style-guide.html#cb20-3" aria-hidden="true" tabindex="-1"></a>    constant <span class="op">=</span> <span class="fl">127.4</span></span>
+<span id="cb20-4"><a href="code-style-guide.html#cb20-4" aria-hidden="true" tabindex="-1"></a>    distance <span class="op">=</span> np.linalg.norm(constance <span class="op">-</span> data)</span>
+<span id="cb20-5"><a href="code-style-guide.html#cb20-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> distance</span>
+<span id="cb20-6"><a href="code-style-guide.html#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="code-style-guide.html#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> some_function_b(data1, data2):</span>
+<span id="cb20-8"><a href="code-style-guide.html#cb20-8" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb20-9"><a href="code-style-guide.html#cb20-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> data1:</span>
+<span id="cb20-10"><a href="code-style-guide.html#cb20-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> data2:</span>
+<span id="cb20-11"><a href="code-style-guide.html#cb20-11" aria-hidden="true" tabindex="-1"></a>            distance <span class="op">=</span> np.linalg.norm(source <span class="op">-</span> target)</span>
+<span id="cb20-12"><a href="code-style-guide.html#cb20-12" aria-hidden="true" tabindex="-1"></a>            total <span class="op">+=</span> distance</span>
+<span id="cb20-13"><a href="code-style-guide.html#cb20-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> total</span></code></pre></div>
+<p>Create a loop over repetitive task</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="code-style-guide.html#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Wrong </span></span>
+<span id="cb21-2"><a href="code-style-guide.html#cb21-2" aria-hidden="true" tabindex="-1"></a>x1 <span class="op">=</span> f(a)</span>
+<span id="cb21-3"><a href="code-style-guide.html#cb21-3" aria-hidden="true" tabindex="-1"></a>x2 <span class="op">=</span> f(b)</span>
+<span id="cb21-4"><a href="code-style-guide.html#cb21-4" aria-hidden="true" tabindex="-1"></a>x3 <span class="op">=</span> f(c)</span>
+<span id="cb21-5"><a href="code-style-guide.html#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="code-style-guide.html#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Correct </span></span>
+<span id="cb21-7"><a href="code-style-guide.html#cb21-7" aria-hidden="true" tabindex="-1"></a>x1, x2, x3 <span class="op">=</span> [f(x) <span class="cf">for</span> x <span class="kw">in</span> [a, b, c]]</span></code></pre></div>
+
+</div>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="piket-guideline.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["a4d.pdf", "a4d.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

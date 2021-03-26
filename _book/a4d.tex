@@ -42,6 +42,46 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -78,7 +118,7 @@
 
 \title{Academy for Dummies}
 \author{Team Algoritma}
-\date{25, Maret 2021}
+\date{26, Maret 2021}
 
 \begin{document}
 \maketitle
@@ -1261,6 +1301,357 @@ Apabila Anda tidak hadir sesi mentoring lebih dari 30 menit dari jadwal yang tel
 \item
   Tim piket yang lain bertugas untuk ikut berpartisipasi dalam diskusi yang ada pada Slack Alumni.
 \end{itemize}
+
+\hypertarget{code-style-guide}{%
+\chapter{Code Style Guide}\label{code-style-guide}}
+
+\hypertarget{python-code-style-guide}{%
+\section{Python Code Style Guide}\label{python-code-style-guide}}
+
+This document is derived from python \href{https://www.python.org/dev/peps/pep-0008/}{pep-8} and \href{https://google.github.io/styleguide/pyguide.html}{google code style guide} and was meant to be used as Algoritma's code standard for python.
+
+\hypertarget{code-layout}{%
+\subsection{Code Layout}\label{code-layout}}
+
+\hypertarget{indentation}{%
+\subsubsection{Indentation}\label{indentation}}
+
+Use 4 space as indentation. If you have custom code editor, please make sure to set it correctly to prevent indentation inconcistencies. This rule is optional for continuation lines case.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Correct }
+\ControlFlowTok{if}\NormalTok{ x }\OperatorTok{=} \VariableTok{None}\NormalTok{: }
+\NormalTok{    x}\OperatorTok{=}\DecValTok{1} \CommentTok{\# Use 4 space as indentation}
+
+\CommentTok{\# Wrong }
+\ControlFlowTok{if}\NormalTok{ x }\OperatorTok{=} \VariableTok{None}\NormalTok{:}
+\NormalTok{  x}\OperatorTok{=}\DecValTok{1} \CommentTok{\# Use only 2 space as indentation}
+
+\CommentTok{\# Continuation lines case }
+\NormalTok{df }\OperatorTok{=}\NormalTok{ pd.read\_csv(}\StringTok{\textquotesingle{}folder1/folder2/folder3/folder4/such\_a\_long\textbackslash{}}
+\StringTok{                 \_ffoldernname/file.csv\textquotesingle{}}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{blank-lines}{%
+\subsubsection{Blank Lines}\label{blank-lines}}
+
+Surround top-level function and class definitions with two blank lines.
+
+Method definitions inside a class are surrounded by a single blank line.
+
+Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners (e.g.~a set of dummy implementations).
+
+Use blank lines in functions, sparingly, to indicate logical sections.
+In jupyter notebook, you can use new cell in exchange for 2 Blank lines
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{import}\NormalTok{ re}
+\ImportTok{import}\NormalTok{ glob}
+\ImportTok{import}\NormalTok{ sys}
+\CommentTok{\# Blank line}
+\ImportTok{import}\NormalTok{ requests}
+\ImportTok{import}\NormalTok{ scrapy}
+\CommentTok{\# Blank line}
+\ImportTok{from}\NormalTok{ flask }\ImportTok{import}\NormalTok{ Flask}
+\ImportTok{from}\NormalTok{ my\_local\_module }\ImportTok{import}\NormalTok{ MyClass}
+\CommentTok{\# Blank line}
+\CommentTok{\# Blank line}
+\KeywordTok{def}\NormalTok{ top\_level\_function1():}
+    \ControlFlowTok{pass}
+\CommentTok{\# Blank line}
+\CommentTok{\# Blank line}
+\KeywordTok{def}\NormalTok{ top\_level\_function2():}
+    \ControlFlowTok{pass}
+\CommentTok{\# Blank line}
+\CommentTok{\# Blank line}
+\KeywordTok{class}\NormalTok{ TestClass(}\BuiltInTok{object}\NormalTok{):}
+    \CommentTok{\# Blank line}
+    \KeywordTok{def}\NormalTok{ class\_method1():}
+        \ControlFlowTok{pass}
+    \CommentTok{\# Blank line}
+    \KeywordTok{def}\NormalTok{ class\_method2():}
+        \ControlFlowTok{pass}
+\CommentTok{\# Blank line}
+\CommentTok{\# Blank line}
+\KeywordTok{class}\NormalTok{ TestClass2(}\BuiltInTok{object}\NormalTok{):}
+    \CommentTok{\# Blank line}
+    \KeywordTok{def}\NormalTok{ class2\_method1():}
+        \ControlFlowTok{pass}
+    \CommentTok{\# Blank line    }
+    \KeywordTok{def}\NormalTok{ class2\_method2():}
+        \ControlFlowTok{pass}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# New logical cell }
+\NormalTok{new\_object }\OperatorTok{=}\NormalTok{ MyClass()}
+\NormalTok{other\_object }\OperatorTok{=}\NormalTok{ TestClass2(new\_object)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{cells}{%
+\subsubsection{Cells}\label{cells}}
+
+If some lines of code has different logical plan, you can split it as different cells.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{a }\OperatorTok{=}\NormalTok{ read\_something()}
+\NormalTok{x1 }\OperatorTok{=}\NormalTok{ doing\_something\_with\_(a)}
+\NormalTok{x2 }\OperatorTok{=}\NormalTok{ still\_doing\_something\_with\_a(a)}
+\NormalTok{result1 }\OperatorTok{=}\NormalTok{ x1 }\OperatorTok{+}\NormalTok{ x2}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{b }\OperatorTok{=}\NormalTok{ read\_something()}
+\NormalTok{y1 }\OperatorTok{=}\NormalTok{ doing\_something\_with\_b(b)}
+\NormalTok{y2 }\OperatorTok{=}\NormalTok{ still\_doing\_something\_with\_b(b)}
+\NormalTok{result2 }\OperatorTok{=}\NormalTok{ y1 }\OperatorTok{+}\NormalTok{ y2}
+\end{Highlighting}
+\end{Shaded}
+
+If it belongs to other segments, or if you need some text to explain it, use markdown cells to split it.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{plot(result1, result2)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{comments}{%
+\subsection{Comments}\label{comments}}
+
+Comments that contradict the code are worse than no comments. Always make a priority of keeping the comments up-to-date when the code changes!
+
+Comments should be complete sentences. The first word should be capitalized, unless it is an identifier that begins with a lower case letter (never alter the case of identifiers!).
+
+Block comments generally consist of one or more paragraphs built out of complete sentences, with each sentence ending in a period.
+
+You should use two spaces after a sentence-ending period in multi- sentence comments, except after the final sentence.
+
+Ensure that your comments are clear and easily understandable to other speakers of the language you are writing in.
+
+If you are going to write a fully explained and wide-scoped comment, use markdown cell instead!.
+
+Inline comments should be placed at least 2 space after each code
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{x }\OperatorTok{=} \DecValTok{2} \OperatorTok{+} \DecValTok{2}  \CommentTok{\# This is a correct inline comment}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{naming-styles}{%
+\subsection{Naming Styles}\label{naming-styles}}
+
+Use \texttt{snake\_style} for naming an object or function
+
+Use \texttt{CamelCaseStyle} for naming a class
+
+Use \texttt{SCREAMING\_SNAKE\_STYLE} for naming a constant object
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{class}\NormalTok{ MyOwnClass():}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, api\_key, secret\_key, max\_attempt):}
+        \VariableTok{self}\NormalTok{.api\_key }\OperatorTok{=}\NormalTok{ api\_key}
+        \VariableTok{self}\NormalTok{.secret\_key }\OperatorTok{=}\NormalTok{ secret\_key}
+        \VariableTok{self}\NormalTok{.max\_attempt }\OperatorTok{=}\NormalTok{ max\_attempt}
+
+    \KeywordTok{def}\NormalTok{ send\_message(message):}
+        \ControlFlowTok{pass}
+
+\NormalTok{API\_KEY }\OperatorTok{=}\NormalTok{ os.environ([}\StringTok{\textquotesingle{}api\textquotesingle{}}\NormalTok{])}
+\NormalTok{SECRET\_KEY }\OperatorTok{=}\NormalTok{ os.environ([}\StringTok{\textquotesingle{}secret\textquotesingle{}}\NormalTok{])}
+\NormalTok{MAX\_ATTEMPT }\OperatorTok{=} \DecValTok{3} 
+
+\NormalTok{my\_object }\OperatorTok{=}\NormalTok{ MyOwnClass(API\_KEY, SECRET\_KEY, MAX\_ATTEMPT)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{imports}{%
+\subsection{Imports}\label{imports}}
+
+Imports should usually be on separate lines:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Correct }
+\ImportTok{import}\NormalTok{ pandas }
+\ImportTok{import}\NormalTok{ numpy }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Wrong }
+\ImportTok{import}\NormalTok{ os, re}
+\end{Highlighting}
+\end{Shaded}
+
+However, using the \texttt{from\ ...\ import\ ...} it's okay to import multiple module / class in one line
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Correct }
+\ImportTok{from}\NormalTok{ tensorflow.keras.layers }\ImportTok{import}\NormalTok{ Dense, Flatten, Conv1D}
+\end{Highlighting}
+\end{Shaded}
+
+Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants. It should be grouped in the following order:
+- Standard library imports.
+- Related third party imports.
+- Local application/library specific imports.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{import}\NormalTok{ os  }\CommentTok{\# Standard library }
+\ImportTok{import}\NormalTok{ re }
+
+\ImportTok{import}\NormalTok{ pandas }\ImportTok{as}\NormalTok{ pd  }\CommentTok{\# 3rd party library}
+\ImportTok{import}\NormalTok{ tensorflow }\ImportTok{as}\NormalTok{ tf }
+
+\ImportTok{from}\NormalTok{ util }\ImportTok{import}\NormalTok{ tangan\_tuhan }\CommentTok{\# read your own modules}
+\end{Highlighting}
+\end{Shaded}
+
+Avoid usage of wildcard
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Not recomended }
+\ImportTok{from}\NormalTok{ pandas }\ImportTok{import} \OperatorTok{*}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{string-quotes}{%
+\subsection{String Quotes}\label{string-quotes}}
+
+Prefer single string over double string unless it's needed
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Correct }
+\NormalTok{path }\OperatorTok{=} \StringTok{\textquotesingle{}folder/folder/folder\textquotesingle{}}
+\NormalTok{person\_name }\OperatorTok{=} \StringTok{"ya\textquotesingle{}qub"} 
+\end{Highlighting}
+\end{Shaded}
+
+If you are going to use triple quotes string, always use double string as mentioned in \href{https://www.python.org/dev/peps/pep-0257/}{PEP 257}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Correct }
+\NormalTok{query }\OperatorTok{=} \StringTok{"""}
+\StringTok{        select * }
+\StringTok{        from table }
+\StringTok{        where }
+\StringTok{            age \textgreater{} 10 }
+\StringTok{            AND hair is \textquotesingle{}brown\textquotesingle{}}
+\StringTok{            AND name like \textquotesingle{}}\SpecialCharTok{\%le}\StringTok{e\%\textquotesingle{}}
+\StringTok{        """}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{whitespaces}{%
+\subsection{Whitespaces}\label{whitespaces}}
+
+Always surround these binary operators with a single space on either side: assignment (=), augmented assignment (+=, -= etc.), comparisons (==, \textless, \textgreater, !=, \textless\textgreater, \textless=, \textgreater=, in, not in, is, is not), Booleans (and, or, not).
+
+If operators with different priorities are used, consider adding whitespace around the operators with the lowest priority(ies). Use your own judgment; however, never use more than one space, and always have the same amount of whitespace on both sides of a binary operator:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Correct }
+\NormalTok{i }\OperatorTok{=}\NormalTok{ i }\OperatorTok{+} \DecValTok{1} 
+\NormalTok{y }\OperatorTok{=}\NormalTok{ m}\OperatorTok{*}\NormalTok{x }\OperatorTok{+}\NormalTok{ b}
+\NormalTok{y }\OperatorTok{=}\NormalTok{ a }\OperatorTok{+}\NormalTok{ b }\OperatorTok{+}\NormalTok{ c }\OperatorTok{+}\NormalTok{ d}
+\NormalTok{y }\OperatorTok{=}\NormalTok{ (a}\OperatorTok{+}\NormalTok{b) }\OperatorTok{+}\NormalTok{ (c}\OperatorTok{/}\NormalTok{d)}
+\NormalTok{y }\OperatorTok{=}\NormalTok{ (a}\OperatorTok{*}\NormalTok{b }\OperatorTok{+}\NormalTok{ c) }\OperatorTok{/}\NormalTok{ (f}\OperatorTok{/}\NormalTok{g }\OperatorTok{{-}}\NormalTok{ h)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Not recomended }
+\NormalTok{i }\OperatorTok{=}\NormalTok{ i}\OperatorTok{+}\DecValTok{1}
+\NormalTok{y }\OperatorTok{=}\NormalTok{ m}\OperatorTok{*}\NormalTok{x}\OperatorTok{+}\NormalTok{b}
+\NormalTok{y }\OperatorTok{=}\NormalTok{ a}\OperatorTok{+}\NormalTok{b}\OperatorTok{+}\NormalTok{c}\OperatorTok{+}\NormalTok{d}
+\NormalTok{y }\OperatorTok{=}\NormalTok{ (a}\OperatorTok{+}\NormalTok{b)}\OperatorTok{+}\NormalTok{(c}\OperatorTok{/}\NormalTok{d)}
+\NormalTok{y }\OperatorTok{=}\NormalTok{ (a}\OperatorTok{*}\NormalTok{b}\OperatorTok{+}\NormalTok{c)}\OperatorTok{/}\NormalTok{(f}\OperatorTok{/}\NormalTok{g}\OperatorTok{{-}}\NormalTok{h)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{other-recomendations}{%
+\subsection{Other Recomendations}\label{other-recomendations}}
+
+\hypertarget{dont-repeat-yourself-dry}{%
+\subsubsection{Don't Repeat Yourself (DRY)}\label{dont-repeat-yourself-dry}}
+
+Try to avoid repetition in your code!
+
+Consider to create a function if you have reused code. This will create awesome modularity in your code so that you won't waste lots of time debugging.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Correct }
+\KeywordTok{def}\NormalTok{ measure\_distance(source, target):}
+    \ControlFlowTok{return}\NormalTok{ np.linalg.norm(source }\OperatorTok{{-}}\NormalTok{ target)}
+
+\KeywordTok{def}\NormalTok{ some\_function\_a(data):}
+\NormalTok{    constant }\OperatorTok{=} \FloatTok{127.4}
+\NormalTok{    distance }\OperatorTok{=}\NormalTok{ measure\_distance(constant, data)}
+    \ControlFlowTok{return}\NormalTok{ distance}
+
+\KeywordTok{def}\NormalTok{ some\_function\_b(data1, data2):}
+\NormalTok{    total }\OperatorTok{=} \DecValTok{0}
+    \ControlFlowTok{for}\NormalTok{ i }\KeywordTok{in}\NormalTok{ data1:}
+        \ControlFlowTok{for}\NormalTok{ j }\KeywordTok{in}\NormalTok{ data2:}
+\NormalTok{            distance }\OperatorTok{=}\NormalTok{ measure\_distance(source, target)}
+\NormalTok{            total }\OperatorTok{+=}\NormalTok{ distance}
+    \ControlFlowTok{return}\NormalTok{ total}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Wrong }
+\KeywordTok{def}\NormalTok{ some\_function\_a(data):}
+\NormalTok{    constant }\OperatorTok{=} \FloatTok{127.4}
+\NormalTok{    distance }\OperatorTok{=}\NormalTok{ np.linalg.norm(constance }\OperatorTok{{-}}\NormalTok{ data)}
+    \ControlFlowTok{return}\NormalTok{ distance}
+
+\KeywordTok{def}\NormalTok{ some\_function\_b(data1, data2):}
+\NormalTok{    total }\OperatorTok{=} \DecValTok{0}
+    \ControlFlowTok{for}\NormalTok{ i }\KeywordTok{in}\NormalTok{ data1:}
+        \ControlFlowTok{for}\NormalTok{ j }\KeywordTok{in}\NormalTok{ data2:}
+\NormalTok{            distance }\OperatorTok{=}\NormalTok{ np.linalg.norm(source }\OperatorTok{{-}}\NormalTok{ target)}
+\NormalTok{            total }\OperatorTok{+=}\NormalTok{ distance}
+    \ControlFlowTok{return}\NormalTok{ total}
+\end{Highlighting}
+\end{Shaded}
+
+Create a loop over repetitive task
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Wrong }
+\NormalTok{x1 }\OperatorTok{=}\NormalTok{ f(a)}
+\NormalTok{x2 }\OperatorTok{=}\NormalTok{ f(b)}
+\NormalTok{x3 }\OperatorTok{=}\NormalTok{ f(c)}
+
+\CommentTok{\# Correct }
+\NormalTok{x1, x2, x3 }\OperatorTok{=}\NormalTok{ [f(x) }\ControlFlowTok{for}\NormalTok{ x }\KeywordTok{in}\NormalTok{ [a, b, c]]}
+\end{Highlighting}
+\end{Shaded}
+
 
   \bibliography{book.bib,packages.bib}
 

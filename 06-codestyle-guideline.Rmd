@@ -1,0 +1,279 @@
+# Code Style Guide
+
+## Python Code Style Guide
+
+This document is derived from python [pep-8](https://www.python.org/dev/peps/pep-0008/) and [google code style guide](https://google.github.io/styleguide/pyguide.html) and was meant to be used as Algoritma's code standard for python. 
+
+### Code Layout 
+#### Indentation 
+Use 4 space as indentation. If you have custom code editor, please make sure to set it correctly to prevent indentation inconcistencies. This rule is optional for continuation lines case.
+
+```python
+# Correct 
+if x = None: 
+    x=1 # Use 4 space as indentation
+
+# Wrong 
+if x = None:
+  x=1 # Use only 2 space as indentation
+
+# Continuation lines case 
+df = pd.read_csv('folder1/folder2/folder3/folder4/such_a_long\
+                 _ffoldernname/file.csv')
+```
+
+#### Blank Lines 
+
+Surround top-level function and class definitions with two blank lines.
+
+Method definitions inside a class are surrounded by a single blank line.
+
+Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners (e.g. a set of dummy implementations).
+
+Use blank lines in functions, sparingly, to indicate logical sections.
+In jupyter notebook, you can use new cell in exchange for 2 Blank lines
+
+```python 
+import re
+import glob
+import sys
+# Blank line
+import requests
+import scrapy
+# Blank line
+from flask import Flask
+from my_local_module import MyClass
+# Blank line
+# Blank line
+def top_level_function1():
+    pass
+# Blank line
+# Blank line
+def top_level_function2():
+    pass
+# Blank line
+# Blank line
+class TestClass(object):
+    # Blank line
+    def class_method1():
+        pass
+    # Blank line
+    def class_method2():
+        pass
+# Blank line
+# Blank line
+class TestClass2(object):
+    # Blank line
+    def class2_method1():
+        pass
+    # Blank line    
+    def class2_method2():
+        pass
+```
+
+```python 
+# New logical cell 
+new_object = MyClass()
+other_object = TestClass2(new_object)
+```
+
+#### Cells
+If some lines of code has different logical plan, you can split it as different cells. 
+```python 
+a = read_something()
+x1 = doing_something_with_(a)
+x2 = still_doing_something_with_a(a)
+result1 = x1 + x2
+```
+```python 
+b = read_something()
+y1 = doing_something_with_b(b)
+y2 = still_doing_something_with_b(b)
+result2 = y1 + y2
+```
+If it belongs to other segments, or if you need some text to explain it, use markdown cells to split it. 
+
+```python 
+plot(result1, result2)
+```
+
+### Comments 
+Comments that contradict the code are worse than no comments. Always make a priority of keeping the comments up-to-date when the code changes!
+
+Comments should be complete sentences. The first word should be capitalized, unless it is an identifier that begins with a lower case letter (never alter the case of identifiers!).
+
+Block comments generally consist of one or more paragraphs built out of complete sentences, with each sentence ending in a period. 
+
+You should use two spaces after a sentence-ending period in multi- sentence comments, except after the final sentence.
+
+Ensure that your comments are clear and easily understandable to other speakers of the language you are writing in.
+
+If you are going to write a fully explained and wide-scoped comment, use markdown cell instead!. 
+
+Inline comments should be placed at least 2 space after each code 
+```python 
+x = 2 + 2  # This is a correct inline comment
+```
+
+### Naming Styles
+Use `snake_style` for naming an object or function
+
+Use `CamelCaseStyle` for naming a class 
+
+Use `SCREAMING_SNAKE_STYLE` for naming a constant object 
+```python 
+class MyOwnClass():
+    def __init__(self, api_key, secret_key, max_attempt):
+        self.api_key = api_key
+        self.secret_key = secret_key
+        self.max_attempt = max_attempt
+
+    def send_message(message):
+        pass
+
+API_KEY = os.environ(['api'])
+SECRET_KEY = os.environ(['secret'])
+MAX_ATTEMPT = 3 
+
+my_object = MyOwnClass(API_KEY, SECRET_KEY, MAX_ATTEMPT)
+```
+
+### Imports
+Imports should usually be on separate lines:
+```python
+# Correct 
+import pandas 
+import numpy 
+```
+
+```python 
+# Wrong 
+import os, re
+```
+However, using the `from ... import ... ` it's okay to import multiple module / class in one line 
+
+```python 
+# Correct 
+from tensorflow.keras.layers import Dense, Flatten, Conv1D
+```
+
+Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants. It should be grouped in the following order:
+  - Standard library imports.
+  - Related third party imports.
+  - Local application/library specific imports.
+  
+```python
+import os  # Standard library 
+import re 
+
+import pandas as pd  # 3rd party library
+import tensorflow as tf 
+
+from util import tangan_tuhan # read your own modules
+```
+
+Avoid usage of wildcard
+```python 
+# Not recomended 
+from pandas import *
+```
+
+
+### String Quotes 
+Prefer single string over double string unless it's needed
+```python
+# Correct 
+path = 'folder/folder/folder'
+person_name = "ya'qub" 
+```
+If you are going to use triple quotes string, always use double string as mentioned in [PEP 257](https://www.python.org/dev/peps/pep-0257/) 
+```python
+# Correct 
+query = """
+        select * 
+        from table 
+        where 
+            age > 10 
+            AND hair is 'brown'
+            AND name like '%lee%'
+        """
+```
+
+
+### Whitespaces 
+Always surround these binary operators with a single space on either side: assignment (=), augmented assignment (+=, -= etc.), comparisons (==, <, >, !=, <>, <=, >=, in, not in, is, is not), Booleans (and, or, not).
+
+If operators with different priorities are used, consider adding whitespace around the operators with the lowest priority(ies). Use your own judgment; however, never use more than one space, and always have the same amount of whitespace on both sides of a binary operator:
+
+```python 
+# Correct 
+i = i + 1 
+y = m*x + b
+y = a + b + c + d
+y = (a+b) + (c/d)
+y = (a*b + c) / (f/g - h)
+```
+
+```python 
+# Not recomended 
+i = i+1
+y = m*x+b
+y = a+b+c+d
+y = (a+b)+(c/d)
+y = (a*b+c)/(f/g-h)
+```
+
+
+### Other Recomendations
+
+#### Don't Repeat Yourself (DRY)
+Try to avoid repetition in your code! 
+
+Consider to create a function if you have reused code. This will create awesome modularity in your code so that you won't waste lots of time debugging. 
+
+```python 
+# Correct 
+def measure_distance(source, target):
+    return np.linalg.norm(source - target)
+
+def some_function_a(data):
+    constant = 127.4
+    distance = measure_distance(constant, data)
+    return distance
+
+def some_function_b(data1, data2):
+    total = 0
+    for i in data1:
+        for j in data2:
+            distance = measure_distance(source, target)
+            total += distance
+    return total
+```
+
+```python 
+# Wrong 
+def some_function_a(data):
+    constant = 127.4
+    distance = np.linalg.norm(constance - data)
+    return distance
+
+def some_function_b(data1, data2):
+    total = 0
+    for i in data1:
+        for j in data2:
+            distance = np.linalg.norm(source - target)
+            total += distance
+    return total
+```
+
+Create a loop over repetitive task 
+
+```python 
+# Wrong 
+x1 = f(a)
+x2 = f(b)
+x3 = f(c)
+
+# Correct 
+x1, x2, x3 = [f(x) for x in [a, b, c]]
+```

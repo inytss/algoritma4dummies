@@ -56,3 +56,16 @@ respon-mentoring
 pelaksanaan-mentoring-offline
 pelaksanaan-mentoring-online
 slack-alumni
+code-style-guide
+python-code-style-guide
+code-layout
+indentation
+blank-lines
+cells
+comments
+naming-styles
+imports
+string-quotes
+whitespaces
+other-recomendations
+dont-repeat-yourself-dry
