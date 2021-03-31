@@ -21,6 +21,7 @@ Tanggal, Jam mentoring : ___________
 5. Pengajuan mentoring yang tidak sesuai dengan template yang ada maka akan dikembalikan kepada student kembali hingga informasi pada template mentoring sudah terpenuhi. Apabila informasi pada template telah terpenuhi, mentoring baru akan diproses.
 6. Apabila terdapat lebih dari satu permintaan mentoring dengan waktu serta materi yang sama, maka admin dapat menawarkan untuk dilakukan secara bersamaan dengan mentor yang sama.
 7. Student tidak diperkenankan untuk memilih mentor untuk membantunya selama mentoring.
+8. Apabila course dalam batch academy telah selesai, student diberikan fasilitas untuk mengajukan mentoring **hingga 4 minggu** (hari kerja dan hari libur) setelah capstone project sesuai dengan spesialisasi yang diambil.
 
 ## Pengajuan Pertanyaan
 
@@ -81,14 +82,14 @@ Algoritma menyediakan *lifetime learning* yang bisa dimanfaatkan oleh student se
 
 ### Academy Offline Full Stack / Reguler
 
-1. Mendapatkan fasilitas mentoring selama 4 minggu setelah Capstone Project Machine Learning.
+1. Mendapatkan fasilitas mentoring selama 4 minggu setelah Capstone Project sesuai dengan spesialisasi yang diambil.
 2. Diundang pada forum diskusi alumni Algoritma menggunakan platform Slack. 
 3. Mendapatkan fasilitas career support berupa project show case dalam event Data Career Day (DCD) dan pembuatan curriculum vitae (CV) yang akan dikirimkan kepada *hiring partner* Algoritma.
 4. Gratis mengikuti beberapa workshop yang diselenggarakan oleh Algoritma tanpa batasan waktu dengan limit biaya workshop sebesar 35 juta.
 
 ### Academy Online Full Stack / Reguler
 
-1. Mendapatkan fasilitas mentoring selama 4 minggu setelah Capstone Project Machine Learning.
+1. Mendapatkan fasilitas mentoring selama 4 minggu setelah Capstone Project sesuai dengan spesialisasi yang diambil.
 2. Diundang pada forum diskusi alumni Algoritma menggunakan platform Slack. 
 3. Mendapatkan fasilitas career support berupa pembuatan curriculum vitae (CV) yang akan dikirimkan kepada *hiring partner* Algoritma.
 
