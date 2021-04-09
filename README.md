@@ -4,4 +4,4 @@
 
 Algoritma **Academy for Dummies (A4D)** ditulis oleh tim Algoritma untuk panduan seluruh tim yang bertugas dan berhubungan dengan kegiatan dalam Algoritma Academy.
 
-Silahkan akses Algoritma Academy for Dummies pada link berikut https://algoritma4dummies.netlify.app
+Silahkan akses Algoritma Academy for Dummies pada link berikut https://a4d.netlify.app
