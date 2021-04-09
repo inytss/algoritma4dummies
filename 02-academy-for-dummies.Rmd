@@ -118,6 +118,8 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
 |                 [Time Series and Forecasting (TS)](https://corgi.re/courses/inytss/time-series)                |          4         |
 |                      [Neural Network (NN)](https://corgi.re/courses/ysitta/Neural_Network)                     |          4         |
 
+> Kunci jawaban dari setiap quiz corgi.re dapat diakses pada [drive **corgi keys**](https://drive.google.com/drive/folders/11wfxZ6DN2IVECOQNuKRN7ernT4ptKdev?usp=sharing)
+
 ### Aturan Quiz
 
 * *Assignment* quiz dikirimkan pada hari terakhir course melalui google classroom.
