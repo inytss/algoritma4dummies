@@ -226,8 +226,9 @@ Berikut beberapa link referensi yang diperlukan saat Capstone Project:
   + Capstone DA: dibawah 12 poin
   + Capstone DV: dibawah 24 poin
   + Capstone ML: dibawah 28 poin
-  
+
 * Nilai maksimal yang bisa didapatkan oleh student yang melakukan revisi adalah 80% dari total nilai. 
+* Student yang mengalami **keterlambatan pengumpulan capstone** serta **nilainya dibawah batas nilai perbaikan** dapat melakukan perbaikan capstone sebanyak **1 kali** dengan batas pengumpulan **1 minggu** (hari kerja dan hari libur) sejak pemberian *feedback* dan akan mendapat nilai maksiimal 80% dari total nilai.
 * Pengumpulan revisi yang melebihi batas waktu (H+7 setelah batas pengumpulan capstone) **tetap akan diperiksa** namun nilai yang diambil adalah **nilai sebelum perbaikan**.
 * Setiap Capstone Project akan diberikan satu sesi untuk mentoring secara serentak melalui RSVP yang dikirimkan melalui google classroom.
 * **Student tidak diperkenankan** untuk meminta sesi mentoring melalui email **mentor@algorit.ma**.

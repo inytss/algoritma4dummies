@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5 {
     margin-top: 0;
     margin-bottom: .85em;
     text-align: justify;
-    width: 80%;                 /*fiddle with this relative to marginnote; div.sourceCode should be the same*/
+    width: 75%;                 /*fiddle with this relative to marginnote; div.sourceCode should be the same*/
     font-size: 16px;
 }
 
@@ -314,7 +314,7 @@ h1, h2, h3, h4, h5 {
     margin-top: 0;
     margin-bottom: .85em;
     text-align: justify;
-    width: 80%;                 /*fiddle with this relative to marginnote; div.sourceCode should be the same*/
+    width: 75%;                 /*fiddle with this relative to marginnote; div.sourceCode should be the same*/
 }
 
 /* marginnotes */
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5 {
   float: right;
   clear: right;
   margin-right: -45%;
-  width: 40%;
+  width: 50%;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 75%;
