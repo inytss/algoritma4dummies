@@ -6,7 +6,7 @@
 
 ## Pre-Requisite Data Career Day
 
-1. *Self-Funding* pada Academy Reguler/Academy Full Stack/Beasiswa Full Stack
+1. *Self-Funding* pada Academy Reguler/Academy Full Stack
 2. Total score minimal 85%
 3. Mengerjakan 5 dari 9 Learn by Building (LBB) (sudah termasuk LBB IP)
 4. Melakukan pendaftaran saat Registration Pace
