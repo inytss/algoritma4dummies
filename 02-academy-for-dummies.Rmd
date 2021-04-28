@@ -169,7 +169,7 @@ Detail rubrik masing-masing LBB pada **Data Visualization Specialization** dan *
 
 ### Rubrik Capstone
 
-* Detail rubtik Capstone Project DA dapat diakses pada:
+* Detail rubrik Capstone Project DA dapat diakses pada:
   + [Auto Generated Email Based Report](https://github.com/ttnsy/fire-capstone)
   + [Named Entity Recognition Service (API)](https://github.com/iqbalbasyar/ner-flask)
   + [Flask Dashboard User Interface (UI)](https://github.com/fafilia/capstone-UIFlask)
