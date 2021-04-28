@@ -18,10 +18,12 @@
 
 ## Administrasi {-}
 
-- [Administration Deck](https://docs.google.com/presentation/d/1vHranz1_PvzWDKSaokax-ALu-lBVY2w8sjTQWuDpLTI/edit?usp=sharing)
+- [Administration Deck R](https://docs.google.com/presentation/d/1vHranz1_PvzWDKSaokax-ALu-lBVY2w8sjTQWuDpLTI/edit?usp=sharing)
+- [Algoritma Academy Standard](https://docs.google.com/spreadsheets/d/11kEOish9MTkUCSeu-D4wyqRjE-WabqfUZa4wGaRc94A/edit#gid=2140367865)
 - [Schedule Workshop](https://docs.google.com/spreadsheets/d/1APwoLJ4lGGNnYhOfQ9AVF14f-aSmNDmAeA0PtMYwMIc/edit?usp=sharing)
 - [Academy Score Sheet](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing)
-- [Corporate Score Sheet](https://docs.google.com/spreadsheets/d/1vnSngtCLnDvCzBxls3A-vxVy2Pzp418ExNZTN37LeIU/edit?usp=sharing)
+- [Corporate Score Sheet](https://docs.google.com/spreadsheets/d/1c5i6MOqSa-YuBTsr5cwv5KGzen5w9kp-wcIvS6wXaYY/edit?usp=sharing)
+- [Corporate Timeline Sheet](https://docs.google.com/spreadsheets/d/1gEFq7Fgsy28aGfalQ1gcHPc7Cghe0FO-w4QjSrzuaiQ/edit?usp=sharing)
 - [Active Student Sheet](https://docs.google.com/spreadsheets/d/12FB9410fhRhZp9jl5qLe7x-LGw0QTSfLujA-dE867JE/edit?usp=sharing)
 - [Piket Report](https://docs.google.com/spreadsheets/d/1OMT9kAU_ceoku4M44VZWqiA1al9tKpJzpN6rfY5hLzY/edit?usp=sharing)
 - [Piket Dashboard](https://algodash.shinyapps.io/Piket_Dashboard/)
