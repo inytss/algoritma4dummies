@@ -7,21 +7,15 @@ Setiap student memiliki beberapa administrasi yang perlu diketahui dan diikuti s
 Mentoring merupakan salah satu fasilitas yang diterima oleh student Algoritma berupa sesi 101 dengan mentor Algoritma untuk menanyakan hal-hal yang belum dipahami dan ingin dipelajari lebih lanjut. Berikut ini beberapa peraturan yang berhubungan dengan mentoring:
 
 1. Mentoring dilaksanakan **1x/minggu** dengan durasi 1 jam pada hari kerja Senin-Jumat pukul 10:00-18:00.
-2. Pengajuan mentoring terpusat melalui email **mentor@algorit.ma**.
-3. Permintaan mentoring dilakukan **maksimal H-1 sebelum hari mentoring** yang diinginkan pada hari Senin-Jumat pukul 10:00-18:00 WIB, dengan template permintaan mentoring sebagai berikut:
-
-```
-Berikan subject email : ALGORITMA MENTORING SESSION
-Nama : ___________
-Kelas : ___________ (nama batch day / night)
-Materi mentoring : ___________
-Tanggal, Jam mentoring : ___________
-```
-4. Permintaan mentoring yang diajukan melewati jam kerja akan dibalas pada hari berikutnya dan pelaksanaan mentoring tidak dapat dilakukan pada hari yang sama.
-5. Pengajuan mentoring yang tidak sesuai dengan template yang ada maka akan dikembalikan kepada student kembali hingga informasi pada template mentoring sudah terpenuhi. Apabila informasi pada template telah terpenuhi, mentoring baru akan diproses.
-6. Apabila terdapat lebih dari satu permintaan mentoring dengan waktu serta materi yang sama, maka admin dapat menawarkan untuk dilakukan secara bersamaan dengan mentor yang sama.
-7. Student tidak diperkenankan untuk memilih mentor untuk membantunya selama mentoring.
-8. Apabila course dalam batch academy telah selesai, student diberikan fasilitas untuk mengajukan mentoring **hingga 4 minggu** (hari kerja dan hari libur) setelah capstone project sesuai dengan spesialisasi yang diambil.
+2. Pengajuan mentoring terpusat melalui pengisian form di [http://algorit.ma/mentoring-request](http://algorit.ma/mentoring-request).
+3. Permintaan mentoring dilakukan **maksimal H-1 sebelum hari mentoring** yang diinginkan pada hari Senin-Jumat pukul 10:00-18:00 WIB.
+4. Form akan melakukan blocking tanggal dan hari di keesokan hari untuk pengajuan mentoring <=16 jam dari waktu mentoring yang diajukan.
+5. Sistem pada form akan menampilkan warning message secara otomatis apabila student melakukan pengisian form mentoring di luar jam kerja. Hal ini untuk meminimalisir kesalahan student dalam pengajuan jadwal mentoring.
+6. Admin dapat melakukan blocking tanggal pada waktu-waktu tertentu seperti: hari libur nasional, hari senin (untuk akses mentoring di akhir pekan), dan pada saat product learning day. Dengan adanya fitur ini student tidak dapat mengajukan sesi mentoring pada waktu tersebut. 
+7. Permintaan mentoring yang diisi melalui form akan terintegrasi secara otomatis pada email **mentor@algorit.ma** dan google sheet [http://bit.ly/piket-report-product](http://bit.ly/piket-report-product).
+8. Apabila terdapat lebih dari satu permintaan mentoring dengan waktu serta materi yang sama, maka admin dapat menawarkan untuk dilakukan secara bersamaan dengan mentor yang sama.
+9. Student tidak diperkenankan untuk memilih mentor untuk membantunya selama mentoring.
+10. Apabila course dalam batch academy telah selesai, student diberikan fasilitas untuk mengajukan mentoring **hingga 4 minggu** (hari kerja dan hari libur) setelah capstone project sesuai dengan spesialisasi yang diambil.
 
 ## Pengajuan Pertanyaan
 
