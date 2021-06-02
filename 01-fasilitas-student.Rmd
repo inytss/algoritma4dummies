@@ -8,7 +8,7 @@ Mentoring merupakan salah satu fasilitas yang diterima oleh student Algoritma be
 
 1. Mentoring dilaksanakan **1x/minggu** dengan durasi 1 jam pada hari kerja Senin-Jumat pukul 10:00-18:00.
 2. Pengajuan mentoring terpusat melalui pengisian form di [http://algorit.ma/mentoring-request](http://algorit.ma/mentoring-request).
-3. Permintaan mentoring dilakukan **maksimal H-1 sebelum hari mentoring** yang diinginkan pada hari Senin-Jumat pukul 10:00-18:00 WIB.
+3. Permintaan mentoring dilakukan **maksimal H-1 sebelum hari mentoring** yang diinginkan pada hari Senin-Jumat pukul 09:00-17:00 WIB.
 4. Form akan melakukan blocking tanggal dan hari di keesokan hari untuk pengajuan mentoring <=16 jam dari waktu mentoring yang diajukan.
 5. Sistem pada form akan menampilkan warning message secara otomatis apabila student melakukan pengisian form mentoring di luar jam kerja. Hal ini untuk meminimalisir kesalahan student dalam pengajuan jadwal mentoring.
 6. Admin dapat melakukan blocking tanggal pada waktu-waktu tertentu seperti: hari libur nasional, hari senin (untuk akses mentoring di akhir pekan), dan pada saat product learning day. Dengan adanya fitur ini student tidak dapat mengajukan sesi mentoring pada waktu tersebut. 
