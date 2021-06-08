@@ -62,7 +62,7 @@ Student yang memiliki kendala dalam mengikuti kelas sesuai jadwal yang telah dii
 
 *Letter of recommendation* merupakan surat rekomendasi yang diberikan oleh pihak Algoritma kepada student yang memiliki  nilai minimal 90% yang dapat digunakan surat pendamping dalam melamar pekerjaan. Berikut syarat student yang dapat mendapatkan LoR:
 
-1. Student yang mengikuti kelas  Academy Full Stack atau Academy Reguler secara offline. 
+1. Student yang mengikuti kelas Academy Full Stack atau Academy Reguler secara offline maupun online. 
 2. Memiliki nilai minimal 90% dari total nilai spesialisasi.
 3. Untuk mendapatkan LoR, student harus mengajukan pembuatan LoR melalui email **mentor@algorit.ma** dengan memberikan informasi:
 
