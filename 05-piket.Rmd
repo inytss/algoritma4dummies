@@ -13,7 +13,8 @@
 ## Respon Freshdesk
 
 * Panduan dalam merespon email dengan baik dan benar dapat dilihat pada [dokumentasi berikut](https://trello-attachments.s3.amazonaws.com/5b178a5917d78094e809e4c9/5f69df1f8aa3e54171468888/de3bd28e0177e532a9de032b35310397/guidelines_(5).html)
-* Setiap pertanyaan terkait eror, mentoring, dan pertanyaan umum harus diberikan respon awal **maksimal 2 jam** setelah email diterima pada jam kerja.
+* Setiap pertanyaan terkait eror, mentoring, dan pertanyaan umum tim piket tidak perlu memberikan *first response* dikarenakan sistem akan melakukan *automated first response*.
+* Tiket yang telah masuk diharapkan dapat memperoleh jawaban mengenai isi tiket maksimal **2 jam** setelah tiket tersebut diterima.
 * Email atau tiket yang masuk diluar jam kerja akan direspon pada hari berikutnya pada jam kerja.
 
 ## Feedback Learn by Building (LBB)
@@ -29,6 +30,8 @@
 * Tim piket yang melakukan koreksi dan pemberian feedback capstone project **wajib langsung memasukkan nilai** pada [*sheet score*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing).
 * Tim piket yang melakukan koreksi dan pemberian feedback **wajib** menyertakan informasi batas waktu perbaikan capstone project kepada student dalam **waktu 1 minggu** (hari kerja dan hari libur) terhitung sejak capstone project tersebut dikumpulkan.
 * Perbaikan capstone project yang dikumpulkan melewati batas waktu yang telah ditetapkan akan tetap diperiksa **tanpa ada pembaharuan nilai**. 
+
+> Note: Pengumpulan **capstone ML** dianggap sah ketika student mengumpulkan file dalam bentuk **html**, apabila tidak maka Product team berhak untuk mengembalikan pekerjaan student dan tidak akan dikoreksi terlebih dahulu.
 
 ## Respon Mentoring
 
@@ -47,7 +50,6 @@
 > Mohon maaf sebelumnya kami informasikan bahwa sesuai ketentuan yang berlaku untuk peserta Algoritma Academy memiliki kesempatan mentoring 1-on-1 hingga 30 hari terhitung hari kerja dan hari libur setelah materi spesialisasi berakhir. 
 Apabila membutuhkan bantuan mentor, Anda dapat mengajukan pertanyaan melalui email mentor@algorit.ma.
 Demikian informasi yang dapat kami sampaikan. Apabila terdapat pertanyaan tambahan, silahkan menghubungi kami kembali. Terima kasih.
-
 
 ### Pelaksanaan Mentoring Offline
 
