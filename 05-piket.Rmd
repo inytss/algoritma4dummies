@@ -31,7 +31,7 @@
 * Tim piket yang melakukan koreksi dan pemberian feedback **wajib** menyertakan informasi batas waktu perbaikan capstone project kepada student dalam **waktu 1 minggu** (hari kerja dan hari libur) terhitung sejak capstone project tersebut dikumpulkan.
 * Perbaikan capstone project yang dikumpulkan melewati batas waktu yang telah ditetapkan akan tetap diperiksa **tanpa ada pembaharuan nilai**. 
 
-> Note: Pengumpulan **capstone ML** dianggap sah ketika student mengumpulkan file dalam bentuk **html**, apabila tidak maka Product team berhak untuk mengembalikan pekerjaan student dan tidak akan dikoreksi terlebih dahulu.
+> Note: Pengumpulan **capstone ML** dianggap sah ketika student mengumpulkan file dalam bentuk **html**, apabila tidak maka Product team berhak untuk mengembalikan pekerjaan student dan tidak akan dikoreksi terlebih dahulu. Apabila student mengumpulkan file html dan **telah lewat deadline pengumpulan capstone**, maka pengumpulan capstone akan **dianggap terlambat**.
 
 ## Respon Mentoring
 
@@ -76,7 +76,7 @@ Demikian informasi yang dapat kami sampaikan. Apabila terdapat pertanyaan tambah
 
 * Sertakan template berikut saat memberikan jadwal mentoring online:
 
-> Apabila Anda tidak hadir sesi mentoring lebih dari 30 menit dari jadwal yang telah ditentukan dan tidak memberikan konfirmasi ketidakhadiran sebelum mentoring berlangsung, maka sesi mentoring tersebut dianggap sebagai satu sesi penuh, sehingga slot mentoring berkurang satu untuk minggu tersebut.
+> Apabila Anda tidak hadir sesi mentoring lebih dari 30 menit dari jadwal yang telah ditentukan dan tidak memberikan konfirmasi ketidakhadiran sebelum mentoring berlangsung, maka sesi mentoring tersebut dianggap sebagai satu sesi penuh, sehingga slot mentoring berkurang satu untuk minggu tersebut. 
 
 ## Slack Alumni
 

@@ -211,7 +211,7 @@ Berikut beberapa link referensi yang diperlukan saat Capstone Project:
   + Capstone DA: 2 hari setelah pertemuan mentoring capstone, yaitu hari Senin.
   + Capstone DV dan ML: 1 minggu setelah briefing capstone.
 
-> Note: Pengumpulan **capstone ML** dianggap sah ketika student mengumpulkan file dalam bentuk **html**, apabila tidak maka Product team berhak untuk mengembalikan pekerjaan student dan tidak akan dikoreksi terlebih dahulu. 
+> Note: Pengumpulan **capstone ML** dianggap sah ketika student mengumpulkan file dalam bentuk **html**, apabila tidak maka Product team berhak untuk mengembalikan pekerjaan student dan tidak akan dikoreksi terlebih dahulu. Apabila student mengumpulkan file html dan **telah lewat deadline pengumpulan capstone**, maka pengumpulan capstone akan **dianggap terlambat**.
 
 * Keterlambatan dalam pengumpulan capstone akan mendapatkan pinalti sebagai berikut:
   + Terlambat 1 hari: pengurangan 1 poin
