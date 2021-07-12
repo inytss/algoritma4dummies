@@ -4,14 +4,13 @@
 %
 \documentclass[
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
-  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -82,7 +81,7 @@
 \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -118,7 +117,7 @@
 
 \title{Academy for Dummies}
 \author{Team Algoritma}
-\date{17, June 2021}
+\date{12, July 2021}
 
 \begin{document}
 \maketitle
@@ -506,13 +505,13 @@ Berikut ini link quiz pada \url{corgi.re}:
 
 \begin{longtable}[]{@{}cc@{}}
 \toprule
-\textbf{Link} & \textbf{Maksimal Nilai}\tabularnewline
+\textbf{Link} & \textbf{Maksimal Nilai} \\
 \midrule
 \endhead
-\href{https://corgi.re/courses/ttnsy/quiz_PYW1}{Python for Data Analytics (P4DA)} & 6\tabularnewline
-\href{https://corgi.re/courses/ttnsy/quiz_PYW2}{Exploratory Data Analysis (EDA)} & 6\tabularnewline
-\href{https://corgi.re/courses/ttnsy/quiz_PYW3}{Data Wrangling \& Visualization (DWV)} & 6\tabularnewline
-\href{https://corgi.re/courses/ttnsy/quiz_PYW4}{SQL Query} & 6\tabularnewline
+\href{https://corgi.re/courses/ttnsy/quiz_PYW1}{Python for Data Analytics (P4DA)} & 6 \\
+\href{https://corgi.re/courses/ttnsy/quiz_PYW2}{Exploratory Data Analysis (EDA)} & 6 \\
+\href{https://corgi.re/courses/ttnsy/quiz_PYW3}{Data Wrangling \& Visualization (DWV)} & 6 \\
+\href{https://corgi.re/courses/ttnsy/quiz_PYW4}{SQL Query} & 6 \\
 \bottomrule
 \end{longtable}
 
@@ -520,12 +519,12 @@ Berikut ini link quiz pada \url{corgi.re}:
 
 \begin{longtable}[]{@{}cc@{}}
 \toprule
-\textbf{Link} & \textbf{Maksimal Nilai}\tabularnewline
+\textbf{Link} & \textbf{Maksimal Nilai} \\
 \midrule
 \endhead
-\href{https://corgi.re/courses/Davidlimbong/P4DS-PS}{Programming for Data Science - Practical Statistics (P4DS-PS)} & 4\tabularnewline
-\href{https://corgi.re/courses/Argaadya/data-visualization}{Data Visualization (DV)} & 2\tabularnewline
-\href{https://corgi.re/courses/Davidlimbong/InteractivePlotting}{Interactive Plotting (IP)} & 1\tabularnewline
+\href{https://corgi.re/courses/Davidlimbong/P4DS-PS}{Programming for Data Science - Practical Statistics (P4DS-PS)} & 4 \\
+\href{https://corgi.re/courses/Argaadya/data-visualization}{Data Visualization (DV)} & 2 \\
+\href{https://corgi.re/courses/Davidlimbong/InteractivePlotting}{Interactive Plotting (IP)} & 1 \\
 \bottomrule
 \end{longtable}
 
@@ -533,16 +532,16 @@ Berikut ini link quiz pada \url{corgi.re}:
 
 \begin{longtable}[]{@{}cc@{}}
 \toprule
-\textbf{Link} & \textbf{Maksimal Nilai}\tabularnewline
+\textbf{Link} & \textbf{Maksimal Nilai} \\
 \midrule
 \endhead
-\href{https://corgi.re/courses/Davidlimbong/P4DS-PS}{Programming for Data Science - Practical Statistics (P4DS-PS)} & 4\tabularnewline
-\href{https://corgi.re/courses/ahmadhusain/regressionmodels}{Regression Model (RM)} & 4\tabularnewline
-\href{https://corgi.re/courses/inytss/classification1}{Classification in Machine Learning I (C1)} & 4\tabularnewline
-\href{https://corgi.re/courses/ysitta/Classification2}{Classification in Machine Learning II (C2)} & 4\tabularnewline
-\href{https://corgi.re/courses/Davidlimbong/UnsupervisedLearning}{Unsupervised Learning (UL)} & 4\tabularnewline
-\href{https://corgi.re/courses/inytss/time-series}{Time Series and Forecasting (TS)} & 4\tabularnewline
-\href{https://corgi.re/courses/ysitta/Neural_Network}{Neural Network (NN)} & 4\tabularnewline
+\href{https://corgi.re/courses/Davidlimbong/P4DS-PS}{Programming for Data Science - Practical Statistics (P4DS-PS)} & 4 \\
+\href{https://corgi.re/courses/ahmadhusain/regressionmodels}{Regression Model (RM)} & 4 \\
+\href{https://corgi.re/courses/inytss/classification1}{Classification in Machine Learning I (C1)} & 4 \\
+\href{https://corgi.re/courses/ysitta/Classification2}{Classification in Machine Learning II (C2)} & 4 \\
+\href{https://corgi.re/courses/Davidlimbong/UnsupervisedLearning}{Unsupervised Learning (UL)} & 4 \\
+\href{https://corgi.re/courses/inytss/time-series}{Time Series and Forecasting (TS)} & 4 \\
+\href{https://corgi.re/courses/ysitta/Neural_Network}{Neural Network (NN)} & 4 \\
 \bottomrule
 \end{longtable}
 

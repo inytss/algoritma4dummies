@@ -18,7 +18,7 @@
 
 ## Administrasi {-}
 
-- [Administration Deck R](https://docs.google.com/presentation/d/1vHranz1_PvzWDKSaokax-ALu-lBVY2w8sjTQWuDpLTI/edit?usp=sharing)
+- [Administration Deck R](https://docs.google.com/presentation/d/1RXf8SblDA0nmWr1yULpViIQJg_shcMeBRHif3tzFG3g/edit?usp=sharing)
 - [Algoritma Academy Standard](https://docs.google.com/spreadsheets/d/11kEOish9MTkUCSeu-D4wyqRjE-WabqfUZa4wGaRc94A/edit#gid=2140367865)
 - [Schedule Workshop](https://docs.google.com/spreadsheets/d/1APwoLJ4lGGNnYhOfQ9AVF14f-aSmNDmAeA0PtMYwMIc/edit?usp=sharing)
 - [Academy Score Sheet](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing)
