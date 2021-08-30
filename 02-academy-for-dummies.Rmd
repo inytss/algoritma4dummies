@@ -63,7 +63,7 @@ Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma 
 * Mematikan AC dan lampu serta memastikan pintu telah dikunci.
 * **Instructor** mengirimkan inclass yang telah digunakan **langsung** setelah kelas berakhir pada google classroom.
 * **TA** memasukkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing) **maksimal H+1 setelah deadline pengumpulan quiz**.
-* Teaching team saling memberikan feedback dan input untuk perbaikan kelas.
+* Teaching team saling memberikan masukan untuk perbaikan kelas.
 
 #### Kelas Online
 
@@ -72,7 +72,7 @@ Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma 
   + Kelas Night: pukul 14:00 WIB H+1 workshop
 * **Instructor** mengirimkan inclass yang terlah digunakan **langsung** setelah kelas berakhir pada google classroom.
 * **TA wajib** memasukkan nilai quiz pada google classroom dan [*score sheets*](https://docs.google.com/spreadsheets/d/1cGJ0pn9k9gKCBnceWVwaL9D7BBDMNjLh8uPYlaBlJi8/edit?usp=sharing) **maksimal H+1 setelah deadline pengumpulan quiz**.
-* Teaching team saling memberikan feedback dan input untuk perbaikan kelas.
+* Teaching team saling memberikan masukan untuk perbaikan kelas.
 
 > Dokumentasi fungsi untuk input nilai quiz dapat diakses menggunakan [package AlgortimaAcademy](https://github.com/Davidlimbong/AlgoritmaAcademy)
 
@@ -83,26 +83,26 @@ Berikut beberapa hal yang perlu dipersiapkan selama bertugas di kelas Algoritma 
 * Student yang tidak memenuhi batas minimal quiz akan diberikan nilai **0**.
 * Student yang memenuhi batas minimal quiz akan diberikan **nilai penuh.**
 
-Berikut ini link quiz pada [corgi.re](corgi.re):
+Berikut ini link quiz pada [algoritmaonline.com](https://algoritmaonline.com):
 
 
 **Data Analytics Specialization**
 
 |                                     **Link**                                     | **Maksimal Nilai** |
 |:--------------------------------------------------------------------------------:|:------------------:|
-|   [Python for Data Analytics (P4DA)](https://corgi.re/courses/ttnsy/quiz_PYW1)   |          6         |
-|    [Exploratory Data Analysis (EDA)](https://corgi.re/courses/ttnsy/quiz_PYW2)   |          6         |
-| [Data Wrangling & Visualization (DWV)](https://corgi.re/courses/ttnsy/quiz_PYW3) |          6         |
-|               [SQL Query](https://corgi.re/courses/ttnsy/quiz_PYW4)              |          6         |
+|   [Python for Data Analytics (P4DA)](https://algoritmaonline.com/quizzes/python-for-data-analysts-p4da-quiz/)   |          6         |
+|    [Exploratory Data Analysis (EDA)](https://algoritmaonline.com/quizzes/exploratory-data-analysis-eda-quiz/)   |          6         |
+| [Data Wrangling & Visualization (DWV)](https://algoritmaonline.com/quizzes/data-wrangling-and-visualization-dwv-quiz/) |          6         |
+|               [SQL Query](https://algoritmaonline.com/quizzes/sql-query-quiz/)              |          6         |
 
 
 **Data Visualization Specialization**
 
 |                                     **Link**                                     | **Maksimal Nilai** |
 |:--------------------------------------------------------------------------------:|:------------------:|
-|   [Programming for Data Science - Practical Statistics (P4DS-PS)](https://corgi.re/courses/Davidlimbong/P4DS-PS)   |          4         |
-|    [Data Visualization (DV)](https://corgi.re/courses/Argaadya/data-visualization)  |          2         |
-| [Interactive Plotting (IP)](https://corgi.re/courses/Davidlimbong/InteractivePlotting) |          1         |
+|   [Programming for Data Science - Practical Statistics (P4DS-PS) Version 1](https://algoritmaonline.com/quizzes/practical-statistics-for-data-science/)   |          4         |
+|    [Data Visualization (DV) Version 1](https://algoritmaonline.com/quizzes/data-visualization-quiz/)  |          2         |
+| [Interactive Plotting (IP) Version 1](https://algoritmaonline.com/quizzes/interactive-plotting-quiz/) |          1         |
 
 
 
@@ -110,15 +110,15 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
 
 |                                                    **Link**                                                    | **Maksimal Nilai** |
 |:--------------------------------------------------------------------------------------------------------------:|:------------------:|
-| [Programming for Data Science - Practical Statistics (P4DS-PS)](https://corgi.re/courses/Davidlimbong/P4DS-PS) |          4         |
-|                 [Regression Model (RM)](https://corgi.re/courses/ahmadhusain/regressionmodels)                 |          4         |
-|          [Classification in Machine Learning I (C1)](https://corgi.re/courses/inytss/classification1)          |          4         |
-|          [Classification in Machine Learning II (C2)](https://corgi.re/courses/ysitta/Classification2)         |          4         |
-|            [Unsupervised Learning (UL)](https://corgi.re/courses/Davidlimbong/UnsupervisedLearning)            |          4         |
-|                 [Time Series and Forecasting (TS)](https://corgi.re/courses/inytss/time-series)                |          4         |
-|                      [Neural Network (NN)](https://corgi.re/courses/ysitta/Neural_Network)                     |          4         |
+| [Programming for Data Science - Practical Statistics (P4DS-PS) Version 1](https://corgi.re/courses/Davidlimbong/P4DS-PS) |          4         |
+|                 [Regression Model (RM) Version 2](https://algoritmaonline.com/quizzes/regression-model-quiz/)                 |          4         |
+|          [Classification in Machine Learning I (C1) Version 2](https://algoritmaonline.com/quizzes/classification-1-quiz/)          |          4         |
+|          [Classification in Machine Learning II (C2)](https://algoritmaonline.com/quizzes/classification-2-quiz/)         |          4         |
+|            [Unsupervised Learning (UL) Version 2](https://algoritmaonline.com/quizzes/unsupervised-learning-quiz/)            |          4         |
+|                 [Time Series and Forecasting (TS) Version 2](https://algoritmaonline.com/quizzes/time-series-quiz/)                |          4         |
+|                      [Neural Network (NN) Version 2](https://algoritmaonline.com/quizzes/neural-network-quiz/)                     |          4         |
 
-> Kunci jawaban dari setiap quiz corgi.re dapat diakses pada [drive **corgi keys**](https://drive.google.com/drive/folders/11wfxZ6DN2IVECOQNuKRN7ernT4ptKdev?usp=sharing)
+> Kunci jawaban dari setiap quiz dapat diakses pada [drive **quiz keys**](https://drive.google.com/drive/folders/11wfxZ6DN2IVECOQNuKRN7ernT4ptKdev?usp=sharing)
 
 ### Aturan Quiz
 
@@ -129,10 +129,8 @@ Berikut ini link quiz pada [corgi.re](corgi.re):
   + Kelas Night: pukul 09:00 WIB H+1 quiz diadakan
 
 * Student tidak diperkenankan untuk mengerjakan quiz diluar waktu yang ditentukan.
-* Quiz dikerjakan melalui platform [corgi.re](https://corgi.re) dengan menggunakan akun Github dalam mengakses platform tersebut.
-* Student tidak diperkenankan **mengganti akun Github / username Github** yang telah digunakan saat pertama kali mengikuti quiz hingga course terakhir.
-* Student yang mengganti akun Github / username Github tanpa menginformasikan kepada tim mentor **tidak akan  dinilai**.
-* File `.Rmd` atau `.ipynb` dapat dikirimkan pada google classroom melalui *assignment* quiz bagi student yang merasa **terdapat kekeliruan pengisian** [corgi.re](https://corgi.re). 
+* Quiz dikerjakan melalui platform [algoritmaonline.com](https://algoritmaonline.com) dengan menggunakan akun Algoritm ONline yang sudah teregistrasi.
+* File `.Rmd` atau `.ipynb` dapat dikirimkan pada google classroom melalui *assignment* quiz bagi student yang merasa **terdapat kekeliruan pengisian** [algoritmaonline.com](https://algoritmaonline.com). 
 
 
 ### Quiz Susulan dan Perbaikan
