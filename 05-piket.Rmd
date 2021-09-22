@@ -23,6 +23,9 @@
 * Tim piket yang sedang bertugas **wajib** mengaktifkan notifikasi google classroom di email.
 * Pengumpulan LBB batch yang telah lewat tetap diberikan feedback untuk keperluan Data Career Day (DCD).
 * Batch yang telah lewat yang diberikan feedback maksimal 1 batch sebelum batch yang sedang berjalan.
+* Setiap tim piket dalam memberikan feedback LBB harus mengacu pada rubrik masing-masing LBB. 
+
+> Note: Detail rubrik masing-masing LBB pada **Data Visualization Specialization** dan **Machine Learning Specialization** dapat dilihat pada [guidelines LBB](https://rpubs.com/AlgoritmaAcademy/lbb) dan [LBB rubrics](https://docs.google.com/document/d/117LRRFF0jLR5SQku3PYkUggst06Vj9XfNahcK5oJYHs/edit?usp=sharing).
 
 ## Feedback Capstone Project 
 
